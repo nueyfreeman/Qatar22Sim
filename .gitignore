@@ -1,0 +1,7 @@
+# don't track pycache or venv
+
+__pycache__
+
+venv
+
+.idea
