@@ -33,8 +33,12 @@ def build_team_pool():
     data = i.split(',')
     print(data)
 
-    TEAM_POOL[data[0][6]] = {data[1]: squads.Team(data[1], rand.randint(0, 100))}
-    TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(1, data[3], data[2]))
+# expect TypeError if the team hasn't been made yet -- if TypeError, then make the team before adding player
+    try:
+        TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(1, data[3], data[2]))
+    except TypeError:
+        TEAM_POOL[data[0][6]] = {data[1]: squads.Team(data[1], rand.randint(0, 100))}
+        TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(1, data[3], data[2]))
 
     print(TEAM_POOL['A']['Ecuador'].matchday())
     print(TEAM_POOL['A']['Ecuador'].get_roster()[0].get_position())
