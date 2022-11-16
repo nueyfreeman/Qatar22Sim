@@ -10,40 +10,33 @@ GROUPS = 'ABCDEFGH'
 TEAM_POOL = {}
 
 
-class Group:
-    def __init__(self, team1, team2, team3, team4):
-        self.__t1 = team1
-        self.__t2 = team2
-        self.__t3 = team3
-        self.__t4 = team4
-        self.__standings = [{'t1': 0}, {'t2': 0}, {'t3': 0}, {'t4': 0}]
-        self.play_group()
-
-    def play_group(self):
-        pass
-
-
+# reads in scraped data from csv, creates team objects in nested dictionaries, and fills their rosters
 def build_team_pool():
     for i in GROUPS:
         TEAM_POOL[i] = []
     file = open('QatarSquads.csv')
-    file.readline()
+    i = 0
 
-    i = file.readline()
-    data = i.split(',')
-    print(data)
+    for line in file:
+        i += 1
+        data = line.split(',')
 
-# expect TypeError if the team hasn't been made yet -- if TypeError, then make the team before adding player
-    try:
-        TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(1, data[3], data[2]))
-    except TypeError:
-        TEAM_POOL[data[0][6]] = {data[1]: squads.Team(data[1], rand.randint(0, 100))}
-        TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(1, data[3], data[2]))
+        if not data[0] == 'Group':
+            # expect exception if the team hasn't been made yet -- if error, then make team before adding player
+            try:
+                TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2]))
+            except (TypeError, KeyError):
+                TEAM_POOL[data[0][6]] = {data[1]: squads.Team(data[0][6], data[1], rand.randint(0, 100))}
+                TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2]))
 
-    print(TEAM_POOL['A']['Ecuador'].matchday())
-    print(TEAM_POOL['A']['Ecuador'].get_roster()[0].get_position())
+        if i % 100 == 0:
+            team = TEAM_POOL[data[0][6]][data[1]]
+            print(team)
+            print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
+            print()
 
     file.close()
+
 
 # bracket logic for group stage
 def play_knockouts(aa, ab, ba, bb, ca, cb, da, db, ea, eb, fa, fb, ga, gb, ha, hb):

@@ -1,9 +1,9 @@
 
 
 class Team:
-    def __init__(self, country, fifa_rank):
+    def __init__(self, group, country, fifa_rank):
         self.__country = country
-        self.__group = ''
+        self.__group = group
         self.__roster = []
         self.__fifa_rank = fifa_rank
 
@@ -14,6 +14,10 @@ class Team:
 
         self.__wins = 0
         self.__points = 0
+
+    def __str__(self):
+        return f'{self.__group} {self.__country}: ' \
+               f'{self.__wins}-wins, {self.__points}-points, {len(self.__roster)}-players'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
@@ -71,6 +75,9 @@ class Player:
         self.__gx90 = float(0)
         self.__ax90 = float(0)
         self.__csx90 = float(0)
+
+    def __str__(self):
+        return f'#{self.__id} {self.__position} {self.__name}'
 
     def play_match(self):
         pass
