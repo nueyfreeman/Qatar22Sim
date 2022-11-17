@@ -11,7 +11,7 @@ import bs4
 WIKI = 'https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads'
 
 
-def get_stats(player_name, keeper=False):
+def get_stats(catch_error, player_name, keeper=False):
     name = player_name.replace(' ', '+')
     print(name)
     url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=' + name
@@ -22,14 +22,15 @@ def get_stats(player_name, keeper=False):
         link = soup.find('tbody').find('td', 'hauptlink').find('a')['href'].replace('profil', 'leistungsdaten')
     except AttributeError:
         print(f'{player_name}: Not found.')
+        catch_error.write(f'{player_name}\n')
         return '0,0,0,0,0'
     home_link = 'https://www.transfermarkt.us'
     stat_link = home_link + link
 
-    return scrape_stats(stat_link, session, keeper)
+    return scrape_stats(catch_error, stat_link, session, player_name, keeper)
 
 
-def scrape_stats(link, session, keeper=False):
+def scrape_stats(oops, link, session, player, keeper=False):
     stat_page = session.get(link)
     soup = bs4.BeautifulSoup(stat_page.content, 'html.parser').body
     try:
@@ -43,47 +44,47 @@ def scrape_stats(link, session, keeper=False):
         else:
             # print(f'Matches = {table[2].text}, Clean Sheets - {table[8].text}')
             return f'{table[2].text},0,0,0,{table[8].text}'
-    except IndexError:
-        print(f'Found non-player')
+    except (IndexError, AttributeError):
+        print(f'For {player} found non-player')
+        oops.write(f'{player}\n')
         return '0,0,0,0,0'
 
 
 def main():
-    output = open('QatarSquadsv2.csv', 'w')
-    out_string = ''
+    with open('QatarSquadsv2.csv', 'w') as output, open('errors.csv', 'w') as errors:
+        out_string = ''
 
-    r = requests.get(WIKI)
-    body = bs4.BeautifulSoup(r.content, 'html.parser').body
-    meat = body.find('div', 'mw-body-content mw-content-ltr')
-    choice_cut = meat.find('div', 'mw-parser-output')
-    group = ''
-    country = ''
-    for tag in choice_cut:
-        if tag.name == 'h2':  # get group
-            print(f'\n\n{tag.string}\n')
-            group = tag.string
-        if tag.name == 'h3':  # get country
-            print(f'\n{tag.string}')
-            country = tag.string
-        if tag.name == 'table':  # player table
-            players = tag.find_all('tr', 'nat-fs-player')  # row tag
-            for each in players:
-                p = each.contents
-                position = p[3].find('a').text.strip()
-                name = p[5].find('a').text.strip()
-                club = p[13]
-                c = club.text.strip()
-                c_assoc = club.find('span').find('a')['title']
-                c_country = club.find('img')['alt']
-                #print(f'{position}, {name}, {c}, {c_country}')
-                stats = '0,0,0,0,0'
-                if position == 'GK':
-                    stats = get_stats(name, True)
-                else:
-                    stats = get_stats(name)
-                out_string += f'{group},{country},{position},{name},{c},{c_country},{stats}\n'
-    output.write(out_string)
-    output.close()
+        r = requests.get(WIKI)
+        body = bs4.BeautifulSoup(r.content, 'html.parser').body
+        meat = body.find('div', 'mw-body-content mw-content-ltr')
+        choice_cut = meat.find('div', 'mw-parser-output')
+        group = ''
+        country = ''
+        for tag in choice_cut:
+            if tag.name == 'h2':  # get group
+                print(f'\n\n{tag.string}\n')
+                group = tag.string
+            if tag.name == 'h3':  # get country
+                print(f'\n{tag.string}')
+                country = tag.string
+            if tag.name == 'table':  # player table
+                players = tag.find_all('tr', 'nat-fs-player')  # row tag
+                for each in players:
+                    p = each.contents
+                    position = p[3].find('a').text.strip()
+                    name = p[5].find('a').text.strip()
+                    club = p[13]
+                    c = club.text.strip()
+                    c_assoc = club.find('span').find('a')['title']
+                    c_country = club.find('img')['alt']
+                    #print(f'{position}, {name}, {c}, {c_country}')
+                    stats = '0,0,0,0,0'
+                    if position == 'GK':
+                        stats = get_stats(errors, name, True)
+                    else:
+                        stats = get_stats(errors, name)
+                    out_string += f'{group},{country},{position},{name},{c},{c_country},{stats}\n'
+        output.write(out_string)
 
 
 if __name__ == '__main__':
