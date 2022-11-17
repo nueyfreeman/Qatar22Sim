@@ -11,27 +11,36 @@ import bs4
 WIKI = 'https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads'
 
 
-def get_stats(player_name):
+def get_stats(player_name, keeper=False):
     name = player_name.replace(' ', '+')
     url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=' + name
     session = HTMLSession()
     r = session.get(url)
-    soup = bs4.BeautifulSoup(r.content, 'html.parser').find('div', 'large-12 columns').find('div', 'box').find('tbody')
-    link = soup.find('td', 'hauptlink').find('a')['href'].replace('profil', 'leistungsdaten')
+    try:
+        soup = bs4.BeautifulSoup(r.content, 'html.parser').find('div', 'large-12 columns').find('div', 'box')
+        link = soup.find('tbody').find('td', 'hauptlink').find('a')['href'].replace('profil', 'leistungsdaten')
+    except AttributeError:
+        print(f'{player_name}: Not found.')
+        return '0,0,0,0,0'
     home_link = 'https://www.transfermarkt.us'
     stat_link = home_link + link
 
-    scrape_stats(stat_link, session)
+    return scrape_stats(stat_link, session, keeper)
 
 
-def scrape_stats(link, session):
+def scrape_stats(link, session, keeper=False):
     stat_page = session.get(link)
     soup = bs4.BeautifulSoup(stat_page.content, 'html.parser').body
     content = soup.find('div', 'large-8 columns').find_all('div', 'box')
     table = content[1].find('tfoot').find_all('td')
-    minutes = table[8].text.replace('\'', '').replace('.', '')
-    print(f'Matches - {table[2].text}, Goals - {table[3].text}, '
-          f'Assists - {table[4].text}, Minutes - {minutes}')
+    if not keeper:
+        minutes = table[8].text.replace('\'', '').replace('.', '')
+        #print(f'Matches - {table[2].text}, Goals - {table[3].text}, '
+        #      f'Assists - {table[4].text}, Minutes - {minutes}')
+        return f'{table[2].text},{table[3].text},{table[4].text},{minutes},0'
+    else:
+        #print(f'Matches = {table[2].text}, Clean Sheets - {table[8].text}')
+        return f'{table[2].text},0,0,0,{table[8].text}'
 
 
 def main():
@@ -61,11 +70,16 @@ def main():
                 c = club.text.strip()
                 c_assoc = club.find('span').find('a')['title']
                 c_country = club.find('img')['alt']
-                print(f'{position}, {name}, {c}, {c_country}, {c_assoc}')
-                out_string += f'{group},{country},{position},{name},{c},{c_country},{c_assoc}\n'
+                #print(f'{position}, {name}, {c}, {c_country}')
+                stats = '0,0,0,0,0'
+                if position == 'GK':
+                    stats = get_stats(name, True)
+                else:
+                    stats = get_stats(name)
+                out_string += f'{group},{country},{position},{name},{c},{c_country},{stats}\n'
     output.write(out_string)
     output.close()
 
 
 if __name__ == '__main__':
-    get_stats()
+    main()
