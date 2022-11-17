@@ -21,7 +21,7 @@ class Team:
     def __str__(self):
         return f'{self.__country}: ' \
                f'{self.__wins}-wins, {self.__ties}-ties, {self.__points}-points, ' \
-               f'lost {self.__lost_to} in {self.__exit_stage}'
+               f'lost {self.__lost} in {self.__exit}'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
@@ -37,7 +37,7 @@ class Team:
 
     def eliminated(self, exit_stage, beat_by=''):
         self.__exit = exit_stage
-        self.__lost = f'to {beat_by}'
+        self.__lost = beat_by
         self.__matches_won.append(self.__wins)
         self.__points_in_group.append(self.__points)
         self.__lost_to.append(beat_by)

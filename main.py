@@ -39,29 +39,6 @@ def build_team_pool():
     file.close()
 
 
-# bracket logic for group stage
-def play_knockouts(aa, ab, ba, bb, ca, cb, da, db, ea, eb, fa, fb, ga, gb, ha, hb):
-    m49 = match(aa, bb, '16')
-    m50 = match(ca, db, '16')  # see official Fifa World Cup bracket for match-up structure
-    m51 = match(ea, fb, '16')  # (a_ = Group A, b_ = Group B, etc)
-    m52 = match(ga, hb, '16')  # (_a = Winner; _b = Runner-Up)
-    m53 = match(ba, ab, '16')  # i.e. ab = Group A Runner-Up, fa = Group F Winner, etc
-    m54 = match(da, cb, '16')
-    m55 = match(fa, eb, '16')
-    m56 = match(ha, gb, '16')
-
-    m57 = match(m49, m50, 'quarters')
-    m58 = match(m51, m52, 'quarters')
-    m59 = match(m53, m54, 'quarters')
-    m60 = match(m55, m56, 'quarters')
-
-    m61 = match(m57, m58, 'semis')  # put the losers somewhere
-    m62 = match(m59, m60, 'semis')
-
-    champion = match(m61, m62, 'final')
-    print(champion.get_country())
-
-
 # play through tourney from group stage to championship
 def play_tourney():
     winners = {g: [1, 2] for g in GROUPS}  # reinitialize group winners dict
@@ -78,7 +55,7 @@ def play_tourney():
             elif t == 1:
                 winners[g][1] = gt[t]
             else:
-                gt[t].eliminated('Group stage')
+                gt[t].eliminated('Group Stage')
 
     m49 = match(winners['A'][0], winners['B'][1], '16')  # place winners of group stage into knockout round
     m50 = match(winners['C'][0], winners['D'][1], '16')  # see official Fifa World Cup bracket for match-up structure
@@ -89,26 +66,29 @@ def play_tourney():
     m55 = match(winners['F'][0], winners['E'][1], '16')
     m56 = match(winners['H'][0], winners['G'][1], '16')
 
-    m57 = match(m49, m50, 'quarters')
-    m58 = match(m51, m52, 'quarters')
-    m59 = match(m53, m54, 'quarters')
-    m60 = match(m55, m56, 'quarters')
+    m57 = match(m49, m50, 'Quarterfinals')
+    m58 = match(m51, m52, 'Quarterfinals')
+    m59 = match(m53, m54, 'Quarterfinals')
+    m60 = match(m55, m56, 'Quarterfinals')
 
-    m61 = match(m57, m58, 'semis')  # put the losers somewhere
-    m62 = match(m59, m60, 'semis')
+    m61 = match(m57, m58, 'Semifinals')  # put the losers somewhere
+    m62 = match(m59, m60, 'Semifinals')
 
-    match(m61, m62, 'final')
+    m64 = match(m61, m62, 'Final')
 
-
-# nested loops -- each team meets one time
-def group_matches(g_list):
-    for i in range(len(g_list)):
-        for j in range(len(g_list)-1-i):
-            match(g_list[i], g_list[j + 1 + i], 'group')
+    print()
+    print(f'The champion is {m64}')
+    print()
 
 
-# function to play one match, includes every outcome determined by stage in competition (taken as string)
-    # returns a winner and eliminates loser in non-group matches, otherwise returns None
+# nested loops for group stage - each team meets one time
+def group_matches(group_list):
+    for i in range(len(group_list)):
+        for j in range(len(group_list)-1-i):
+            match(group_list[i], group_list[j + 1 + i], 'group')
+
+
+# function to play one match, returns a winner and eliminates loser in non-group matches, otherwise returns None
 def match(t1, t2, stage):
     team1 = t1.matchday()
     team2 = t2.matchday()
@@ -122,18 +102,18 @@ def match(t1, t2, stage):
             if stage == 'group':  # for group match, only add points
                 t2.add_points(3)
             else:  # for knockout match - eliminate loser & return winner
-                t1.eliminated(stage, t2.get_country())
+                t1.eliminated(stage, f'to {t2.get_country()}')
                 winner = t2
         elif chance < team1:  # team 1 wins
             t1.add_win()
             if stage == 'group':
                 t1.add_points(3)  # three points for winner
             else:
-                t2.eliminated(stage, t1.get_country())  # record exit stats including stage and opponent
+                t2.eliminated(stage, f'to {t1.get_country()}')  # record exit stats including stage and opponent
                 winner = t1
         elif chance == team1:  # tie
             if stage == 'group':
-                t1.add_points(1)  # one point to each
+                t1.add_points(1)  # one point for tie
                 t2.add_points(1)
                 t1.add_tie()
                 t2.add_tie()
