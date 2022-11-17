@@ -7,6 +7,7 @@ import random as rand
 import squads
 
 GROUPS = 'ABCDEFGH'
+WINNERS = {g: [1, 2] for g in GROUPS}
 TEAM_POOL = {}
 
 
@@ -60,7 +61,33 @@ def play_knockouts(aa, ab, ba, bb, ca, cb, da, db, ea, eb, fa, fb, ga, gb, ha, h
 
     champion = match(m61, m62, 'final')
     print(champion.get_country())
-    #third = match  # LOSERS GO HERE
+
+
+def play_groups():
+    winners = {g: [1, 2] for g in GROUPS}  # reinitialize group winners dict
+    for g in TEAM_POOL:
+        group = TEAM_POOL[g]  # each group
+        gt = []
+        for t in group.values():
+            gt.append(t)  # place teams in list
+        group_matches(gt)  # play matches
+        gt.sort(key=lambda a: a.get_points(), reverse=True)  # sort list descending by points
+        for t in range(len(gt)):  # place winners & eliminate losers
+            if t == 0:
+                winners[g][0] = gt[t]
+            elif t == 1:
+                winners[g][1] = gt[t]
+            else:
+                gt[t].eliminated('Group stage')
+
+
+
+
+# nested loops -- each team meets one time
+def group_matches(g_list):
+    for i in range(len(g_list)):
+        for j in range(len(g_list)-1-i):
+            match(g_list[i], g_list[j + 1 + i], 'group')
 
 
 # function to play one match, includes every outcome determined by stage in competition (taken as string)
@@ -102,11 +129,14 @@ def match(t1, t2, stage):
 
 def main():
     build_team_pool()
+    """
     play_knockouts(TEAM_POOL['A']['Ecuador'], TEAM_POOL['B']['Iran'], TEAM_POOL['B']['Wales'], TEAM_POOL['A']['Qatar'],
                    TEAM_POOL['C']['Mexico'], TEAM_POOL['D']['France'], TEAM_POOL['D']['Tunisia'],
                    TEAM_POOL['C']['Poland'], TEAM_POOL['E']['Japan'], TEAM_POOL['F']['Canada'],
                    TEAM_POOL['F']['Croatia'], TEAM_POOL['E']['Spain'], TEAM_POOL['G']['Brazil'],
                    TEAM_POOL['H']['Ghana'], TEAM_POOL['H']['Portugal'], TEAM_POOL['G']['Serbia'])
+    """
+    play_groups()
     show_teams()
 
 

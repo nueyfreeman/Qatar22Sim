@@ -18,7 +18,8 @@ class Team:
 
     def __str__(self):
         return f'{self.__country}: ' \
-               f'{self.__wins}-wins, {self.__ties}-ties, lost to {self.__lost_to} in {self.__exit_stage}'
+               f'{self.__wins}-wins, {self.__ties}-ties, {self.__points}-points, ' \
+               f'lost to {self.__lost_to} in {self.__exit_stage}'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
