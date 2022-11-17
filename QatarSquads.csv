@@ -1,30 +1,29 @@
-Group,Country,Position,Player,Club,ClubCountry,ClubAssoc
-Group A,Ecuador,GK,Alexander Domínguez,LDU Quito,Ecuador,Ecuadorian Football Federation
 Group A,Ecuador,GK,Hernán Galíndez,Aucas,Ecuador,Ecuadorian Football Federation
-Group A,Ecuador,GK,Moisés Ramírez,Independiente del Valle,Ecuador,Ecuadorian Football Federation
-Group A,Ecuador,DF,Robert Arboleda,São Paulo,Brazil,Brazilian Football Confederation
-Group A,Ecuador,DF,Pervis Estupiñán,Brighton & Hove Albion,England,The Football Association
-Group A,Ecuador,DF,Ángelo Preciado,Genk,Belgium,Royal Belgian Football Association
-Group A,Ecuador,DF,Piero Hincapié,Bayer Leverkusen,Germany,German Football Association
-Group A,Ecuador,DF,Xavier Arreaga,Seattle Sounders FC,United States,United States Soccer Federation
 Group A,Ecuador,DF,Félix Torres,Santos Laguna,Mexico,Mexican Football Federation
-Group A,Ecuador,DF,Diego Palacios,Los Angeles FC,United States,United States Soccer Federation
-Group A,Ecuador,DF,Jackson Porozo,Troyes,France,French Football Federation
-Group A,Ecuador,DF,William Pacho,Antwerp,Belgium,Royal Belgian Football Association
-Group A,Ecuador,MF,Ángel Mena,León,Mexico,Mexican Football Federation
-Group A,Ecuador,MF,Carlos Gruezo,FC Augsburg,Germany,German Football Association
-Group A,Ecuador,MF,Sebas Méndez,Los Angeles FC,United States,United States Soccer Federation
-Group A,Ecuador,MF,Gonzalo Plata,Valladolid,Spain,Royal Spanish Football Federation
-Group A,Ecuador,MF,Moisés Caicedo,Brighton & Hove Albion,England,The Football Association
-Group A,Ecuador,MF,Alan Franco,Talleres,Argentina,Argentine Football Association
+Group A,Ecuador,DF,Piero Hincapié,Bayer Leverkusen,Germany,German Football Association
+Group A,Ecuador,DF,Robert Arboleda,São Paulo,Brazil,Brazilian Football Confederation
 Group A,Ecuador,MF,José Cifuentes,Los Angeles FC,United States,United States Soccer Federation
-Group A,Ecuador,MF,Jeremy Sarmiento,Brighton & Hove Albion,England,The Football Association
-Group A,Ecuador,MF,Kevin Rodríguez,Imbabura,Ecuador,Ecuadorian Football Federation
-Group A,Ecuador,FW,Enner Valencia,Fenerbahçe,Turkey,Turkish Football Federation
+Group A,Ecuador,DF,William Pacho,Antwerp,Belgium,Royal Belgian Football Association
+Group A,Ecuador,DF,Pervis Estupiñán,Brighton & Hove Albion,England,The Football Association
+Group A,Ecuador,MF,Carlos Gruezo,FC Augsburg,Germany,German Football Association
+Group A,Ecuador,MF,Ayrton Preciado,Santos Laguna,Mexico,Mexican Football Federation
+Group A,Ecuador,MF,Romario Ibarra,Pachuca,Mexico,Mexican Football Federation
 Group A,Ecuador,FW,Michael Estrada,Cruz Azul,Mexico,Mexican Football Federation
-Group A,Ecuador,FW,Romario Ibarra,Pachuca,Mexico,Mexican Football Federation
-Group A,Ecuador,FW,Ayrton Preciado,Santos Laguna,Mexico,Mexican Football Federation
+Group A,Ecuador,GK,Moisés Ramírez,Independiente del Valle,Ecuador,Ecuadorian Football Federation
+Group A,Ecuador,FW,Enner Valencia,Fenerbahçe,Turkey,Turkish Football Federation
+Group A,Ecuador,DF,Xavier Arreaga,Seattle Sounders FC,United States,United States Soccer Federation
+Group A,Ecuador,MF,Ángel Mena,León,Mexico,Mexican Football Federation
+Group A,Ecuador,MF,Jeremy Sarmiento,Brighton & Hove Albion,England,The Football Association
+Group A,Ecuador,DF,Ángelo Preciado,Genk,Belgium,Royal Belgian Football Association
+Group A,Ecuador,DF,Diego Palacios,Los Angeles FC,United States,United States Soccer Federation
+Group A,Ecuador,MF,Gonzalo Plata,Valladolid,Spain,Royal Spanish Football Federation
+Group A,Ecuador,MF,Sebas Méndez,Los Angeles FC,United States,United States Soccer Federation
+Group A,Ecuador,MF,Alan Franco,Talleres,Argentina,Argentine Football Association
+Group A,Ecuador,GK,Alexander Domínguez,LDU Quito,Ecuador,Ecuadorian Football Federation
+Group A,Ecuador,MF,Moisés Caicedo,Brighton & Hove Albion,England,The Football Association
 Group A,Ecuador,FW,Djorkaeff Reasco,Newell's Old Boys,Argentina,Argentine Football Association
+Group A,Ecuador,DF,Jackson Porozo,Troyes,France,French Football Federation
+Group A,Ecuador,FW,Kevin Rodríguez,Imbabura,Ecuador,Ecuadorian Football Federation
 Group A,Netherlands,GK,Remko Pasveer,Ajax,Netherlands,Royal Dutch Football Association
 Group A,Netherlands,DF,Jurriën Timber,Ajax,Netherlands,Royal Dutch Football Association
 Group A,Netherlands,DF,Matthijs de Ligt,Bayern Munich,Germany,German Football Association
@@ -52,57 +51,56 @@ Group A,Netherlands,MF,Kenneth Taylor,Ajax,Netherlands,Royal Dutch Football Asso
 Group A,Netherlands,MF,Xavi Simons,PSV Eindhoven,Netherlands,Royal Dutch Football Association
 Group A,Netherlands,DF,Jeremie Frimpong,Bayer Leverkusen,Germany,German Football Association
 Group A,Qatar,GK,Saad Al-Sheeb,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,GK,Meshaal Barsham,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,GK,Yousef Hassan,Al-Gharafa,Qatar,Qatar Football Association
-Group A,Qatar,DF,Abdelkarim Hassan,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,DF,Boualem Khoukhi,Al-Sadd,Qatar,Qatar Football Association
 Group A,Qatar,DF,Ró-Ró,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,DF,Ismaeel Mohammad,Al-Duhail,Qatar,Qatar Football Association
-Group A,Qatar,DF,Bassam Al-Rawi,Al-Duhail,Qatar,Qatar Football Association
+Group A,Qatar,MF,Abdelkarim Hassan,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,DF,Mohammed Waad,Al-Sadd,Qatar,Qatar Football Association
 Group A,Qatar,DF,Tarek Salman,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,MF,Abdulaziz Hatem,Al-Rayyan,Qatar,Qatar Football Association
+Group A,Qatar,FW,Ahmed Alaaeldin,Al-Gharafa,Qatar,Qatar Football Association
+Group A,Qatar,MF,Ali Assadalla,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,FW,Mohammed Muntari,Al-Duhail,Qatar,Qatar Football Association
+Group A,Qatar,MF,Hassan Al-Haydos,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,FW,Akram Afif,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,MF,Karim Boudiaf,Al-Duhail,Qatar,Qatar Football Association
 Group A,Qatar,DF,Musab Kheder,Al-Sadd,Qatar,Qatar Football Association
 Group A,Qatar,DF,Homam Ahmed,Al-Gharafa,Qatar,Qatar Football Association
-Group A,Qatar,DF,Jassem Gaber,Al-Arabi,Qatar,Qatar Football Association
-Group A,Qatar,MF,Karim Boudiaf,Al-Duhail,Qatar,Qatar Football Association
-Group A,Qatar,MF,Abdulaziz Hatem,Al-Rayyan,Qatar,Qatar Football Association
-Group A,Qatar,MF,Ali Assadalla,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,MF,Assim Madibo,Al-Duhail,Qatar,Qatar Football Association
-Group A,Qatar,MF,Salem Al-Hajri,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,MF,Mohammed Waad,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,MF,Mostafa Meshaal,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,FW,Hassan Al-Haydos,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,FW,Akram Afif,Al-Sadd,Qatar,Qatar Football Association
-Group A,Qatar,FW,Almoez Ali,Al-Duhail,Qatar,Qatar Football Association
-Group A,Qatar,FW,Mohammed Muntari,Al-Duhail,Qatar,Qatar Football Association
-Group A,Qatar,FW,Ahmed Alaaeldin,Al-Gharafa,Qatar,Qatar Football Association
+Group A,Qatar,DF,Bassam Al-Rawi,Al-Duhail,Qatar,Qatar Football Association
+Group A,Qatar,DF,Boualem Khoukhi,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,DF,Ismaeel Mohammad,Al-Duhail,Qatar,Qatar Football Association
 Group A,Qatar,FW,Khalid Muneer,Al-Wakrah,Qatar,Qatar Football Association
-Group A,Qatar,FW,Naif Al-Hadhrami,Al-Rayyan,Qatar,Qatar Football Association
-Group A,Senegal,GK,Édouard Mendy,Chelsea,England,The Football Association
-Group A,Senegal,GK,Alfred Gomis,Rennes,France,French Football Federation
+Group A,Qatar,FW,Almoez Ali,Al-Duhail,Qatar,Qatar Football Association
+Group A,Qatar,MF,Salem Al-Hajri,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,GK,Yousef Hassan,Al-Gharafa,Qatar,Qatar Football Association
+Group A,Qatar,GK,Meshaal Barsham,Al-Sadd,Qatar,Qatar Football Association
+Group A,Qatar,MF,Assim Madibo,Al-Duhail,Qatar,Qatar Football Association
+Group A,Qatar,MF,Naif Al-Hadhrami,Al-Rayyan,Qatar,Qatar Football Association
+Group A,Qatar,MF,Jassem Gaber,Al-Arabi,Qatar,Qatar Football Association
+Group A,Qatar,MF,Mostafa Meshaal,Al-Sadd,Qatar,Qatar Football Association
 Group A,Senegal,GK,Seny Dieng,Queens Park Rangers,England,The Football Association
-Group A,Senegal,DF,Kalidou Koulibaly,Chelsea,England,The Football Association
-Group A,Senegal,DF,Youssouf Sabaly,Real Betis,Spain,Royal Spanish Football Federation
-Group A,Senegal,DF,Abdou Diallo,RB Leipzig,Germany,German Football Association
-Group A,Senegal,DF,Fodé Ballo-Touré,Milan,Italy,Italian Football Federation
-Group A,Senegal,DF,Pape Abou Cissé,Olympiacos,Greece,Hellenic Football Federation
-Group A,Senegal,DF,Ismail Jakobs,Monaco,France,French Football Federation
 Group A,Senegal,DF,Formose Mendy,Amiens,France,French Football Federation
+Group A,Senegal,DF,Kalidou Koulibaly,Chelsea,England,The Football Association
+Group A,Senegal,DF,Pape Abou Cissé,Olympiacos,Greece,Hellenic Football Federation
 Group A,Senegal,MF,Idrissa Gueye,Everton,England,The Football Association
-Group A,Senegal,MF,Cheikhou Kouyaté,Nottingham Forest,England,The Football Association
-Group A,Senegal,MF,Krépin Diatta,Monaco,France,French Football Federation
 Group A,Senegal,MF,Nampalys Mendy,Leicester City,England,The Football Association
-Group A,Senegal,MF,Pape Gueye,Marseille,France,French Football Federation
-Group A,Senegal,MF,Pape Matar Sarr,Tottenham Hotspur,England,The Football Association
-Group A,Senegal,MF,Moustapha Name,Pafos,Cyprus,Cyprus Football Association
-Group A,Senegal,MF,Mamadou Loum,Reading,England,The Football Association
+Group A,Senegal,FW,Nicolas Jackson,Villarreal,Spain,Royal Spanish Football Federation
+Group A,Senegal,DF,Cheikhou Kouyaté,Nottingham Forest,England,The Football Association
+Group A,Senegal,FW,Boulaye Dia,Salernitana,Italy,Italian Football Federation
 Group A,Senegal,MF,Pathé Ciss,Rayo Vallecano,Spain,Royal Spanish Football Federation
-Group A,Senegal,FW,Sadio Mané,Bayern Munich,Germany,German Football Association
+Group A,Senegal,DF,Fodé Ballo-Touré,Milan,Italy,Italian Football Federation
+Group A,Senegal,FW,Iliman Ndiaye,Sheffield United,England,The Football Association
+Group A,Senegal,DF,Ismail Jakobs,Monaco,France,French Football Federation
+Group A,Senegal,MF,Krépin Diatta,Monaco,France,French Football Federation
+Group A,Senegal,GK,Édouard Mendy,Chelsea,England,The Football Association
+Group A,Senegal,MF,Pape Matar Sarr,Tottenham Hotspur,England,The Football Association
 Group A,Senegal,FW,Ismaïla Sarr,Watford,England,The Football Association
 Group A,Senegal,FW,Famara Diédhiou,Alanyaspor,Turkey,Turkish Football Federation
-Group A,Senegal,FW,Boulaye Dia,Salernitana,Italy,Italian Football Federation
 Group A,Senegal,FW,Bamba Dieng,Marseille,France,French Football Federation
-Group A,Senegal,FW,Iliman Ndiaye,Sheffield United,England,The Football Association
-Group A,Senegal,FW,Nicolas Jackson,Villarreal,Spain,Royal Spanish Football Federation
+Group A,Senegal,DF,Youssouf Sabaly,Real Betis,Spain,Royal Spanish Football Federation
+Group A,Senegal,DF,Abdou Diallo,RB Leipzig,Germany,German Football Association
+Group A,Senegal,GK,Alfred Gomis,Rennes,France,French Football Federation
+Group A,Senegal,DF,Moustapha Name,Pafos,Cyprus,Cyprus Football Association
+Group A,Senegal,MF,Mamadou Loum,Reading,England,The Football Association
+Group A,Senegal,MF,Pape Gueye,Marseille,France,French Football Federation
 Group B,England,GK,Jordan Pickford,Everton,England,The Football Association
 Group B,England,DF,Kyle Walker,Manchester City,England,The Football Association
 Group B,England,DF,Luke Shaw,Manchester United,England,The Football Association
@@ -122,38 +120,38 @@ Group B,England,DF,Conor Coady,Everton,England,The Football Association
 Group B,England,FW,Bukayo Saka,Arsenal,England,The Football Association
 Group B,England,DF,Trent Alexander-Arnold,Liverpool,England,The Football Association
 Group B,England,MF,Mason Mount,Chelsea,England,The Football Association
-Group B,England,FW,Phil Foden,Manchester City,England,The Football Association
+Group B,England,MF,Phil Foden,Manchester City,England,The Football Association
 Group B,England,DF,Ben White,Arsenal,England,The Football Association
 Group B,England,MF,Jude Bellingham,Borussia Dortmund,Germany,German Football Association
 Group B,England,GK,Aaron Ramsdale,Arsenal,England,The Football Association
 Group B,England,FW,Callum Wilson,Newcastle United,England,The Football Association
-Group B,England,FW,James Maddison,Leicester City,England,The Football Association
+Group B,England,MF,James Maddison,Leicester City,England,The Football Association
 Group B,England,MF,Conor Gallagher,Chelsea,England,The Football Association
 Group B,Iran,GK,Alireza Beiranvand,Persepolis,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,GK,Amir Abedzadeh,Ponferradina,Spain,Royal Spanish Football Federation
-Group B,Iran,GK,Hossein Hosseini,Esteghlal,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,GK,Payam Niazmand,Sepahan,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,DF,Ehsan Hajsafi,AEK Athens,Greece,Hellenic Football Federation
-Group B,Iran,DF,Morteza Pouraliganji,Persepolis,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,DF,Ramin Rezaeian,Sepahan,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,DF,Milad Mohammadi,AEK Athens,Greece,Hellenic Football Federation
-Group B,Iran,DF,Hossein Kanaanizadegan,Al-Ahli Doha,Qatar,Qatar Football Association
-Group B,Iran,DF,Shojae Khalilzadeh,Al-Ahli Doha,Qatar,Qatar Football Association
 Group B,Iran,DF,Sadegh Moharrami,Dinamo Zagreb,Croatia,Croatian Football Federation
-Group B,Iran,DF,Rouzbeh Cheshmi,Esteghlal,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,DF,Majid Hosseini,Kayserispor,Turkey,Turkish Football Federation
-Group B,Iran,DF,Abolfazl Jalali,Esteghlal,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,MF,Vahid Amiri,Persepolis,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,MF,Alireza Jahanbakhsh,Feyenoord,Netherlands,Royal Dutch Football Association
+Group B,Iran,DF,Ehsan Hajsafi,AEK Athens,Greece,Hellenic Football Federation
+Group B,Iran,DF,Shojae Khalilzadeh,Al-Ahli Doha,Qatar,Qatar Football Association
+Group B,Iran,DF,Milad Mohammadi,AEK Athens,Greece,Hellenic Football Federation
 Group B,Iran,MF,Saeid Ezatolahi,Vejle,Denmark,Danish Football Association
-Group B,Iran,MF,Mehdi Torabi,Persepolis,Iran,Football Federation Islamic Republic of Iran
-Group B,Iran,MF,Saman Ghoddos,Brentford,England,The Football Association
-Group B,Iran,MF,Ali Gholizadeh,Charleroi,Belgium,Royal Belgian Football Association
-Group B,Iran,MF,Ahmad Nourollahi,Shabab Al-Ahli,United Arab Emirates,United Arab Emirates Football Association
-Group B,Iran,MF,Ali Karimi,Kayserispor,Turkey,Turkish Football Federation
-Group B,Iran,FW,Karim Ansarifard,Omonia,Cyprus,Cyprus Football Association
-Group B,Iran,FW,Sardar Azmoun,Bayer Leverkusen,Germany,German Football Association
+Group B,Iran,MF,Alireza Jahanbakhsh,Feyenoord,Netherlands,Royal Dutch Football Association
+Group B,Iran,DF,Morteza Pouraliganji,Persepolis,Iran,Football Federation Islamic Republic of Iran
 Group B,Iran,FW,Mehdi Taremi,Porto,Portugal,Portuguese Football Federation
+Group B,Iran,FW,Karim Ansarifard,Omonia,Cyprus,Cyprus Football Association
+Group B,Iran,MF,Vahid Amiri,Persepolis,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,GK,Payam Niazmand,Sepahan,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,DF,Hossein Kanaanizadegan,Al-Ahli Doha,Qatar,Qatar Football Association
+Group B,Iran,MF,Saman Ghoddos,Brentford,England,The Football Association
+Group B,Iran,DF,Rouzbeh Cheshmi,Esteghlal,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,MF,Mehdi Torabi,Persepolis,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,MF,Ali Gholizadeh,Charleroi,Belgium,Royal Belgian Football Association
+Group B,Iran,MF,Ali Karimi,Kayserispor,Turkey,Turkish Football Federation
+Group B,Iran,DF,Majid Hosseini,Kayserispor,Turkey,Turkish Football Federation
+Group B,Iran,FW,Sardar Azmoun,Bayer Leverkusen,Germany,German Football Association
+Group B,Iran,MF,Ahmad Nourollahi,Shabab Al-Ahli,United Arab Emirates,United Arab Emirates Football Association
+Group B,Iran,GK,Amir Abedzadeh,Ponferradina,Spain,Royal Spanish Football Federation
+Group B,Iran,DF,Ramin Rezaeian,Sepahan,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,GK,Hossein Hosseini,Esteghlal,Iran,Football Federation Islamic Republic of Iran
+Group B,Iran,DF,Abolfazl Jalali,Esteghlal,Iran,Football Federation Islamic Republic of Iran
 Group B,United States,GK,Matt Turner,Arsenal,England,The Football Association
 Group B,United States,DF,Sergiño Dest,Milan,Italy,Italian Football Federation
 Group B,United States,DF,Walker Zimmerman,Nashville SC,United States,United States Soccer Federation
@@ -164,7 +162,7 @@ Group B,United States,FW,Giovanni Reyna,Borussia Dortmund,Germany,German Footbal
 Group B,United States,MF,Weston McKennie,Juventus,Italy,Italian Football Federation
 Group B,United States,FW,Jesús Ferreira,FC Dallas,United States,United States Soccer Federation
 Group B,United States,FW,Christian Pulisic,Chelsea,England,The Football Association
-Group B,United States,MF,Brenden Aaronson,Leeds United,England,The Football Association
+Group B,United States,FW,Brenden Aaronson,Leeds United,England,The Football Association
 Group B,United States,GK,Ethan Horvath,Luton Town,England,The Football Association
 Group B,United States,DF,Tim Ream,Fulham,England,The Football Association
 Group B,United States,MF,Luca de la Torre,Celta Vigo,Spain,Royal Spanish Football Federation
@@ -181,135 +179,135 @@ Group B,United States,FW,Josh Sargent,Norwich City,England,The Football Associat
 Group B,United States,GK,Sean Johnson,New York City FC,United States,United States Soccer Federation
 Group B,United States,DF,Joe Scally,Borussia Mönchengladbach,Germany,German Football Association
 Group B,Wales,GK,Wayne Hennessey,Nottingham Forest,England,The Football Association
-Group B,Wales,GK,Danny Ward,Leicester City,England,The Football Association
-Group B,Wales,GK,Adam Davies,Sheffield United,England,The Football Association
-Group B,Wales,DF,Chris Gunter,Wimbledon,England,The Football Association
+Group B,Wales,DF,Chris Gunter,AFC Wimbledon,England,The Football Association
+Group B,Wales,DF,Neco Williams,Nottingham Forest,England,The Football Association
 Group B,Wales,DF,Ben Davies,Tottenham Hotspur,England,The Football Association
-Group B,Wales,DF,Connor Roberts,Burnley,England,The Football Association
-Group B,Wales,DF,Ethan Ampadu,Spezia,Italy,Italian Football Federation
 Group B,Wales,DF,Chris Mepham,Bournemouth,England,The Football Association
 Group B,Wales,DF,Joe Rodon,Rennes,France,French Football Federation
-Group B,Wales,DF,Neco Williams,Nottingham Forest,England,The Football Association
-Group B,Wales,DF,Tom Lockyer,Luton Town,England,The Football Association
-Group B,Wales,DF,Ben Cabango,Swansea City,Wales,Football Association of Wales
-Group B,Wales,MF,Aaron Ramsey,Nice,France,French Football Federation
 Group B,Wales,MF,Joe Allen,Swansea City,Wales,Football Association of Wales
 Group B,Wales,MF,Harry Wilson,Fulham,England,The Football Association
-Group B,Wales,MF,Jonny Williams,Swindon Town,England,The Football Association
-Group B,Wales,MF,Joe Morrell,Portsmouth,England,The Football Association
-Group B,Wales,MF,Matthew Smith,Milton Keynes Dons,England,The Football Association
-Group B,Wales,MF,Dylan Levitt,Dundee United,Scotland,Scottish Football Association
-Group B,Wales,MF,Rubin Colwill,Cardiff City,Wales,Football Association of Wales
-Group B,Wales,MF,Sorba Thomas,Huddersfield Town,England,The Football Association
-Group B,Wales,FW,Gareth Bale,Los Angeles FC,United States,United States Soccer Federation
-Group B,Wales,FW,Daniel James,Fulham,England,The Football Association
-Group B,Wales,FW,Kieffer Moore,Bournemouth,England,The Football Association
 Group B,Wales,FW,Brennan Johnson,Nottingham Forest,England,The Football Association
+Group B,Wales,MF,Aaron Ramsey,Nice,France,French Football Federation
+Group B,Wales,FW,Gareth Bale,Los Angeles FC,United States,United States Soccer Federation
+Group B,Wales,GK,Danny Ward,Leicester City,England,The Football Association
+Group B,Wales,FW,Kieffer Moore,Bournemouth,England,The Football Association
+Group B,Wales,DF,Connor Roberts,Burnley,England,The Football Association
+Group B,Wales,DF,Ethan Ampadu,Spezia,Italy,Italian Football Federation
+Group B,Wales,MF,Joe Morrell,Portsmouth,England,The Football Association
+Group B,Wales,DF,Tom Lockyer,Luton Town,England,The Football Association
+Group B,Wales,MF,Jonny Williams,Swindon Town,England,The Football Association
 Group B,Wales,FW,Mark Harris,Cardiff City,Wales,Football Association of Wales
-Group C,Argentina,GK,Emiliano Martínez,Aston Villa,England,The Football Association
+Group B,Wales,FW,Daniel James,Fulham,England,The Football Association
+Group B,Wales,GK,Adam Davies,Sheffield United,England,The Football Association
+Group B,Wales,MF,Sorba Thomas,Huddersfield Town,England,The Football Association
+Group B,Wales,MF,Dylan Levitt,Dundee United,Scotland,Scottish Football Association
+Group B,Wales,DF,Ben Cabango,Swansea City,Wales,Football Association of Wales
+Group B,Wales,MF,Rubin Colwill,Cardiff City,Wales,Football Association of Wales
+Group B,Wales,MF,Matthew Smith,Milton Keynes Dons,England,The Football Association
 Group C,Argentina,GK,Franco Armani,River Plate,Argentina,Argentine Football Association
-Group C,Argentina,GK,Gerónimo Rulli,Villarreal,Spain,Royal Spanish Football Federation
-Group C,Argentina,DF,Nicolás Otamendi,Benfica,Portugal,Portuguese Football Federation
-Group C,Argentina,DF,Marcos Acuña,Sevilla,Spain,Royal Spanish Football Federation
-Group C,Argentina,DF,Nicolás Tagliafico,Lyon,France,French Football Federation
-Group C,Argentina,DF,Germán Pezzella,Real Betis,Spain,Royal Spanish Football Federation
-Group C,Argentina,DF,Nahuel Molina,Atlético Madrid,Spain,Royal Spanish Football Federation
-Group C,Argentina,DF,Gonzalo Montiel,Sevilla,Spain,Royal Spanish Football Federation
 Group C,Argentina,DF,Juan Foyth,Villarreal,Spain,Royal Spanish Football Federation
-Group C,Argentina,DF,Cristian Romero,Tottenham Hotspur,England,The Football Association
-Group C,Argentina,DF,Lisandro Martínez,Manchester United,England,The Football Association
+Group C,Argentina,DF,Nicolás Tagliafico,Lyon,France,French Football Federation
+Group C,Argentina,DF,Gonzalo Montiel,Sevilla,Spain,Royal Spanish Football Federation
 Group C,Argentina,MF,Leandro Paredes,Juventus,Italy,Italian Football Federation
+Group C,Argentina,DF,Germán Pezzella,Real Betis,Spain,Royal Spanish Football Federation
 Group C,Argentina,MF,Rodrigo De Paul,Atlético Madrid,Spain,Royal Spanish Football Federation
-Group C,Argentina,MF,Guido Rodríguez,Real Betis,Spain,Royal Spanish Football Federation
-Group C,Argentina,MF,Exequiel Palacios,Bayer Leverkusen,Germany,German Football Association
-Group C,Argentina,MF,Papu Gómez,Sevilla,Spain,Royal Spanish Football Federation
-Group C,Argentina,MF,Alexis Mac Allister,Brighton & Hove Albion,England,The Football Association
-Group C,Argentina,MF,Enzo Fernández,Benfica,Portugal,Portuguese Football Federation
+Group C,Argentina,MF,Marcos Acuña,Sevilla,Spain,Royal Spanish Football Federation
+Group C,Argentina,FW,Julián Álvarez,Manchester City,England,The Football Association
 Group C,Argentina,FW,Lionel Messi,Paris Saint-Germain,France,French Football Federation
 Group C,Argentina,FW,Ángel Di María,Juventus,Italy,Italian Football Federation
-Group C,Argentina,FW,Lautaro Martínez,Internazionale,Italy,Italian Football Federation
-Group C,Argentina,FW,Paulo Dybala,Roma,Italy,Italian Football Federation
-Group C,Argentina,FW,Nicolás González,Fiorentina,Italy,Italian Football Federation
+Group C,Argentina,GK,Gerónimo Rulli,Villarreal,Spain,Royal Spanish Football Federation
+Group C,Argentina,DF,Cristian Romero,Tottenham Hotspur,England,The Football Association
+Group C,Argentina,MF,Exequiel Palacios,Bayer Leverkusen,Germany,German Football Association
+Group C,Argentina,FW,Ángel Correa,Atlético Madrid,Spain,Royal Spanish Football Federation
 Group C,Argentina,FW,Joaquín Correa,Internazionale,Italy,Italian Football Federation
-Group C,Argentina,FW,Julián Álvarez,Manchester City,England,The Football Association
-Group C,Mexico,GK,Guillermo Ochoa,América,Mexico,Mexican Football Federation
+Group C,Argentina,MF,Papu Gómez,Sevilla,Spain,Royal Spanish Football Federation
+Group C,Argentina,MF,Guido Rodríguez,Real Betis,Spain,Royal Spanish Football Federation
+Group C,Argentina,DF,Nicolás Otamendi,Benfica,Portugal,Portuguese Football Federation
+Group C,Argentina,MF,Alexis Mac Allister,Brighton & Hove Albion,England,The Football Association
+Group C,Argentina,FW,Paulo Dybala,Roma,Italy,Italian Football Federation
+Group C,Argentina,FW,Lautaro Martínez,Internazionale,Italy,Italian Football Federation
+Group C,Argentina,GK,Emiliano Martínez,Aston Villa,England,The Football Association
+Group C,Argentina,MF,Enzo Fernández,Benfica,Portugal,Portuguese Football Federation
+Group C,Argentina,DF,Lisandro Martínez,Manchester United,England,The Football Association
+Group C,Argentina,DF,Nahuel Molina,Atlético Madrid,Spain,Royal Spanish Football Federation
 Group C,Mexico,GK,Alfredo Talavera,Juárez,Mexico,Mexican Football Federation
-Group C,Mexico,GK,Rodolfo Cota,León,Mexico,Mexican Football Federation
-Group C,Mexico,DF,Héctor Moreno,Monterrey,Mexico,Mexican Football Federation
-Group C,Mexico,DF,Jesús Gallardo,Monterrey,Mexico,Mexican Football Federation
 Group C,Mexico,DF,Néstor Araujo,América,Mexico,Mexican Football Federation
 Group C,Mexico,DF,César Montes,Monterrey,Mexico,Mexican Football Federation
-Group C,Mexico,DF,Jorge Sánchez,Ajax,Netherlands,Royal Dutch Football Association
-Group C,Mexico,DF,Gerardo Arteaga,Genk,Belgium,Royal Belgian Football Association
-Group C,Mexico,DF,Kevin Álvarez,Pachuca,Mexico,Mexican Football Federation
+Group C,Mexico,DF,Edson Álvarez,Ajax,Netherlands,Royal Dutch Football Association
 Group C,Mexico,DF,Johan Vásquez,Cremonese,Italy,Italian Football Federation
-Group C,Mexico,MF,Andrés Guardado,Real Betis,Spain,Royal Spanish Football Federation
-Group C,Mexico,MF,Héctor Herrera,Houston Dynamo FC,United States,United States Soccer Federation
-Group C,Mexico,MF,Edson Álvarez,Ajax,Netherlands,Royal Dutch Football Association
-Group C,Mexico,MF,Orbelín Pineda,AEK Athens,Greece,Hellenic Football Federation
-Group C,Mexico,MF,Uriel Antuna,Cruz Azul,Mexico,Mexican Football Federation
-Group C,Mexico,MF,Érick Gutiérrez,PSV Eindhoven,Netherlands,Royal Dutch Football Association
-Group C,Mexico,MF,Carlos Rodríguez,Cruz Azul,Mexico,Mexican Football Federation
-Group C,Mexico,MF,Roberto Alvarado,Guadalajara,Mexico,Mexican Football Federation
+Group C,Mexico,DF,Gerardo Arteaga,Genk,Belgium,Royal Belgian Football Association
 Group C,Mexico,MF,Luis Romo,Monterrey,Mexico,Mexican Football Federation
-Group C,Mexico,MF,Alexis Vega,Guadalajara,Mexico,Mexican Football Federation
-Group C,Mexico,MF,Luis Chávez,Pachuca,Mexico,Mexican Football Federation
+Group C,Mexico,MF,Carlos Rodríguez,Cruz Azul,Mexico,Mexican Football Federation
 Group C,Mexico,FW,Raúl Jiménez,Wolverhampton Wanderers,England,The Football Association
-Group C,Mexico,FW,Hirving Lozano,Napoli,Italy,Italian Football Federation
-Group C,Mexico,FW,Henry Martín,América,Mexico,Mexican Football Federation
+Group C,Mexico,FW,Alexis Vega,Guadalajara,Mexico,Mexican Football Federation
 Group C,Mexico,FW,Rogelio Funes Mori,Monterrey,Mexico,Mexican Football Federation
+Group C,Mexico,GK,Rodolfo Cota,León,Mexico,Mexican Football Federation
+Group C,Mexico,GK,Guillermo Ochoa,América,Mexico,Mexican Football Federation
+Group C,Mexico,MF,Érick Gutiérrez,PSV Eindhoven,Netherlands,Royal Dutch Football Association
+Group C,Mexico,DF,Héctor Moreno,Monterrey,Mexico,Mexican Football Federation
+Group C,Mexico,MF,Héctor Herrera,Houston Dynamo FC,United States,United States Soccer Federation
+Group C,Mexico,FW,Orbelín Pineda,AEK Athens,Greece,Hellenic Football Federation
+Group C,Mexico,MF,Andrés Guardado,Real Betis,Spain,Royal Spanish Football Federation
+Group C,Mexico,DF,Jorge Sánchez,Ajax,Netherlands,Royal Dutch Football Association
+Group C,Mexico,FW,Henry Martín,América,Mexico,Mexican Football Federation
+Group C,Mexico,FW,Uriel Antuna,Cruz Azul,Mexico,Mexican Football Federation
+Group C,Mexico,FW,Hirving Lozano,Napoli,Italy,Italian Football Federation
+Group C,Mexico,DF,Jesús Gallardo,Monterrey,Mexico,Mexican Football Federation
+Group C,Mexico,MF,Luis Chávez,Pachuca,Mexico,Mexican Football Federation
+Group C,Mexico,FW,Roberto Alvarado,Guadalajara,Mexico,Mexican Football Federation
+Group C,Mexico,DF,Kevin Álvarez,Pachuca,Mexico,Mexican Football Federation
 Group C,Poland,GK,Wojciech Szczęsny,Juventus,Italy,Italian Football Federation
-Group C,Poland,GK,Łukasz Skorupski,Bologna,Italy,Italian Football Federation
-Group C,Poland,GK,Kamil Grabara,Copenhagen,Denmark,Danish Football Association
-Group C,Poland,DF,Kamil Glik,Benevento,Italy,Italian Football Federation
-Group C,Poland,DF,Bartosz Bereszyński,Sampdoria,Italy,Italian Football Federation
-Group C,Poland,DF,Jan Bednarek,Aston Villa,England,The Football Association
-Group C,Poland,DF,Artur Jędrzejczyk,Legia Warsaw,Poland,Polish Football Association
 Group C,Poland,DF,Matty Cash,Aston Villa,England,The Football Association
-Group C,Poland,DF,Nicola Zalewski,Roma,Italy,Italian Football Federation
-Group C,Poland,DF,Jakub Kiwior,Spezia,Italy,Italian Football Federation
-Group C,Poland,DF,Robert Gumny,FC Augsburg,Germany,German Football Association
+Group C,Poland,DF,Artur Jędrzejczyk,Legia Warsaw,Poland,Polish Football Association
 Group C,Poland,DF,Mateusz Wieteska,Clermont,France,French Football Federation
+Group C,Poland,DF,Jan Bednarek,Aston Villa,England,The Football Association
+Group C,Poland,MF,Krystian Bielik,Birmingham City,England,The Football Association
+Group C,Poland,FW,Arkadiusz Milik,Juventus,Italy,Italian Football Federation
+Group C,Poland,MF,Damian Szymański,AEK Athens,Greece,Hellenic Football Federation
+Group C,Poland,FW,Robert Lewandowski,Barcelona,Spain,Royal Spanish Football Federation
 Group C,Poland,MF,Grzegorz Krychowiak,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Poland,MF,Kamil Grosicki,Pogoń Szczecin,Poland,Polish Football Association
-Group C,Poland,MF,Piotr Zieliński,Napoli,Italy,Italian Football Federation
-Group C,Poland,MF,Przemysław Frankowski,Lens,France,French Football Federation
-Group C,Poland,MF,Sebastian Szymański,Feyenoord,Netherlands,Royal Dutch Football Association
-Group C,Poland,MF,Damian Szymański,AEK Athens,Greece,Hellenic Football Federation
-Group C,Poland,MF,Szymon Żurkowski,Fiorentina,Italy,Italian Football Federation
-Group C,Poland,MF,Krystian Bielik,Birmingham City,England,The Football Association
+Group C,Poland,GK,Łukasz Skorupski,Bologna,Italy,Italian Football Federation
 Group C,Poland,MF,Jakub Kamiński,VfL Wolfsburg,Germany,German Football Association
-Group C,Poland,MF,Michał Skóraś,Lech Poznań,Poland,Polish Football Association
-Group C,Poland,FW,Robert Lewandowski,Barcelona,Spain,Royal Spanish Football Federation
-Group C,Poland,FW,Arkadiusz Milik,Juventus,Italy,Italian Football Federation
-Group C,Poland,FW,Krzysztof Piątek,Salernitana,Italy,Italian Football Federation
+Group C,Poland,DF,Jakub Kiwior,Spezia,Italy,Italian Football Federation
+Group C,Poland,DF,Kamil Glik,Benevento,Italy,Italian Football Federation
 Group C,Poland,FW,Karol Świderski,Charlotte FC,United States,United States Soccer Federation
-Group C,Saudi Arabia,GK,Mohammed Al-Owais,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Poland,MF,Szymon Żurkowski,Fiorentina,Italy,Italian Football Federation
+Group C,Poland,DF,Bartosz Bereszyński,Sampdoria,Italy,Italian Football Federation
+Group C,Poland,MF,Sebastian Szymański,Feyenoord,Netherlands,Royal Dutch Football Association
+Group C,Poland,MF,Piotr Zieliński,Napoli,Italy,Italian Football Federation
+Group C,Poland,MF,Nicola Zalewski,Roma,Italy,Italian Football Federation
+Group C,Poland,GK,Kamil Grabara,Copenhagen,Denmark,Danish Football Association
+Group C,Poland,FW,Krzysztof Piątek,Salernitana,Italy,Italian Football Federation
+Group C,Poland,MF,Przemysław Frankowski,Lens,France,French Football Federation
+Group C,Poland,DF,Robert Gumny,FC Augsburg,Germany,German Football Association
+Group C,Poland,MF,Michał Skóraś,Lech Poznań,Poland,Polish Football Association
 Group C,Saudi Arabia,GK,Mohammed Al-Rubaie,Al-Ahli,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,GK,Nawaf Al-Aqidi,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Yasser Al-Shahrani,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Mohammed Al-Breik,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Ali Al-Bulaihi,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Sultan Al-Ghanam,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Saud Abdulhamid,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Abdulelah Al-Amri,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,DF,Hassan Tambakti,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Sultan Al-Ghannam,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,DF,Abdullah Madu,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Salem Al-Dawsari,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Abdulelah Al-Amri,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Ali Al-Bulaihi,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Mohammed Al-Breik,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,MF,Salman Al-Faraj,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Nawaf Al-Abed,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Abdullah Otayf,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Hattan Bahebri,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Mohamed Kanno,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,MF,Abdulellah Al-Malki,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Sami Al-Najei,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Ali Al-Hassan,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Nasser Al-Dawsari,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Riyadh Sharahili,Abha,Saudi Arabia,Saudi Arabian Football Federation
-Group C,Saudi Arabia,MF,Abdulrahman Al-Aboud,Al-Ittihad,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,FW,Firas Al-Buraikan,Al-Fateh,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,FW,Salem Al-Dawsari,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,FW,Saleh Al-Shehri,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Saud Abdulhamid,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Yasser Al-Shahrani,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Abdullah Otayf,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Ali Al-Hassan,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Sami Al-Najei,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,DF,Hassan Al-Tambakti,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Nawaf Al-Abed,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,FW,Hattan Bahebri,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,FW,Abdulrahman Al-Aboud,Al-Ittihad,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,GK,Mohammed Al-Owais,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,GK,Nawaf Al-Aqidi,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Mohamed Kanno,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Nasser Al-Dawsari,Al-Hilal,Saudi Arabia,Saudi Arabian Football Federation
 Group C,Saudi Arabia,FW,Haitham Asiri,Al-Ahli,Saudi Arabia,Saudi Arabian Football Federation
+Group C,Saudi Arabia,MF,Riyadh Sharahili,Abha,Saudi Arabia,Saudi Arabian Football Federation
 Group D,Australia,GK,Mathew Ryan,Copenhagen,Denmark,Danish Football Association
 Group D,Australia,DF,Miloš Degenek,Columbus Crew,United States,United States Soccer Federation
 Group D,Australia,DF,Nathaniel Atkinson,Heart of Midlothian,Scotland,Scottish Football Association
@@ -337,31 +335,31 @@ Group D,Australia,DF,Joel King,OB,Denmark,Danish Football Association
 Group D,Australia,FW,Jason Cummings,Central Coast Mariners,Australia,Football Australia
 Group D,Australia,MF,Keanu Baccus,St Mirren,Scotland,Scottish Football Association
 Group D,Denmark,GK,Kasper Schmeichel,Nice,France,French Football Federation
-Group D,Denmark,GK,Frederik Rønnow,Union Berlin,Germany,German Football Association
-Group D,Denmark,GK,Oliver Christensen,Hertha BSC,Germany,German Football Association
+Group D,Denmark,DF,Joachim Andersen,Crystal Palace,England,The Football Association
+Group D,Denmark,DF,Victor Nelsson,Galatasaray,Turkey,Turkish Football Federation
 Group D,Denmark,DF,Simon Kjær,Milan,Italy,Italian Football Federation
+Group D,Denmark,DF,Joakim Mæhle,Atalanta,Italy,Italian Football Federation
 Group D,Denmark,DF,Andreas Christensen,Barcelona,Spain,Royal Spanish Football Federation
+Group D,Denmark,MF,Mathias Jensen,Brentford,England,The Football Association
+Group D,Denmark,MF,Thomas Delaney,Sevilla,Spain,Royal Spanish Football Federation
+Group D,Denmark,FW,Martin Braithwaite,Espanyol,Spain,Royal Spanish Football Federation
+Group D,Denmark,MF,Christian Eriksen,Manchester United,England,The Football Association
+Group D,Denmark,MF,Andreas Skov Olsen,Club Brugge,Belgium,Royal Belgian Football Association
+Group D,Denmark,FW,Kasper Dolberg,Sevilla,Spain,Royal Spanish Football Federation
+Group D,Denmark,DF,Rasmus Kristensen,Leeds United,England,The Football Association
+Group D,Denmark,MF,Mikkel Damsgaard,Brentford,England,The Football Association
+Group D,Denmark,MF,Christian Nørgaard,Brentford,England,The Football Association
+Group D,Denmark,GK,Oliver Christensen,Hertha BSC,Germany,German Football Association
 Group D,Denmark,DF,Jens Stryger Larsen,Trabzonspor,Turkey,Turkish Football Federation
 Group D,Denmark,DF,Daniel Wass,Brøndby,Denmark,Danish Football Association
-Group D,Denmark,DF,Joakim Mæhle,Atalanta,Italy,Italian Football Federation
-Group D,Denmark,DF,Joachim Andersen,Crystal Palace,England,The Football Association
-Group D,Denmark,DF,Rasmus Kristensen,Leeds United,England,The Football Association
-Group D,Denmark,DF,Victor Nelsson,Galatasaray,Turkey,Turkish Football Federation
-Group D,Denmark,DF,Alexander Bah,Benfica,Portugal,Portuguese Football Federation
-Group D,Denmark,MF,Christian Eriksen,Manchester United,England,The Football Association
-Group D,Denmark,MF,Thomas Delaney,Sevilla,Spain,Royal Spanish Football Federation
-Group D,Denmark,MF,Pierre-Emile Højbjerg,Tottenham Hotspur,England,The Football Association
-Group D,Denmark,MF,Mathias Jensen,Brentford,England,The Football Association
-Group D,Denmark,MF,Christian Nørgaard,Brentford,England,The Football Association
-Group D,Denmark,FW,Yussuf Poulsen,RB Leipzig,Germany,German Football Association
-Group D,Denmark,FW,Martin Braithwaite,Espanyol,Spain,Royal Spanish Football Federation
-Group D,Denmark,FW,Andreas Cornelius,Copenhagen,Denmark,Danish Football Association
-Group D,Denmark,FW,Kasper Dolberg,Sevilla,Spain,Royal Spanish Football Federation
-Group D,Denmark,FW,Andreas Skov Olsen,Club Brugge,Belgium,Royal Belgian Football Association
-Group D,Denmark,FW,Mikkel Damsgaard,Brentford,England,The Football Association
 Group D,Denmark,FW,Jonas Wind,VfL Wolfsburg,Germany,German Football Association
-Group D,Denmark,FW,Robert Skov,1899 Hoffenheim,Germany,German Football Association
-Group D,Denmark,FW,Jesper Lindstrøm,Eintracht Frankfurt,Germany,German Football Association
+Group D,Denmark,FW,Yussuf Poulsen,RB Leipzig,Germany,German Football Association
+Group D,Denmark,FW,Andreas Cornelius,Copenhagen,Denmark,Danish Football Association
+Group D,Denmark,GK,Frederik Rønnow,Union Berlin,Germany,German Football Association
+Group D,Denmark,MF,Pierre-Emile Højbjerg,Tottenham Hotspur,England,The Football Association
+Group D,Denmark,MF,Robert Skov,1899 Hoffenheim,Germany,German Football Association
+Group D,Denmark,MF,Jesper Lindstrøm,Eintracht Frankfurt,Germany,German Football Association
+Group D,Denmark,DF,Alexander Bah,Benfica,Portugal,Portuguese Football Federation
 Group D,France,GK,Hugo Lloris,Tottenham Hotspur,England,The Football Association
 Group D,France,DF,Benjamin Pavard,Bayern Munich,Germany,German Football Association
 Group D,France,DF,Axel Disasi,Monaco,France,French Football Federation
@@ -373,8 +371,8 @@ Group D,France,MF,Aurélien Tchouaméni,Real Madrid,Spain,Royal Spanish Football
 Group D,France,FW,Olivier Giroud,Milan,Italy,Italian Football Federation
 Group D,France,FW,Kylian Mbappé,Paris Saint-Germain,France,French Football Federation
 Group D,France,FW,Ousmane Dembélé,Barcelona,Spain,Royal Spanish Football Federation
-Group D,France,FW,Christopher Nkunku,RB Leipzig,Germany,German Football Association
-Group D,France,MF,Youssouf Fofana,Monaco,France,French Football Federation
+Group D,France,FW,Randal Kolo Muani,Eintracht Frankfurt,Germany,German Football Association
+Group D,France,DF,Youssouf Fofana,Monaco,France,French Football Federation
 Group D,France,MF,Adrien Rabiot,Juventus,Italy,Italian Football Federation
 Group D,France,MF,Jordan Veretout,Marseille,France,French Football Federation
 Group D,France,GK,Steve Mandanda,Rennes,France,French Football Federation
@@ -392,7 +390,7 @@ Group D,Tunisia,GK,Aymen Mathlouthi,Étoile du Sahel,Tunisia,Tunisian Football F
 Group D,Tunisia,DF,Bilel Ifa,Kuwait SC,Kuwait,Kuwait Football Association
 Group D,Tunisia,DF,Montassar Talbi,Lorient,France,French Football Federation
 Group D,Tunisia,DF,Yassine Meriah,Espérance de Tunis,Tunisia,Tunisian Football Federation
-Group D,Tunisia,DF,Nader Ghandri,Club Africain,Tunisia,Tunisian Football Federation
+Group D,Tunisia,MF,Nader Ghandri,Club Africain,Tunisia,Tunisian Football Federation
 Group D,Tunisia,DF,Dylan Bronn,Salernitana,Italy,Italian Football Federation
 Group D,Tunisia,FW,Youssef Msakni,Al-Arabi,Qatar,Qatar Football Association
 Group D,Tunisia,MF,Hannibal Mejbri,Birmingham City,England,The Football Association
@@ -412,53 +410,53 @@ Group D,Tunisia,DF,Wajdi Kechrida,Atromitos,Greece,Hellenic Football Federation
 Group D,Tunisia,GK,Bechir Ben Saïd,US Monastir,Tunisia,Tunisian Football Federation
 Group D,Tunisia,FW,Naïm Sliti,Al-Ettifaq,Saudi Arabia,Saudi Arabian Football Federation
 Group D,Tunisia,DF,Ali Abdi,Caen,France,French Football Federation
-Group D,Tunisia,MF,Anis Ben Slimane,Brøndby,Denmark,Danish Football Association
+Group D,Tunisia,FW,Anis Ben Slimane,Brøndby,Denmark,Danish Football Association
 Group D,Tunisia,GK,Mouez Hassen,Club Africain,Tunisia,Tunisian Football Federation
 Group E,Costa Rica,GK,Keylor Navas,Paris Saint-Germain,France,French Football Federation
-Group E,Costa Rica,GK,Esteban Alvarado,Herediano,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,GK,Patrick Sequeira,Lugo,Spain,Royal Spanish Football Federation
-Group E,Costa Rica,DF,Francisco Calvo,Konyaspor,Turkey,Turkish Football Federation
-Group E,Costa Rica,DF,Bryan Oviedo,Real Salt Lake,United States,United States Soccer Federation
-Group E,Costa Rica,DF,Óscar Duarte,Al-Wehda,Saudi Arabia,Saudi Arabian Football Federation
-Group E,Costa Rica,DF,Kendall Waston,Saprissa,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,DF,Rónald Matarrita,FC Cincinnati,United States,United States Soccer Federation
-Group E,Costa Rica,DF,Keysher Fuller,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,MF,Daniel Chacón,Cartaginés,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,DF,Juan Pablo Vargas,Millonarios,Colombia,Colombian Football Federation
-Group E,Costa Rica,DF,Carlos Martínez,San Carlos,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Keysher Fuller,Herediano,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Celso Borges,Alajuelense,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,MF,Bryan Ruiz,Alajuelense,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,MF,Yeltsin Tejeda,Herediano,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,MF,Gerson Torres,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Óscar Duarte,Al-Wehda,Saudi Arabia,Saudi Arabian Football Federation
+Group E,Costa Rica,FW,Anthony Contreras,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Bryan Oviedo,Real Salt Lake,United States,United States Soccer Federation
 Group E,Costa Rica,MF,Jewison Bennette,Sunderland,England,The Football Association
-Group E,Costa Rica,MF,Daniel Chacón,Colorado Rapids 2,United States,United States Soccer Federation
+Group E,Costa Rica,MF,Bryan Ruiz,Alajuelense,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,FW,Johan Venegas,Alajuelense,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,FW,Joel Campbell,León,Mexico,Mexican Football Federation
+Group E,Costa Rica,MF,Gerson Torres,Herediano,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Youstin Salas,Saprissa,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,MF,Roan Wilson,Municipal Grecia,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Francisco Calvo,Konyaspor,Turkey,Turkish Football Federation
+Group E,Costa Rica,DF,Carlos Martínez,San Carlos,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,MF,Yeltsin Tejeda,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,GK,Esteban Alvarado,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Kendall Waston,Saprissa,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Brandon Aguilera,Guanacasteca,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Douglas López,Herediano,Costa Rica,Costa Rican Football Federation
+Group E,Costa Rica,DF,Rónald Matarrita,FC Cincinnati,United States,United States Soccer Federation
+Group E,Costa Rica,GK,Patrick Sequeira,Lugo,Spain,Royal Spanish Football Federation
+Group E,Costa Rica,MF,Roan Wilson,Municipal Grecia,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Anthony Hernández,Puntarenas,Costa Rica,Costa Rican Football Federation
 Group E,Costa Rica,MF,Álvaro Zamora,Saprissa,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,FW,Joel Campbell,León,Mexico,Mexican Football Federation
-Group E,Costa Rica,FW,Johan Venegas,Alajuelense,Costa Rica,Costa Rican Football Federation
-Group E,Costa Rica,FW,Anthony Contreras,Herediano,Costa Rica,Costa Rican Football Federation
 Group E,Germany,GK,Manuel Neuer,Bayern Munich,Germany,German Football Association
 Group E,Germany,DF,Antonio Rüdiger,Real Madrid,Spain,Royal Spanish Football Federation
 Group E,Germany,DF,David Raum,RB Leipzig,Germany,German Football Association
 Group E,Germany,DF,Matthias Ginter,SC Freiburg,Germany,German Football Association
 Group E,Germany,DF,Thilo Kehrer,West Ham United,England,The Football Association
 Group E,Germany,MF,Joshua Kimmich,Bayern Munich,Germany,German Football Association
-Group E,Germany,MF,Kai Havertz,Chelsea,England,The Football Association
+Group E,Germany,FW,Kai Havertz,Chelsea,England,The Football Association
 Group E,Germany,MF,Leon Goretzka,Bayern Munich,Germany,German Football Association
 Group E,Germany,FW,Niclas Füllkrug,Werder Bremen,Germany,German Football Association
 Group E,Germany,FW,Serge Gnabry,Bayern Munich,Germany,German Football Association
 Group E,Germany,MF,Mario Götze,Eintracht Frankfurt,Germany,German Football Association
 Group E,Germany,GK,Kevin Trapp,Eintracht Frankfurt,Germany,German Football Association
-Group E,Germany,FW,Thomas Müller,Bayern Munich,Germany,German Football Association
+Group E,Germany,MF,Thomas Müller,Bayern Munich,Germany,German Football Association
 Group E,Germany,MF,Jamal Musiala,Bayern Munich,Germany,German Football Association
 Group E,Germany,DF,Niklas Süle,Borussia Dortmund,Germany,German Football Association
 Group E,Germany,DF,Lukas Klostermann,RB Leipzig,Germany,German Football Association
 Group E,Germany,MF,Julian Brandt,Borussia Dortmund,Germany,German Football Association
 Group E,Germany,MF,Jonas Hofmann,Borussia Mönchengladbach,Germany,German Football Association
-Group E,Germany,FW,Leroy Sané,Bayern Munich,Germany,German Football Association
+Group E,Germany,MF,Leroy Sané,Bayern Munich,Germany,German Football Association
 Group E,Germany,DF,Christian Günter,SC Freiburg,Germany,German Football Association
 Group E,Germany,MF,İlkay Gündoğan,Manchester City,England,The Football Association
 Group E,Germany,GK,Marc-André ter Stegen,Barcelona,Spain,Royal Spanish Football Federation
@@ -519,31 +517,31 @@ Group E,Spain,DF,Aymeric Laporte,Manchester City,England,The Football Associatio
 Group E,Spain,FW,Ansu Fati,Barcelona,Spain,Royal Spanish Football Federation
 Group E,Spain,MF,Pedri,Barcelona,Spain,Royal Spanish Football Federation
 Group F,Belgium,GK,Thibaut Courtois,Real Madrid,Spain,Royal Spanish Football Federation
-Group F,Belgium,GK,Simon Mignolet,Club Brugge,Belgium,Royal Belgian Football Association
-Group F,Belgium,GK,Koen Casteels,VfL Wolfsburg,Germany,German Football Association
-Group F,Belgium,DF,Jan Vertonghen,Anderlecht,Belgium,Royal Belgian Football Association
 Group F,Belgium,DF,Toby Alderweireld,Antwerp,Belgium,Royal Belgian Football Association
-Group F,Belgium,DF,Thomas Meunier,Borussia Dortmund,Germany,German Football Association
-Group F,Belgium,DF,Timothy Castagne,Leicester City,England,The Football Association
 Group F,Belgium,DF,Arthur Theate,Rennes,France,French Football Federation
-Group F,Belgium,DF,Zeno Debast,Anderlecht,Belgium,Royal Belgian Football Association
 Group F,Belgium,DF,Wout Faes,Leicester City,England,The Football Association
+Group F,Belgium,DF,Jan Vertonghen,Anderlecht,Belgium,Royal Belgian Football Association
 Group F,Belgium,MF,Axel Witsel,Atlético Madrid,Spain,Royal Spanish Football Federation
 Group F,Belgium,MF,Kevin De Bruyne,Manchester City,England,The Football Association
-Group F,Belgium,MF,Yannick Carrasco,Atlético Madrid,Spain,Royal Spanish Football Federation
 Group F,Belgium,MF,Youri Tielemans,Leicester City,England,The Football Association
-Group F,Belgium,MF,Leander Dendoncker,Aston Villa,England,The Football Association
-Group F,Belgium,MF,Hans Vanaken,Club Brugge,Belgium,Royal Belgian Football Association
-Group F,Belgium,MF,Leandro Trossard,Brighton & Hove Albion,England,The Football Association
-Group F,Belgium,MF,Charles De Ketelaere,Milan,Italy,Italian Football Federation
-Group F,Belgium,MF,Amadou Onana,Everton,England,The Football Association
-Group F,Belgium,FW,Eden Hazard,Real Madrid,Spain,Royal Spanish Football Federation
-Group F,Belgium,FW,Dries Mertens,Galatasaray,Turkey,Turkish Football Federation
 Group F,Belgium,FW,Romelu Lukaku,Internazionale,Italy,Italian Football Federation
+Group F,Belgium,FW,Eden Hazard,Real Madrid,Spain,Royal Spanish Football Federation
+Group F,Belgium,FW,Yannick Carrasco,Atlético Madrid,Spain,Royal Spanish Football Federation
+Group F,Belgium,GK,Simon Mignolet,Club Brugge,Belgium,Royal Belgian Football Association
+Group F,Belgium,GK,Koen Casteels,VfL Wolfsburg,Germany,German Football Association
+Group F,Belgium,FW,Dries Mertens,Galatasaray,Turkey,Turkish Football Federation
+Group F,Belgium,MF,Thomas Meunier,Borussia Dortmund,Germany,German Football Association
+Group F,Belgium,MF,Thorgan Hazard,Borussia Dortmund,Germany,German Football Association
+Group F,Belgium,FW,Leandro Trossard,Brighton & Hove Albion,England,The Football Association
+Group F,Belgium,MF,Amadou Onana,Everton,England,The Football Association
+Group F,Belgium,DF,Leander Dendoncker,Aston Villa,England,The Football Association
+Group F,Belgium,MF,Hans Vanaken,Club Brugge,Belgium,Royal Belgian Football Association
+Group F,Belgium,MF,Timothy Castagne,Leicester City,England,The Football Association
+Group F,Belgium,FW,Charles De Ketelaere,Milan,Italy,Italian Football Federation
 Group F,Belgium,FW,Michy Batshuayi,Fenerbahçe,Turkey,Turkish Football Federation
-Group F,Belgium,FW,Thorgan Hazard,Borussia Dortmund,Germany,German Football Association
-Group F,Belgium,FW,Jérémy Doku,Rennes,France,French Football Federation
 Group F,Belgium,FW,Loïs Openda,Lens,France,French Football Federation
+Group F,Belgium,FW,Jérémy Doku,Rennes,France,French Football Federation
+Group F,Belgium,DF,Zeno Debast,Anderlecht,Belgium,Royal Belgian Football Association
 Group F,Canada,GK,Dayne St. Clair,Minnesota United FC,United States,United States Soccer Federation
 Group F,Canada,DF,Alistair Johnston,CF Montréal,Canada,Canadian Soccer Association
 Group F,Canada,DF,Sam Adekugbe,Hatayspor,Turkey,Turkish Football Federation
@@ -553,7 +551,7 @@ Group F,Canada,MF,Samuel Piette,CF Montréal,Canada,Canadian Soccer Association
 Group F,Canada,MF,Stephen Eustáquio,Porto,Portugal,Portuguese Football Federation
 Group F,Canada,MF,Liam Fraser,Deinze,Belgium,Royal Belgian Football Association
 Group F,Canada,FW,Lucas Cavallini,Vancouver Whitecaps FC,Canada,Canadian Soccer Association
-Group F,Canada,FW,Junior Hoilett,Reading,England,The Football Association
+Group F,Canada,MF,Junior Hoilett,Reading,England,The Football Association
 Group F,Canada,FW,Tajon Buchanan,Club Brugge,Belgium,Royal Belgian Football Association
 Group F,Canada,FW,Iké Ugbo,Troyes,France,French Football Federation
 Group F,Canada,MF,Atiba Hutchinson,Beşiktaş,Turkey,Turkish Football Federation
@@ -566,7 +564,7 @@ Group F,Canada,FW,Alphonso Davies,Bayern Munich,Germany,German Football Associat
 Group F,Canada,FW,Jonathan David,Lille,France,French Football Federation
 Group F,Canada,MF,Jonathan Osorio,Toronto FC,Canada,Canadian Soccer Association
 Group F,Canada,DF,Richie Laryea,Toronto FC,Canada,Canadian Soccer Association
-Group F,Canada,FW,Liam Millar,Basel,Switzerland,Swiss Football Association
+Group F,Canada,MF,Liam Millar,Basel,Switzerland,Swiss Football Association
 Group F,Canada,MF,David Wotherspoon,St Johnstone,Scotland,Scottish Football Association
 Group F,Canada,DF,Derek Cornelius,Panetolikos,Greece,Hellenic Football Federation
 Group F,Canada,DF,Joel Waterman,CF Montréal,Canada,Canadian Soccer Association
@@ -597,31 +595,31 @@ Group F,Croatia,DF,Josip Šutalo,Dinamo Zagreb,Croatia,Croatian Football Federat
 Group F,Croatia,MF,Luka Sučić,Red Bull Salzburg,Austria,Austrian Football Association
 Group F,Croatia,MF,Kristijan Jakić,Eintracht Frankfurt,Germany,German Football Association
 Group F,Morocco,GK,Yassine Bounou,Sevilla,Spain,Royal Spanish Football Federation
-Group F,Morocco,GK,Munir Mohamedi,Al-Wehda,Saudi Arabia,Saudi Arabian Football Federation
-Group F,Morocco,GK,Ahmed Reda Tagnaouti,Wydad AC,Morocco,Royal Moroccan Football Federation
-Group F,Morocco,DF,Romain Saïss,Beşiktaş,Turkey,Turkish Football Federation
 Group F,Morocco,DF,Achraf Hakimi,Paris Saint-Germain,France,French Football Federation
-Group F,Morocco,DF,Nayef Aguerd,West Ham United,England,The Football Association
 Group F,Morocco,DF,Noussair Mazraoui,Bayern Munich,Germany,German Football Association
+Group F,Morocco,MF,Sofyan Amrabat,Fiorentina,Italy,Italian Football Federation
+Group F,Morocco,DF,Nayef Aguerd,West Ham United,England,The Football Association
+Group F,Morocco,DF,Romain Saïss,Beşiktaş,Turkey,Turkish Football Federation
+Group F,Morocco,MF,Hakim Ziyech,Chelsea,England,The Football Association
+Group F,Morocco,MF,Azzedine Ounahi,Angers,France,French Football Federation
+Group F,Morocco,FW,Abderrazak Hamdallah,Al-Ittihad,Saudi Arabia,Saudi Arabian Football Federation
+Group F,Morocco,MF,Anass Zaroury,Burnley,England,The Football Association
+Group F,Morocco,FW,Abdelhamid Sabiri,Sampdoria,Italy,Italian Football Federation
+Group F,Morocco,GK,Munir Mohamedi,Al-Wehda,Saudi Arabia,Saudi Arabian Football Federation
+Group F,Morocco,MF,Ilias Chair,Queens Park Rangers,England,The Football Association
+Group F,Morocco,MF,Zakaria Aboukhlal,Toulouse,France,French Football Federation
+Group F,Morocco,MF,Selim Amallah,Standard Liège,Belgium,Royal Belgian Football Association
+Group F,Morocco,FW,Abde Ezzalzouli,Osasuna,Spain,Royal Spanish Football Federation
+Group F,Morocco,MF,Sofiane Boufal,Angers,France,French Football Federation
 Group F,Morocco,DF,Jawad El Yamiq,Valladolid,Spain,Royal Spanish Football Federation
+Group F,Morocco,FW,Youssef En-Nesyri,Sevilla,Spain,Royal Spanish Football Federation
 Group F,Morocco,DF,Achraf Dari,Brest,France,French Football Federation
+Group F,Morocco,FW,Walid Cheddira,Bari,Italy,Italian Football Federation
+Group F,Morocco,GK,Ahmed Reda Tagnaouti,Wydad AC,Morocco,Royal Moroccan Football Federation
+Group F,Morocco,MF,Bilal El Khannous,Genk,Belgium,Royal Belgian Football Association
 Group F,Morocco,DF,Badr Benoun,Qatar SC,Qatar,Qatar Football Association
 Group F,Morocco,DF,Yahia Attiyat Allah,Wydad AC,Morocco,Royal Moroccan Football Federation
-Group F,Morocco,MF,Sofyan Amrabat,Fiorentina,Italy,Italian Football Federation
-Group F,Morocco,MF,Selim Amallah,Standard Liège,Belgium,Royal Belgian Football Association
-Group F,Morocco,MF,Amine Harit,Marseille,France,French Football Federation
-Group F,Morocco,MF,Ilias Chair,Queens Park Rangers,England,The Football Association
-Group F,Morocco,MF,Azzedine Ounahi,Angers,France,French Football Federation
 Group F,Morocco,MF,Yahya Jabrane,Wydad AC,Morocco,Royal Moroccan Football Federation
-Group F,Morocco,MF,Abdelhamid Sabiri,Sampdoria,Italy,Italian Football Federation
-Group F,Morocco,MF,Bilal El Khannous,Genk,Belgium,Royal Belgian Football Association
-Group F,Morocco,FW,Youssef En-Nesyri,Sevilla,Spain,Royal Spanish Football Federation
-Group F,Morocco,FW,Hakim Ziyech,Chelsea,England,The Football Association
-Group F,Morocco,FW,Sofiane Boufal,Angers,France,French Football Federation
-Group F,Morocco,FW,Abderrazak Hamdallah,Al-Ittihad,Saudi Arabia,Saudi Arabian Football Federation
-Group F,Morocco,FW,Zakaria Aboukhlal,Toulouse,France,French Football Federation
-Group F,Morocco,FW,Abde Ezzalzouli,Osasuna,Spain,Royal Spanish Football Federation
-Group F,Morocco,FW,Walid Cheddira,Bari,Italy,Italian Football Federation
 Group G,Brazil,GK,Alisson,Liverpool,England,The Football Association
 Group G,Brazil,DF,Danilo,Juventus,Italy,Italian Football Federation
 Group G,Brazil,DF,Thiago Silva,Chelsea,England,The Football Association
@@ -648,185 +646,185 @@ Group G,Brazil,GK,Ederson,Manchester City,England,The Football Association
 Group G,Brazil,DF,Bremer,Juventus,Italy,Italian Football Federation
 Group G,Brazil,FW,Pedro,Flamengo,Brazil,Brazilian Football Confederation
 Group G,Brazil,FW,Gabriel Martinelli,Arsenal,England,The Football Association
-Group G,Cameroon,GK,André Onana,Internazionale,Italy,Italian Football Federation
-Group G,Cameroon,GK,Devis Epassy,Abha,Saudi Arabia,Saudi Arabian Football Federation
 Group G,Cameroon,GK,Simon Ngapandouetnbu,Marseille,France,French Football Federation
+Group G,Cameroon,DF,Jerome Ngom Mbekeli,Colombe Sportive,Cameroon,Cameroonian Football Federation
 Group G,Cameroon,DF,Nicolas Nkoulou,Aris,Greece,Hellenic Football Federation
-Group G,Cameroon,DF,Collins Fai,Al-Tai,Saudi Arabia,Saudi Arabian Football Federation
-Group G,Cameroon,DF,Nouhou Tolo,Seattle Sounders FC,United States,United States Soccer Federation
-Group G,Cameroon,DF,Jean-Charles Castelletto,Nantes,France,French Football Federation
-Group G,Cameroon,DF,Olivier Mbaizo,Philadelphia Union,United States,United States Soccer Federation
-Group G,Cameroon,DF,Enzo Ebosse,Udinese,Italy,Italian Football Federation
 Group G,Cameroon,DF,Christopher Wooh,Rennes,France,French Football Federation
-Group G,Cameroon,MF,André-Frank Zambo Anguissa,Napoli,Italy,Italian Football Federation
-Group G,Cameroon,MF,Pierre Kunde,Olympiacos,Greece,Hellenic Football Federation
-Group G,Cameroon,MF,Samuel Gouet,Mechelen,Belgium,Royal Belgian Football Association
-Group G,Cameroon,MF,Martin Hongla,Hellas Verona,Italy,Italian Football Federation
 Group G,Cameroon,MF,Gaël Ondoua,Hannover 96,Germany,German Football Association
-Group G,Cameroon,MF,Olivier Ntcham,Swansea City,Wales,Football Association of Wales
-Group G,Cameroon,MF,Jerome Ngom Mbekeli,Colombe Sportive,Cameroon,Cameroonian Football Federation
-Group G,Cameroon,FW,Vincent Aboubakar,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
-Group G,Cameroon,FW,Eric Maxim Choupo-Moting,Bayern Munich,Germany,German Football Association
-Group G,Cameroon,FW,Karl Toko Ekambi,Lyon,France,French Football Federation
-Group G,Cameroon,FW,Christian Bassogog,Shanghai Shenhua,China,Chinese Football Association
 Group G,Cameroon,FW,Moumi Ngamaleu,Dynamo Moscow,Russia,Russian Football Union
+Group G,Cameroon,MF,Georges-Kévin Nkoudou,Beşiktaş,Turkey,Turkish Football Federation
+Group G,Cameroon,MF,André-Frank Zambo Anguissa,Napoli,Italy,Italian Football Federation
 Group G,Cameroon,FW,Jean-Pierre Nsame,Young Boys,Switzerland,Swiss Football Association
+Group G,Cameroon,FW,Vincent Aboubakar,Al-Nassr,Saudi Arabia,Saudi Arabian Football Federation
+Group G,Cameroon,FW,Christian Bassogog,Shanghai Shenhua,China,Chinese Football Association
+Group G,Cameroon,FW,Karl Toko Ekambi,Lyon,France,French Football Federation
+Group G,Cameroon,FW,Eric Maxim Choupo-Moting,Bayern Munich,Germany,German Football Association
+Group G,Cameroon,MF,Samuel Gouet,Mechelen,Belgium,Royal Belgian Football Association
+Group G,Cameroon,MF,Pierre Kunde,Olympiacos,Greece,Hellenic Football Federation
+Group G,Cameroon,GK,Devis Epassy,Abha,Saudi Arabia,Saudi Arabian Football Federation
+Group G,Cameroon,DF,Olivier Mbaizo,Philadelphia Union,United States,United States Soccer Federation
+Group G,Cameroon,MF,Martin Hongla,Hellas Verona,Italy,Italian Football Federation
+Group G,Cameroon,DF,Collins Fai,Al-Tai,Saudi Arabia,Saudi Arabian Football Federation
 Group G,Cameroon,FW,Bryan Mbeumo,Brentford,England,The Football Association
-Group G,Cameroon,FW,Georges-Kévin Nkoudou,Beşiktaş,Turkey,Turkish Football Federation
-Group G,Cameroon,FW,Souaibou Marou,Coton Sport,Cameroon,Cameroonian Football Federation
-Group G,Serbia,GK,Predrag Rajković,Mallorca,Spain,Royal Spanish Football Federation
+Group G,Cameroon,DF,Jean-Charles Castelletto,Nantes,France,French Football Federation
+Group G,Cameroon,MF,Olivier Ntcham,Swansea City,Wales,Football Association of Wales
+Group G,Cameroon,GK,André Onana,Internazionale,Italy,Italian Football Federation
+Group G,Cameroon,DF,Enzo Ebosse,Udinese,Italy,Italian Football Federation
+Group G,Cameroon,DF,Nouhou Tolo,Seattle Sounders FC,United States,United States Soccer Federation
+Group G,Cameroon,MF,Souaibou Marou,Coton Sport,Cameroon,Cameroonian Football Federation
 Group G,Serbia,GK,Marko Dmitrović,Sevilla,Spain,Royal Spanish Football Federation
-Group G,Serbia,GK,Vanja Milinković-Savić,Torino,Italy,Italian Football Federation
-Group G,Serbia,DF,Nikola Milenković,Fiorentina,Italy,Italian Football Federation
-Group G,Serbia,DF,Stefan Mitrović,Getafe,Spain,Royal Spanish Football Federation
 Group G,Serbia,DF,Strahinja Pavlović,Red Bull Salzburg,Austria,Austrian Football Association
-Group G,Serbia,DF,Miloš Veljković,Werder Bremen,Germany,German Football Association
-Group G,Serbia,DF,Filip Mladenović,Legia Warsaw,Poland,Polish Football Association
-Group G,Serbia,DF,Srđan Babić,Almería,Spain,Royal Spanish Football Federation
 Group G,Serbia,DF,Strahinja Eraković,Red Star Belgrade,Serbia,Football Association of Serbia
-Group G,Serbia,MF,Dušan Tadić,Ajax,Netherlands,Royal Dutch Football Association
-Group G,Serbia,MF,Filip Kostić,Juventus,Italy,Italian Football Federation
-Group G,Serbia,MF,Nemanja Gudelj,Sevilla,Spain,Royal Spanish Football Federation
+Group G,Serbia,DF,Nikola Milenković,Fiorentina,Italy,Italian Football Federation
+Group G,Serbia,DF,Miloš Veljković,Werder Bremen,Germany,German Football Association
 Group G,Serbia,MF,Nemanja Maksimović,Getafe,Spain,Royal Spanish Football Federation
-Group G,Serbia,MF,Nemanja Radonjić,Torino,Italy,Italian Football Federation
-Group G,Serbia,MF,Filip Đuričić,Sampdoria,Italy,Italian Football Federation
-Group G,Serbia,MF,Sergej Milinković-Savić,Lazio,Italy,Italian Football Federation
-Group G,Serbia,MF,Saša Lukić,Torino,Italy,Italian Football Federation
-Group G,Serbia,MF,Andrija Živković,PAOK,Greece,Hellenic Football Federation
-Group G,Serbia,MF,Darko Lazović,Hellas Verona,Italy,Italian Football Federation
-Group G,Serbia,MF,Marko Grujić,Porto,Portugal,Portuguese Football Federation
-Group G,Serbia,MF,Uroš Račić,Braga,Portugal,Portuguese Football Federation
-Group G,Serbia,MF,Ivan Ilić,Hellas Verona,Italy,Italian Football Federation
+Group G,Serbia,FW,Nemanja Radonjić,Torino,Italy,Italian Football Federation
+Group G,Serbia,MF,Nemanja Gudelj,Sevilla,Spain,Royal Spanish Football Federation
 Group G,Serbia,FW,Aleksandar Mitrović,Fulham,England,The Football Association
+Group G,Serbia,FW,Dušan Tadić,Ajax,Netherlands,Royal Dutch Football Association
 Group G,Serbia,FW,Luka Jović,Fiorentina,Italy,Italian Football Federation
+Group G,Serbia,GK,Predrag Rajković,Mallorca,Spain,Royal Spanish Football Federation
+Group G,Serbia,DF,Stefan Mitrović,Getafe,Spain,Royal Spanish Football Federation
+Group G,Serbia,MF,Andrija Živković,PAOK,Greece,Hellenic Football Federation
+Group G,Serbia,DF,Srđan Babić,Almería,Spain,Royal Spanish Football Federation
+Group G,Serbia,MF,Saša Lukić,Torino,Italy,Italian Football Federation
+Group G,Serbia,MF,Filip Kostić,Juventus,Italy,Italian Football Federation
 Group G,Serbia,FW,Dušan Vlahović,Juventus,Italy,Italian Football Federation
+Group G,Serbia,MF,Uroš Račić,Braga,Portugal,Portuguese Football Federation
+Group G,Serbia,MF,Sergej Milinković-Savić,Lazio,Italy,Italian Football Federation
+Group G,Serbia,FW,Filip Đuričić,Sampdoria,Italy,Italian Football Federation
+Group G,Serbia,MF,Darko Lazović,Hellas Verona,Italy,Italian Football Federation
+Group G,Serbia,GK,Vanja Milinković-Savić,Torino,Italy,Italian Football Federation
+Group G,Serbia,MF,Ivan Ilić,Hellas Verona,Italy,Italian Football Federation
+Group G,Serbia,DF,Filip Mladenović,Legia Warsaw,Poland,Polish Football Association
+Group G,Serbia,MF,Marko Grujić,Porto,Portugal,Portuguese Football Federation
 Group G,Switzerland,GK,Yann Sommer,Borussia Mönchengladbach,Germany,German Football Association
-Group G,Switzerland,GK,Jonas Omlin,Montpellier,France,French Football Federation
-Group G,Switzerland,GK,Gregor Kobel,Borussia Dortmund,Germany,German Football Association
-Group G,Switzerland,GK,Philipp Köhn,Red Bull Salzburg,Austria,Austrian Football Association
-Group G,Switzerland,DF,Ricardo Rodriguez,Torino,Italy,Italian Football Federation
-Group G,Switzerland,DF,Fabian Schär,Newcastle United,England,The Football Association
-Group G,Switzerland,DF,Manuel Akanji,Manchester City,England,The Football Association
-Group G,Switzerland,DF,Nico Elvedi,Borussia Mönchengladbach,Germany,German Football Association
+Group G,Switzerland,DF,Edimilson Fernandes,Mainz 05,Germany,German Football Association
 Group G,Switzerland,DF,Silvan Widmer,Mainz 05,Germany,German Football Association
-Group G,Switzerland,DF,Eray Cömert,Valencia,Spain,Royal Spanish Football Federation
-Group G,Switzerland,MF,Xherdan Shaqiri,Chicago Fire FC,United States,United States Soccer Federation
-Group G,Switzerland,MF,Granit Xhaka,Arsenal,England,The Football Association
-Group G,Switzerland,MF,Remo Freuler,Nottingham Forest,England,The Football Association
+Group G,Switzerland,DF,Nico Elvedi,Borussia Mönchengladbach,Germany,German Football Association
+Group G,Switzerland,DF,Manuel Akanji,Manchester City,England,The Football Association
 Group G,Switzerland,MF,Denis Zakaria,Chelsea,England,The Football Association
-Group G,Switzerland,MF,Djibril Sow,Eintracht Frankfurt,Germany,German Football Association
-Group G,Switzerland,MF,Renato Steffen,Lugano,Switzerland,Swiss Football Association
-Group G,Switzerland,MF,Edimilson Fernandes,Mainz 05,Germany,German Football Association
-Group G,Switzerland,MF,Fabian Frei,Basel,Switzerland,Swiss Football Association
-Group G,Switzerland,MF,Michel Aebischer,Bologna,Italy,Italian Football Federation
-Group G,Switzerland,MF,Ardon Jashari,Luzern,Switzerland,Swiss Football Association
-Group G,Switzerland,MF,Fabian Rieder,Young Boys,Switzerland,Swiss Football Association
-Group G,Switzerland,FW,Haris Seferovic,Galatasaray,Turkey,Turkish Football Federation
 Group G,Switzerland,FW,Breel Embolo,Monaco,France,French Football Federation
+Group G,Switzerland,MF,Remo Freuler,Nottingham Forest,England,The Football Association
+Group G,Switzerland,FW,Haris Seferovic,Galatasaray,Turkey,Turkish Football Federation
+Group G,Switzerland,MF,Granit Xhaka,Arsenal,England,The Football Association
+Group G,Switzerland,DF,Renato Steffen,Lugano,Switzerland,Swiss Football Association
+Group G,Switzerland,GK,Jonas Omlin,Montpellier,France,French Football Federation
+Group G,Switzerland,DF,Ricardo Rodriguez,Torino,Italy,Italian Football Federation
+Group G,Switzerland,MF,Michel Aebischer,Bologna,Italy,Italian Football Federation
+Group G,Switzerland,MF,Djibril Sow,Eintracht Frankfurt,Germany,German Football Association
+Group G,Switzerland,MF,Christian Fassnacht,Young Boys,Switzerland,Swiss Football Association
 Group G,Switzerland,FW,Ruben Vargas,FC Augsburg,Germany,German Football Association
-Group G,Switzerland,FW,Christian Fassnacht,Young Boys,Switzerland,Swiss Football Association
+Group G,Switzerland,DF,Eray Cömert,Valencia,Spain,Royal Spanish Football Federation
 Group G,Switzerland,FW,Noah Okafor,Red Bull Salzburg,Austria,Austrian Football Association
+Group G,Switzerland,MF,Fabian Frei,Basel,Switzerland,Swiss Football Association
+Group G,Switzerland,GK,Gregor Kobel,Borussia Dortmund,Germany,German Football Association
+Group G,Switzerland,DF,Fabian Schär,Newcastle United,England,The Football Association
+Group G,Switzerland,MF,Xherdan Shaqiri,Chicago Fire FC,United States,United States Soccer Federation
+Group G,Switzerland,GK,Philipp Köhn,Red Bull Salzburg,Austria,Austrian Football Association
+Group G,Switzerland,MF,Fabian Rieder,Young Boys,Switzerland,Swiss Football Association
+Group G,Switzerland,MF,Ardon Jashari,Luzern,Switzerland,Swiss Football Association
 Group H,Ghana,GK,Lawrence Ati-Zigi,St. Gallen,Switzerland,Swiss Football Association
-Group H,Ghana,GK,Abdul Manaf Nurudeen,Eupen,Belgium,Royal Belgian Football Association
+Group H,Ghana,DF,Tariq Lamptey,Brighton & Hove Albion,England,The Football Association
+Group H,Ghana,DF,Denis Odoi,Club Brugge,Belgium,Royal Belgian Football Association
+Group H,Ghana,DF,Mohammed Salisu,Southampton,England,The Football Association
+Group H,Ghana,MF,Thomas Partey,Arsenal,England,The Football Association
+Group H,Ghana,MF,Elisha Owusu,Gent,Belgium,Royal Belgian Football Association
+Group H,Ghana,MF,Abdul Fatawu Issahaku,Sporting CP,Portugal,Portuguese Football Federation
+Group H,Ghana,MF,Daniel-Kofi Kyereh,SC Freiburg,Germany,German Football Association
+Group H,Ghana,FW,Jordan Ayew,Crystal Palace,England,The Football Association
+Group H,Ghana,FW,André Ayew,Al-Sadd,Qatar,Qatar Football Association
+Group H,Ghana,MF,Osman Bukari,Red Star Belgrade,Serbia,Football Association of Serbia
 Group H,Ghana,GK,Ibrahim Danlad,Asante Kotoko,Ghana,Ghana Football Association
+Group H,Ghana,MF,Daniel Afriyie,Hearts of Oak,Ghana,Ghana Football Association
+Group H,Ghana,DF,Gideon Mensah,Auxerre,France,French Football Federation
+Group H,Ghana,DF,Joseph Aidoo,Celta Vigo,Spain,Royal Spanish Football Federation
+Group H,Ghana,GK,Abdul Manaf Nurudeen,Eupen,Belgium,Royal Belgian Football Association
 Group H,Ghana,DF,Baba Rahman,Reading,England,The Football Association
 Group H,Ghana,DF,Daniel Amartey,Leicester City,England,The Football Association
-Group H,Ghana,DF,Alexander Djiku,Strasbourg,France,French Football Federation
-Group H,Ghana,DF,Joseph Aidoo,Celta Vigo,Spain,Royal Spanish Football Federation
-Group H,Ghana,DF,Gideon Mensah,Auxerre,France,French Football Federation
-Group H,Ghana,DF,Denis Odoi,Club Brugge,Belgium,Royal Belgian Football Association
-Group H,Ghana,DF,Alidu Seidu,Clermont,France,French Football Federation
-Group H,Ghana,DF,Mohammed Salisu,Southampton,England,The Football Association
-Group H,Ghana,DF,Tariq Lamptey,Brighton & Hove Albion,England,The Football Association
-Group H,Ghana,MF,André Ayew,Al-Sadd,Qatar,Qatar Football Association
-Group H,Ghana,MF,Thomas Partey,Arsenal,England,The Football Association
-Group H,Ghana,MF,Mohammed Kudus,Ajax,Netherlands,Royal Dutch Football Association
-Group H,Ghana,MF,Daniel-Kofi Kyereh,SC Freiburg,Germany,German Football Association
-Group H,Ghana,MF,Elisha Owusu,Gent,Belgium,Royal Belgian Football Association
-Group H,Ghana,MF,Daniel Afriyie,Hearts of Oak,Ghana,Ghana Football Association
-Group H,Ghana,MF,Salis Abdul Samed,Lens,France,French Football Federation
-Group H,Ghana,FW,Jordan Ayew,Crystal Palace,England,The Football Association
-Group H,Ghana,FW,Kamaldeen Sulemana,Rennes,France,French Football Federation
-Group H,Ghana,FW,Abdul Fatawu Issahaku,Sporting CP,Portugal,Portuguese Football Federation
-Group H,Ghana,FW,Osman Bukari,Red Star Belgrade,Serbia,Football Association of Serbia
 Group H,Ghana,FW,Iñaki Williams,Athletic Bilbao,Spain,Royal Spanish Football Federation
+Group H,Ghana,MF,Mohammed Kudus,Ajax,Netherlands,Royal Dutch Football Association
+Group H,Ghana,MF,Salis Abdul Samed,Lens,France,French Football Federation
+Group H,Ghana,MF,Kamaldeen Sulemana,Rennes,France,French Football Federation
+Group H,Ghana,DF,Alexander Djiku,Strasbourg,France,French Football Federation
+Group H,Ghana,MF,Kamal Sowah,Club Brugge,Belgium,Royal Belgian Football Association
 Group H,Ghana,FW,Antoine Semenyo,Bristol City,England,The Football Association
-Group H,Ghana,FW,Kamal Sowah,Club Brugge,Belgium,Royal Belgian Football Association
+Group H,Ghana,DF,Alidu Seidu,Clermont,France,French Football Federation
 Group H,Portugal,GK,Rui Patrício,Roma,Italy,Italian Football Federation
-Group H,Portugal,GK,Diogo Costa,Porto,Portugal,Portuguese Football Federation
-Group H,Portugal,GK,José Sá,Wolverhampton Wanderers,England,The Football Association
-Group H,Portugal,DF,Pepe,Porto,Portugal,Portuguese Football Federation
-Group H,Portugal,DF,Danilo Pereira,Paris Saint-Germain,France,French Football Federation
-Group H,Portugal,DF,Raphaël Guerreiro,Borussia Dortmund,Germany,German Football Association
-Group H,Portugal,DF,Rúben Dias,Manchester City,England,The Football Association
-Group H,Portugal,DF,João Cancelo,Manchester City,England,The Football Association
-Group H,Portugal,DF,Nuno Mendes,Paris Saint-Germain,France,French Football Federation
 Group H,Portugal,DF,Diogo Dalot,Manchester United,England,The Football Association
-Group H,Portugal,DF,António Silva,Benfica,Portugal,Portuguese Football Federation
-Group H,Portugal,MF,William Carvalho,Real Betis,Spain,Royal Spanish Football Federation
-Group H,Portugal,MF,Bernardo Silva,Manchester City,England,The Football Association
-Group H,Portugal,MF,João Mário,Benfica,Portugal,Portuguese Football Federation
-Group H,Portugal,MF,Bruno Fernandes,Manchester United,England,The Football Association
-Group H,Portugal,MF,Rúben Neves,Wolverhampton Wanderers,England,The Football Association
+Group H,Portugal,DF,Pepe,Porto,Portugal,Portuguese Football Federation
+Group H,Portugal,DF,Rúben Dias,Manchester City,England,The Football Association
+Group H,Portugal,DF,Raphaël Guerreiro,Borussia Dortmund,Germany,German Football Association
 Group H,Portugal,MF,João Palhinha,Fulham,England,The Football Association
-Group H,Portugal,MF,Matheus Nunes,Wolverhampton Wanderers,England,The Football Association
-Group H,Portugal,MF,Otávio,Porto,Portugal,Portuguese Football Federation
-Group H,Portugal,MF,Vitinha,Paris Saint-Germain,France,French Football Federation
 Group H,Portugal,FW,Cristiano Ronaldo,Manchester United,England,The Football Association
+Group H,Portugal,MF,Bruno Fernandes,Manchester United,England,The Football Association
 Group H,Portugal,FW,André Silva,RB Leipzig,Germany,German Football Association
+Group H,Portugal,FW,Bernardo Silva,Manchester City,England,The Football Association
 Group H,Portugal,FW,João Félix,Atlético Madrid,Spain,Royal Spanish Football Federation
+Group H,Portugal,GK,José Sá,Wolverhampton Wanderers,England,The Football Association
+Group H,Portugal,DF,Danilo Pereira,Paris Saint-Germain,France,French Football Federation
+Group H,Portugal,MF,William Carvalho,Real Betis,Spain,Royal Spanish Football Federation
 Group H,Portugal,FW,Rafael Leão,Milan,Italy,Italian Football Federation
+Group H,Portugal,MF,Vitinha,Paris Saint-Germain,France,French Football Federation
+Group H,Portugal,MF,João Mário,Benfica,Portugal,Portuguese Football Federation
+Group H,Portugal,MF,Rúben Neves,Wolverhampton Wanderers,England,The Football Association
+Group H,Portugal,DF,Nuno Mendes,Paris Saint-Germain,France,French Football Federation
+Group H,Portugal,DF,João Cancelo,Manchester City,England,The Football Association
 Group H,Portugal,FW,Ricardo Horta,Braga,Portugal,Portuguese Football Federation
+Group H,Portugal,GK,Diogo Costa,Porto,Portugal,Portuguese Football Federation
+Group H,Portugal,MF,Matheus Nunes,Wolverhampton Wanderers,England,The Football Association
+Group H,Portugal,DF,António Silva,Benfica,Portugal,Portuguese Football Federation
+Group H,Portugal,MF,Otávio,Porto,Portugal,Portuguese Football Federation
 Group H,Portugal,FW,Gonçalo Ramos,Benfica,Portugal,Portuguese Football Federation
 Group H,South Korea,GK,Kim Seung-gyu,Al-Shabab,Saudi Arabia,Saudi Arabian Football Federation
-Group H,South Korea,GK,Jo Hyeon-woo,Ulsan Hyundai,South Korea,Korea Football Association
-Group H,South Korea,GK,Song Bum-keun,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
-Group H,South Korea,DF,Kim Young-gwon,Ulsan Hyundai,South Korea,Korea Football Association
-Group H,South Korea,DF,Kim Jin-su,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
-Group H,South Korea,DF,Hong Chul,Daegu FC,South Korea,Korea Football Association
-Group H,South Korea,DF,Kim Min-jae,Napoli,Italy,Italian Football Federation
-Group H,South Korea,DF,Kwon Kyung-won,Gamba Osaka,Japan,Japan Football Association
-Group H,South Korea,DF,Kim Moon-hwan,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
-Group H,South Korea,DF,Kim Tae-hwan,Ulsan Hyundai,South Korea,Korea Football Association
-Group H,South Korea,DF,Cho Yu-min,Daejeon Hana Citizen,South Korea,Korea Football Association
 Group H,South Korea,DF,Yoon Jong-gyu,FC Seoul,South Korea,Korea Football Association
-Group H,South Korea,MF,Son Heung-min,Tottenham Hotspur,England,The Football Association
+Group H,South Korea,DF,Kim Jin-su,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
+Group H,South Korea,DF,Kim Min-jae,Napoli,Italy,Italian Football Federation
 Group H,South Korea,MF,Jung Woo-young,Al-Sadd,Qatar,Qatar Football Association
+Group H,South Korea,MF,Hwang In-beom,Olympiacos,Greece,Hellenic Football Federation
+Group H,South Korea,MF,Son Heung-min,Tottenham Hotspur,England,The Football Association
+Group H,South Korea,MF,Paik Seung-ho,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
+Group H,South Korea,FW,Cho Gue-sung,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
 Group H,South Korea,MF,Lee Jae-sung,Mainz 05,Germany,German Football Association
 Group H,South Korea,MF,Hwang Hee-chan,Wolverhampton Wanderers,England,The Football Association
-Group H,South Korea,MF,Kwon Chang-hoon,Gimcheon Sangmu,South Korea,Korea Football Association
-Group H,South Korea,MF,Hwang In-beom,Olympiacos,Greece,Hellenic Football Federation
-Group H,South Korea,MF,Na Sang-ho,FC Seoul,South Korea,Korea Football Association
+Group H,South Korea,GK,Song Bum-keun,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
 Group H,South Korea,MF,Son Jun-ho,Shandong Taishan,China,Chinese Football Association
-Group H,South Korea,MF,Paik Seung-ho,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
-Group H,South Korea,MF,Song Min-kyu,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
-Group H,South Korea,MF,Jeong Woo-yeong,SC Freiburg,Germany,German Football Association
-Group H,South Korea,MF,Lee Kang-in,Mallorca,Spain,Royal Spanish Football Federation
+Group H,South Korea,DF,Hong Chul,Daegu FC,South Korea,Korea Football Association
+Group H,South Korea,DF,Kim Moon-hwan,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
 Group H,South Korea,FW,Hwang Ui-jo,Olympiacos,Greece,Hellenic Football Federation
-Group H,South Korea,FW,Cho Gue-sung,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
+Group H,South Korea,MF,Na Sang-ho,FC Seoul,South Korea,Korea Football Association
+Group H,South Korea,MF,Lee Kang-in,Mallorca,Spain,Royal Spanish Football Federation
+Group H,South Korea,DF,Kim Young-gwon,Ulsan Hyundai,South Korea,Korea Football Association
+Group H,South Korea,DF,Kwon Kyung-won,Gamba Osaka,Japan,Japan Football Association
+Group H,South Korea,GK,Jo Hyeon-woo,Ulsan Hyundai,South Korea,Korea Football Association
+Group H,South Korea,MF,Kwon Chang-hoon,Gimcheon Sangmu,South Korea,Korea Football Association
+Group H,South Korea,DF,Kim Tae-hwan,Ulsan Hyundai,South Korea,Korea Football Association
+Group H,South Korea,DF,Cho Yu-min,Daejeon Hana Citizen,South Korea,Korea Football Association
+Group H,South Korea,MF,Jeong Woo-yeong,SC Freiburg,Germany,German Football Association
+Group H,South Korea,MF,Song Min-kyu,Jeonbuk Hyundai Motors,South Korea,Korea Football Association
 Group H,Uruguay,GK,Fernando Muslera,Galatasaray,Turkey,Turkish Football Federation
-Group H,Uruguay,GK,Sergio Rochet,Nacional,Uruguay,Uruguayan Football Association
-Group H,Uruguay,GK,Sebastián Sosa,Independiente,Argentina,Argentine Football Association
-Group H,Uruguay,DF,Diego Godín,Vélez Sarsfield,Argentina,Argentine Football Association
-Group H,Uruguay,DF,Martín Cáceres,LA Galaxy,United States,United States Soccer Federation
 Group H,Uruguay,DF,José Giménez,Atlético Madrid,Spain,Royal Spanish Football Federation
-Group H,Uruguay,DF,Sebastián Coates,Sporting CP,Portugal,Portuguese Football Federation
-Group H,Uruguay,DF,Matías Viña,Roma,Italy,Italian Football Federation
+Group H,Uruguay,DF,Diego Godín,Vélez Sarsfield,Argentina,Argentine Football Association
 Group H,Uruguay,DF,Ronald Araújo,Barcelona,Spain,Royal Spanish Football Federation
-Group H,Uruguay,DF,Guillermo Varela,Flamengo,Brazil,Brazilian Football Confederation
-Group H,Uruguay,DF,Mathías Olivera,Napoli,Italy,Italian Football Federation
-Group H,Uruguay,DF,José Luis Rodríguez,Nacional,Uruguay,Uruguayan Football Association
 Group H,Uruguay,MF,Matías Vecino,Lazio,Italy,Italian Football Federation
 Group H,Uruguay,MF,Rodrigo Bentancur,Tottenham Hotspur,England,The Football Association
-Group H,Uruguay,MF,Federico Valverde,Real Madrid,Spain,Royal Spanish Football Federation
-Group H,Uruguay,MF,Giorgian de Arrascaeta,Flamengo,Brazil,Brazilian Football Confederation
-Group H,Uruguay,MF,Lucas Torreira,Galatasaray,Turkey,Turkish Football Federation
 Group H,Uruguay,MF,Nicolás de la Cruz,River Plate,Argentina,Argentine Football Association
-Group H,Uruguay,MF,Manuel Ugarte,Sporting CP,Portugal,Portuguese Football Federation
-Group H,Uruguay,FW,Luis Suárez,Nacional,Uruguay,Uruguayan Football Association
-Group H,Uruguay,FW,Edinson Cavani,Valencia,Spain,Royal Spanish Football Federation
-Group H,Uruguay,FW,Maxi Gómez,Trabzonspor,Turkey,Turkish Football Federation
-Group H,Uruguay,FW,Darwin Núñez,Liverpool,England,The Football Association
-Group H,Uruguay,FW,Facundo Torres,Orlando City SC,United States,United States Soccer Federation
 Group H,Uruguay,FW,Facundo Pellistri,Manchester United,England,The Football Association
-Group H,Uruguay,FW,Agustín Canobbio,Athletico Paranaense,Brazil,Brazilian Football Confederation
+Group H,Uruguay,FW,Luis Suárez,Nacional,Uruguay,Uruguayan Football Association
+Group H,Uruguay,MF,Giorgian de Arrascaeta,Flamengo,Brazil,Brazilian Football Confederation
+Group H,Uruguay,FW,Darwin Núñez,Liverpool,England,The Football Association
+Group H,Uruguay,GK,Sebastián Sosa,Independiente,Argentina,Argentine Football Association
+Group H,Uruguay,DF,Guillermo Varela,Flamengo,Brazil,Brazilian Football Confederation
+Group H,Uruguay,MF,Lucas Torreira,Galatasaray,Turkey,Turkish Football Federation
+Group H,Uruguay,MF,Federico Valverde,Real Madrid,Spain,Royal Spanish Football Federation
+Group H,Uruguay,DF,Mathías Olivera,Napoli,Italy,Italian Football Federation
+Group H,Uruguay,DF,Matías Viña,Roma,Italy,Italian Football Federation
+Group H,Uruguay,FW,Maxi Gómez,Trabzonspor,Turkey,Turkish Football Federation
+Group H,Uruguay,DF,Sebastián Coates,Sporting CP,Portugal,Portuguese Football Federation
+Group H,Uruguay,FW,Facundo Torres,Orlando City SC,United States,United States Soccer Federation
+Group H,Uruguay,FW,Edinson Cavani,Valencia,Spain,Royal Spanish Football Federation
+Group H,Uruguay,DF,Martín Cáceres,LA Galaxy,United States,United States Soccer Federation
+Group H,Uruguay,GK,Sergio Rochet,Nacional,Uruguay,Uruguayan Football Association
+Group H,Uruguay,MF,Agustín Canobbio,Athletico Paranaense,Brazil,Brazilian Football Confederation
+Group H,Uruguay,MF,Manuel Ugarte,Sporting CP,Portugal,Portuguese Football Federation
+Group H,Uruguay,DF,José Luis Rodríguez,Nacional,Uruguay,Uruguayan Football Association

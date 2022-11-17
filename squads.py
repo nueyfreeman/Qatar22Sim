@@ -91,5 +91,8 @@ class Player:
     def play_match(self):
         pass
 
+    def get_name(self):
+        return self.__name
+
     def get_position(self):
         return self.__position

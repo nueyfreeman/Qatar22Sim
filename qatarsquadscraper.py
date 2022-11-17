@@ -11,20 +11,32 @@ import bs4
 WIKI = 'https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads'
 
 
-def get_stats():
-    url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=sadio+mane'
+def get_stats(player_name):
+    name = player_name.replace(' ', '+')
+    url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=' + name
     session = HTMLSession()
     r = session.get(url)
-    runit = bs4.BeautifulSoup(r.content, 'html.parser')
-    words = runit.prettify
-    test_file = open('playersearch.html', 'w')
-    test_file.write(str(words))
-    test_file.close()
+    soup = bs4.BeautifulSoup(r.content, 'html.parser').find('div', 'large-12 columns').find('div', 'box').find('tbody')
+    link = soup.find('td', 'hauptlink').find('a')['href'].replace('profil', 'leistungsdaten')
+    home_link = 'https://www.transfermarkt.us'
+    stat_link = home_link + link
+
+    scrape_stats(stat_link, session)
+
+
+def scrape_stats(link, session):
+    stat_page = session.get(link)
+    soup = bs4.BeautifulSoup(stat_page.content, 'html.parser').body
+    content = soup.find('div', 'large-8 columns').find_all('div', 'box')
+    table = content[1].find('tfoot').find_all('td')
+    minutes = table[8].text.replace('\'', '').replace('.', '')
+    print(f'Matches - {table[2].text}, Goals - {table[3].text}, '
+          f'Assists - {table[4].text}, Minutes - {minutes}')
 
 
 def main():
-    output = open('QatarSquads.csv', 'w')
-    out_string = ''#'Group,Country,Position,Player,Club,ClubCountry,ClubAssoc\n'
+    output = open('QatarSquadsv2.csv', 'w')
+    out_string = ''
 
     r = requests.get(WIKI)
     body = bs4.BeautifulSoup(r.content, 'html.parser').body
@@ -56,4 +68,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    get_stats()

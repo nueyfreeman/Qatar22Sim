@@ -6,6 +6,7 @@ World Cup model
 import time
 import random as rand
 import squads
+import qatarsquadscraper
 
 GROUPS = 'ABCDEFGH'
 TEAM_POOL = {}
@@ -140,7 +141,9 @@ def show_teams():
         for k in TEAM_POOL[j]:
             team = TEAM_POOL[j][k]
             print(team)
-            #print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
+            random_player = team.get_roster()[rand.randint(0, len(team.get_roster())-1)].get_name()
+            print(random_player)
+            qatarsquadscraper.get_stats(random_player)
 
 
 def main():
@@ -148,8 +151,9 @@ def main():
     start_CPU = time.process_time()
 
     build_team_pool()
-    for i in range(1000):
+    for i in range(1):
         play_tourney()
+        show_teams()
         clear_teams()
 
     end_wall = time.time()
