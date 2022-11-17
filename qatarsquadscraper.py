@@ -13,6 +13,7 @@ WIKI = 'https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads'
 
 def get_stats(player_name, keeper=False):
     name = player_name.replace(' ', '+')
+    print(name)
     url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=' + name
     session = HTMLSession()
     r = session.get(url)
@@ -31,16 +32,20 @@ def get_stats(player_name, keeper=False):
 def scrape_stats(link, session, keeper=False):
     stat_page = session.get(link)
     soup = bs4.BeautifulSoup(stat_page.content, 'html.parser').body
-    content = soup.find('div', 'large-8 columns').find_all('div', 'box')
-    table = content[1].find('tfoot').find_all('td')
-    if not keeper:
-        minutes = table[8].text.replace('\'', '').replace('.', '')
-        #print(f'Matches - {table[2].text}, Goals - {table[3].text}, '
-        #      f'Assists - {table[4].text}, Minutes - {minutes}')
-        return f'{table[2].text},{table[3].text},{table[4].text},{minutes},0'
-    else:
-        #print(f'Matches = {table[2].text}, Clean Sheets - {table[8].text}')
-        return f'{table[2].text},0,0,0,{table[8].text}'
+    try:
+        content = soup.find('div', 'large-8 columns').find_all('div', 'box')
+        table = content[1].find('tfoot').find_all('td')
+        if not keeper:
+            minutes = table[8].text.replace('\'', '').replace('.', '')
+            # print(f'Matches - {table[2].text}, Goals - {table[3].text}, '
+            #      f'Assists - {table[4].text}, Minutes - {minutes}')
+            return f'{table[2].text},{table[3].text},{table[4].text},{minutes},0'
+        else:
+            # print(f'Matches = {table[2].text}, Clean Sheets - {table[8].text}')
+            return f'{table[2].text},0,0,0,{table[8].text}'
+    except IndexError:
+        print(f'Found non-player')
+        return '0,0,0,0,0'
 
 
 def main():
