@@ -12,12 +12,12 @@ WIKI = 'https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads'
 
 
 def get_stats():
-    url = 'https://www.transfermarkt.us/heung-min-son/leistungsdaten/spieler/91845'
+    url = 'https://www.transfermarkt.us/schnellsuche/ergebnis/schnellsuche?query=sadio+mane'
     session = HTMLSession()
     r = session.get(url)
     runit = bs4.BeautifulSoup(r.content, 'html.parser')
     words = runit.prettify
-    test_file = open('testhtml.txt', 'w')
+    test_file = open('playersearch.html', 'w')
     test_file.write(str(words))
     test_file.close()
 

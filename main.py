@@ -3,6 +3,7 @@ Qatar 2022
 World Cup model
 """
 
+import time
 import random as rand
 import squads
 
@@ -124,6 +125,13 @@ def match(t1, t2, stage):
     return play()
 
 
+# clear the stats of all teams
+def clear_teams():
+    for j in TEAM_POOL:
+        for k in TEAM_POOL[j]:
+            TEAM_POOL[j][k].clear()
+
+
 # prints all team stats, mostly for debugging
 def show_teams():
     for j in TEAM_POOL:
@@ -136,9 +144,20 @@ def show_teams():
 
 
 def main():
+    start_wall = time.time()
+    start_CPU = time.process_time()
+
     build_team_pool()
-    play_tourney()
-    show_teams()
+    for i in range(1000):
+        play_tourney()
+        clear_teams()
+
+    end_wall = time.time()
+    end_CPU = time.process_time()
+
+    print()
+    print(f'Wall time: {end_wall - start_wall}')
+    print(f'CPU time: {end_CPU - start_CPU}')
 
 
 if __name__ == '__main__':

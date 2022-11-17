@@ -43,7 +43,7 @@ class Team:
         self.__lost_to.append(beat_by)
         self.__exit_stage.append(exit_stage)
 
-    def clear_sim(self):
+    def clear(self):
         self.__wins = 0
         self.__points = 0
         self.__ties = 0
