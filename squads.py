@@ -14,10 +14,11 @@ class Team:
 
         self.__wins = 0
         self.__points = 0
+        self.__ties = 0
 
     def __str__(self):
-        return f'{self.__group} {self.__country}: ' \
-               f'{self.__wins}-wins, {self.__points}-points, {len(self.__roster)}-players'
+        return f'{self.__country}: ' \
+               f'{self.__wins}-wins, {self.__ties}-ties, lost to {self.__lost_to} in {self.__exit_stage}'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
@@ -25,12 +26,15 @@ class Team:
     def add_win(self):
         self.__wins += 1
 
+    def add_tie(self):
+        self.__ties += 1
+
     def add_points(self, num):
         self.__points += num
 
     def eliminated(self, exit_stage, beat_by='Lost in group'):
-        self.__exit_stage.append(exit_stage)
-        self.__lost_to.append(beat_by)
+        self.__exit_stage = exit_stage
+        self.__lost_to = beat_by
         self.__matches_won.append(self.__wins)
         self.__points_in_group.append(self.__points)
 
@@ -52,9 +56,6 @@ class Team:
 
     def set_fifa_score(self):
         pass
-
-    def team_exists(self):
-        return True
 
     def matchday(self):
         def get_11():
