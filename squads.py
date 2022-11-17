@@ -15,11 +15,13 @@ class Team:
         self.__wins = 0
         self.__points = 0
         self.__ties = 0
+        self.__lost = ''
+        self.__exit = ''
 
     def __str__(self):
         return f'{self.__country}: ' \
                f'{self.__wins}-wins, {self.__ties}-ties, {self.__points}-points, ' \
-               f'lost to {self.__lost_to} in {self.__exit_stage}'
+               f'lost {self.__lost_to} in {self.__exit_stage}'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
@@ -33,15 +35,20 @@ class Team:
     def add_points(self, num):
         self.__points += num
 
-    def eliminated(self, exit_stage, beat_by='Lost in group'):
-        self.__exit_stage = exit_stage
-        self.__lost_to = beat_by
+    def eliminated(self, exit_stage, beat_by=''):
+        self.__exit = exit_stage
+        self.__lost = f'to {beat_by}'
         self.__matches_won.append(self.__wins)
         self.__points_in_group.append(self.__points)
+        self.__lost_to.append(beat_by)
+        self.__exit_stage.append(exit_stage)
 
     def clear_sim(self):
         self.__wins = 0
         self.__points = 0
+        self.__ties = 0
+        self.__lost = ''
+        self.__exit = ''
 
     def get_country(self):
         return self.__country

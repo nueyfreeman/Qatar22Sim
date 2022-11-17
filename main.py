@@ -7,7 +7,6 @@ import random as rand
 import squads
 
 GROUPS = 'ABCDEFGH'
-WINNERS = {g: [1, 2] for g in GROUPS}
 TEAM_POOL = {}
 
 
@@ -63,7 +62,8 @@ def play_knockouts(aa, ab, ba, bb, ca, cb, da, db, ea, eb, fa, fb, ga, gb, ha, h
     print(champion.get_country())
 
 
-def play_groups():
+# play through tourney from group stage to championship
+def play_tourney():
     winners = {g: [1, 2] for g in GROUPS}  # reinitialize group winners dict
     for g in TEAM_POOL:
         group = TEAM_POOL[g]  # each group
@@ -80,7 +80,24 @@ def play_groups():
             else:
                 gt[t].eliminated('Group stage')
 
+    m49 = match(winners['A'][0], winners['B'][1], '16')  # place winners of group stage into knockout round
+    m50 = match(winners['C'][0], winners['D'][1], '16')  # see official Fifa World Cup bracket for match-up structure
+    m51 = match(winners['E'][0], winners['F'][1], '16')  # ('A' = Group A, 'B' = Group B, etc)
+    m52 = match(winners['G'][0], winners['H'][1], '16')  # ( 0 = Winner; 1 = Runner-Up)
+    m53 = match(winners['B'][0], winners['A'][1], '16')  # ex. ['A'][1] = Group A Runner-Up, ['F'][0] = Group F Winner
+    m54 = match(winners['D'][0], winners['C'][1], '16')
+    m55 = match(winners['F'][0], winners['E'][1], '16')
+    m56 = match(winners['H'][0], winners['G'][1], '16')
 
+    m57 = match(m49, m50, 'quarters')
+    m58 = match(m51, m52, 'quarters')
+    m59 = match(m53, m54, 'quarters')
+    m60 = match(m55, m56, 'quarters')
+
+    m61 = match(m57, m58, 'semis')  # put the losers somewhere
+    m62 = match(m59, m60, 'semis')
+
+    match(m61, m62, 'final')
 
 
 # nested loops -- each team meets one time
@@ -127,19 +144,7 @@ def match(t1, t2, stage):
     return play()
 
 
-def main():
-    build_team_pool()
-    """
-    play_knockouts(TEAM_POOL['A']['Ecuador'], TEAM_POOL['B']['Iran'], TEAM_POOL['B']['Wales'], TEAM_POOL['A']['Qatar'],
-                   TEAM_POOL['C']['Mexico'], TEAM_POOL['D']['France'], TEAM_POOL['D']['Tunisia'],
-                   TEAM_POOL['C']['Poland'], TEAM_POOL['E']['Japan'], TEAM_POOL['F']['Canada'],
-                   TEAM_POOL['F']['Croatia'], TEAM_POOL['E']['Spain'], TEAM_POOL['G']['Brazil'],
-                   TEAM_POOL['H']['Ghana'], TEAM_POOL['H']['Portugal'], TEAM_POOL['G']['Serbia'])
-    """
-    play_groups()
-    show_teams()
-
-
+# prints all team stats, mostly for debugging
 def show_teams():
     for j in TEAM_POOL:
         print()
@@ -148,6 +153,12 @@ def show_teams():
             team = TEAM_POOL[j][k]
             print(team)
             #print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
+
+
+def main():
+    build_team_pool()
+    play_tourney()
+    show_teams()
 
 
 if __name__ == '__main__':
