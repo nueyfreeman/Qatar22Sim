@@ -1,7 +1,7 @@
 
 
 class Team:
-    def __init__(self, group, country, fifa_rank):
+    def __init__(self, group, country, fifa_rank=1):
         self.__country = country
         self.__group = group
         self.__roster = []
@@ -35,6 +35,19 @@ class Team:
     def add_points(self, num):
         self.__points += num
 
+    def matchday(self):
+        def get_11():
+            eleven = []
+            for each in self.__roster:
+                eleven.append(each)
+            return eleven
+        in_side = get_11()
+        pform = self.__fifa_rank
+        for p in in_side:
+            if p.play_match():
+                pform += p.play_match()
+        return pform
+
     def eliminated(self, exit_stage, beat_by=''):
         self.__exit = exit_stage
         self.__lost = beat_by
@@ -65,34 +78,64 @@ class Team:
     def set_fifa_score(self):
         pass
 
-    def matchday(self):
-        def get_11():
-            return self.__roster
-        in_side = get_11()
-        pform = self.__fifa_rank
-        for p in in_side:
-            if p.play_match():
-                pform += p.play_match()
-        return pform
-
 
 class Player:
-    def __init__(self, eyed, name, position):
+    def __init__(self, eyed, name, position, gax90=0, csx90=0):
         self.__id = eyed
         self.__name = name
         self.__position = position
-        self.__gx90 = float(0)
-        self.__ax90 = float(0)
-        self.__csx90 = float(0)
+        self.__gax90 = float(gax90)
+        self.__csx90 = float(csx90)
+        self.__form = self.calc_form()
 
     def __str__(self):
         return f'#{self.__id} {self.__position} {self.__name}'
 
+    def calc_form(self):
+        if self.__position == 'GK':
+            return self.__csx90
+        else:
+            return self.__gax90
+
+    def influence(self):
+        if self.__position == 'GK':
+            return 250
+        elif self.__position == 'DF':
+            return 200
+        elif self.__position == 'MF':
+            return 150
+        elif self.__position == 'FW':
+            return 110
+
     def play_match(self):
-        pass
+        return int((self.__form * self.influence()) // 1)
 
     def get_name(self):
         return self.__name
 
     def get_position(self):
         return self.__position
+
+
+class Keeper(Player):
+    def __init__(self, eyed, name, position, form):
+        super().__init__(eyed, name, position, form)
+        self.__influence = 250
+
+
+class Defender(Player):
+    def __init__(self, eyed, name, position, form):
+        super().__init__(eyed, name, position, form)
+        self.__influence = 200
+
+
+class Midfielder(Player):
+    def __init__(self, eyed, name, position, form):
+        super().__init__(eyed, name, position, form)
+        self.__influence = 150
+
+
+class Forward(Player):
+    def __init__(self, eyed, name, position, form):
+        super().__init__(eyed, name, position, form)
+        self.__influence = 110

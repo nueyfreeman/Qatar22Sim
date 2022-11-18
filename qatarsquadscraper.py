@@ -75,10 +75,7 @@ def main():
                     name = p[5].find('a').text.strip()
                     club = p[13]
                     c = club.text.strip()
-                    c_assoc = club.find('span').find('a')['title']
                     c_country = club.find('img')['alt']
-                    #print(f'{position}, {name}, {c}, {c_country}')
-                    stats = '0,0,0,0,0'
                     if position == 'GK':
                         stats = get_stats(errors, name, True)
                     else:
@@ -87,5 +84,21 @@ def main():
         output.write(out_string)
 
 
+def get_koreans():
+    with open('koreans.csv', 'w') as data, open('kerrors.csv', 'w') as kerrors:
+        koreans = 'Yoon Jong-gyu,Kim Jin-su,Kim Min-jae,Jung Woo-young,Hwang In-beom,Son Heung-min,' \
+                  'Paik Seung-ho,Cho Gue-sung,Lee Jae-sung,Hwang Hee-chan,Son Jun-ho,Kim Moon-hwan,' \
+                  'Hwang Ui-jo,Na Sang-ho,Lee Kang-in,Kim Young-gwon,Kwon Kyung-won,Kwon Chang-hoon,' \
+                  'Kim Tae-hwan,Cho Yu-min,Jeong Woo-yeong,Song Min-kyu'
+        klist = koreans.split(',')
+        out_string = ''
+        for k in klist:
+            name = k.split(' ')
+            rename = name[1] + ' ' + name[0]
+            stats = get_stats(kerrors, rename)
+            out_string += f'{rename},{stats}\n'
+        data.write(out_string)
+
+
 if __name__ == '__main__':
-    main()
+    xget_koreans()

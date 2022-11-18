@@ -15,29 +15,27 @@ TEAM_POOL = {}
 def build_team_pool():
     for i in GROUPS:
         TEAM_POOL[i] = {}
-    file = open('QatarSquads.csv')
-    i = 0
+    with open('QatarSquadsv2mod.csv') as file:
+        i = 0
+        for line in file:
+            i += 1
+            data = line.split(',')
 
-    for line in file:
-        i += 1
-        data = line.split(',')
+            if not data[0] == 'Group':
+                # expect exception if the team hasn't been made yet -- if error, then make team before adding player
+                try:
+                    TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12]))
+                except (TypeError, KeyError):
+                    TEAM_POOL[data[0][6]][data[1]] = squads.Team(data[0][6], data[1]) #, rand.randint(0, 100))
+                    TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12]))
 
-        if not data[0] == 'Group':
-            # expect exception if the team hasn't been made yet -- if error, then make team before adding player
-            try:
-                TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2]))
-            except (TypeError, KeyError):
-                TEAM_POOL[data[0][6]][data[1]] = squads.Team(data[0][6], data[1], rand.randint(0, 100))
-                TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2]))
-
-        """ UNCOMMENT TO DEBUG
-        if i % 100 == 0:
-            team = TEAM_POOL[data[0][6]][data[1]]
-            print(team)
-            print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
-            print()
-        """
-    file.close()
+            """ UNCOMMENT TO DEBUG
+            if i % 100 == 0:
+                team = TEAM_POOL[data[0][6]][data[1]]
+                print(team)
+                print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
+                print()
+            """
 
 
 # play through tourney from group stage to championship
@@ -144,22 +142,32 @@ def show_teams():
             #print(random_player)
 
 
+def results():
+    for j in TEAM_POOL:
+        print()
+        print(j)
+        for k in TEAM_POOL[j]:
+            team = TEAM_POOL[j][k]
+
+
+
 def main():
     start_wall = time.time()
-    start_CPU = time.process_time()
+    start_cpu = time.process_time()
 
     build_team_pool()
     for i in range(1):
         play_tourney()
-        show_teams()
         clear_teams()
 
+
+
     end_wall = time.time()
-    end_CPU = time.process_time()
+    end_cpu = time.process_time()
 
     print()
     print(f'Wall time: {end_wall - start_wall}')
-    print(f'CPU time: {end_CPU - start_CPU}')
+    print(f'CPU time: {end_cpu - start_cpu}')
 
 
 if __name__ == '__main__':
