@@ -23,11 +23,12 @@ def build_team_pool():
 
             if not data[0] == 'Group':
                 # expect exception if the team hasn't been made yet -- if error, then make team before adding player
+                index = TEAM_POOL[data[0][6]]
                 try:
-                    TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12]))
+                    index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
                 except (TypeError, KeyError):
-                    TEAM_POOL[data[0][6]][data[1]] = squads.Team(data[0][6], data[1]) #, rand.randint(0, 100))
-                    TEAM_POOL[data[0][6]][data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12]))
+                    index[data[1]] = squads.Team(data[0][6], data[1]) #, rand.randint(0, 100))
+                    index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
 
             """ UNCOMMENT TO DEBUG
             if i % 100 == 0:
@@ -130,7 +131,7 @@ def clear_teams():
             TEAM_POOL[j][k].clear()
 
 
-# prints all team stats, mostly for debugging
+# prints all teams, mostly for debugging
 def show_teams():
     for j in TEAM_POOL:
         print()
@@ -142,13 +143,24 @@ def show_teams():
             #print(random_player)
 
 
+# create csv containing player and team influences for sim, allows user to add comment in file
+def static_team_analysis():
+    with open(str(input('Enter filename: ') + '.csv'), 'w') as file:
+        file.write(str(input('Any notes for this sim? ') + '\n'))
+        for j in TEAM_POOL:
+            print()
+            print(j)
+            for k in TEAM_POOL[j]:
+                team = TEAM_POOL[j][k]
+                file.write(str(team))
+                team.show_full_roster(file)
+
+
 def results():
     for j in TEAM_POOL:
-        print()
-        print(j)
         for k in TEAM_POOL[j]:
             team = TEAM_POOL[j][k]
-
+            team.calc_results()
 
 
 def main():
@@ -159,8 +171,7 @@ def main():
     for i in range(1):
         play_tourney()
         clear_teams()
-
-
+    static_team_analysis()
 
     end_wall = time.time()
     end_cpu = time.process_time()

@@ -19,9 +19,7 @@ class Team:
         self.__exit = ''
 
     def __str__(self):
-        return f'{self.__country}: ' \
-               f'{self.__wins}-wins, {self.__ties}-ties, {self.__points}-points, ' \
-               f'lost {self.__lost} in {self.__exit}'
+        return f'{self.__country},{self.matchday()},,,,\n'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
@@ -75,31 +73,45 @@ class Team:
     def get_points(self):
         return self.__points
 
+    def show_full_roster(self, file=None):
+        for p in self.__roster:
+            if file:
+                file.write(str(p))
+            else:
+                print(p)
+
     def set_fifa_score(self):
         pass
 
 
 class Player:
-    def __init__(self, eyed, name, position, gax90=0, csx90=0):
+    def __init__(self, eyed, name, position, gax90=0, csx90=0, matches=10):
         self.__id = eyed
         self.__name = name
         self.__position = position
+        self.__matches = int(matches)
         self.__gax90 = float(gax90)
         self.__csx90 = float(csx90)
         self.__form = self.calc_form()
 
     def __str__(self):
-        return f'#{self.__id} {self.__position} {self.__name}'
+        return f',,{self.play_match()},{self.__position},{self.__name},{self.__form}\n'
 
     def calc_form(self):
         if self.__position == 'GK':
-            return self.__csx90
+            form = self.__csx90
         else:
-            return self.__gax90
+            form = self.__gax90
+        if self.__matches <= 3:
+            return form * 0.5
+        elif 3 < self.__matches <= 5:
+            return form * 0.6
+        else:
+            return form
 
     def influence(self):
         if self.__position == 'GK':
-            return 250
+            return 200
         elif self.__position == 'DF':
             return 200
         elif self.__position == 'MF':
@@ -115,27 +127,3 @@ class Player:
 
     def get_position(self):
         return self.__position
-
-
-class Keeper(Player):
-    def __init__(self, eyed, name, position, form):
-        super().__init__(eyed, name, position, form)
-        self.__influence = 250
-
-
-class Defender(Player):
-    def __init__(self, eyed, name, position, form):
-        super().__init__(eyed, name, position, form)
-        self.__influence = 200
-
-
-class Midfielder(Player):
-    def __init__(self, eyed, name, position, form):
-        super().__init__(eyed, name, position, form)
-        self.__influence = 150
-
-
-class Forward(Player):
-    def __init__(self, eyed, name, position, form):
-        super().__init__(eyed, name, position, form)
-        self.__influence = 110
