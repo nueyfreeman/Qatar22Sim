@@ -146,7 +146,7 @@ def show_teams():
 
 # create csv containing player and team influences for sim, allows user to add comment in file
 def static_team_analysis():
-    with open(str(input('Enter filename: ') + '.csv'), 'w') as file:
+    with open(str(input('Enter filename for team analysis: ') + '.csv'), 'w') as file:
         file.write(str(input('Any notes for this sim? ') + '\n'))
         for j in TEAM_POOL:
             print()
@@ -158,11 +158,13 @@ def static_team_analysis():
 
 
 def results():
-    for j in TEAM_POOL:
-        for k in TEAM_POOL[j]:
-            team = TEAM_POOL[j][k]
-            print()
-            print(team.calc_results())
+    with open(str(input('Enter filename for results: ') + '.csv'), 'w') as rslt:
+        rslt.write(str(input('Any notes for this sim? ') + '\n'))
+        for j in TEAM_POOL:
+            for k in TEAM_POOL[j]:
+                team = TEAM_POOL[j][k]
+                #print()
+                rslt.write(str(team.calc_results()))
 
 
 def main():
@@ -170,7 +172,7 @@ def main():
     start_cpu = time.process_time()
 
     build_team_pool()
-    for i in range(10000):
+    for i in range(1000):
         play_tourney()
         clear_teams()
     results()

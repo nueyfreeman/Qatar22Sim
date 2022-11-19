@@ -24,17 +24,33 @@ class Team:
     def calc_results(self):
         num_sims = len(self.__matches_won)
 
+        # Average Matches Won
         matches = 0
         for i in self.__matches_won:
             matches += i
         avg_wins = matches / num_sims
 
+        # Average Points in Group Stage
         points = 0
         for j in self.__points_in_group:
             points += j
         avg_points = points / num_sims
 
-        return f'{self.get_country()}: Avg Wins-{avg_wins}, Avg Points-{avg_points}'
+        # Exit Stage Distribution
+        gs = 'Group Stage'
+        group = (self.__exit_stage.count(gs) // num_sims) * 100
+        six = '16'
+        ro16 = (self.__exit_stage.count(six) // num_sims) * 100
+        eight = 'Quarterfinals'
+        qtrs = (self.__exit_stage.count(eight) // num_sims) * 100
+        four = 'Semifinals'
+        third = (self.__exit_stage.count(four) // num_sims) * 100
+        two = 'Final'
+        rnup = (self.__exit_stage.count(two) // num_sims) * 100
+        one = 'Champion'
+        chmp = (self.__exit_stage.count(one) // num_sims) * 100
+
+        return f'{self.get_country()},{avg_wins},{avg_points},{group},{ro16},{qtrs},{third},{rnup},{chmp}\n'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
