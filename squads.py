@@ -21,6 +21,21 @@ class Team:
     def __str__(self):
         return f'{self.__country},{self.matchday()},,,,\n'
 
+    def calc_results(self):
+        num_sims = len(self.__matches_won)
+
+        matches = 0
+        for i in self.__matches_won:
+            matches += i
+        avg_wins = matches / num_sims
+
+        points = 0
+        for j in self.__points_in_group:
+            points += j
+        avg_points = points / num_sims
+
+        return f'{self.get_country()}: Avg Wins-{avg_wins}, Avg Points-{avg_points}'
+
     def add_to_roster(self, player):
         self.__roster.append(player)
 
@@ -60,6 +75,7 @@ class Team:
         self.__ties = 0
         self.__lost = ''
         self.__exit = ''
+
 
     def get_country(self):
         return self.__country
@@ -117,7 +133,7 @@ class Player:
         elif self.__position == 'MF':
             return 150
         elif self.__position == 'FW':
-            return 110
+            return 130
 
     def play_match(self):
         return int((self.__form * self.influence()) // 1)

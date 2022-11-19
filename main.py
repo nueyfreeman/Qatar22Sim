@@ -75,6 +75,7 @@ def play_tourney():
     m62 = match(m59, m60, 'Semifinals')
 
     m64 = match(m61, m62, 'Final')
+    m64.eliminated('Champion', 'Nobody')
 
     print()
     print(f'The champion is {m64}')
@@ -160,7 +161,8 @@ def results():
     for j in TEAM_POOL:
         for k in TEAM_POOL[j]:
             team = TEAM_POOL[j][k]
-            team.calc_results()
+            print()
+            print(team.calc_results())
 
 
 def main():
@@ -168,10 +170,10 @@ def main():
     start_cpu = time.process_time()
 
     build_team_pool()
-    for i in range(1):
+    for i in range(10000):
         play_tourney()
         clear_teams()
-    static_team_analysis()
+    results()
 
     end_wall = time.time()
     end_cpu = time.process_time()
