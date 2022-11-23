@@ -27,7 +27,7 @@ def build_team_pool():
                 try:
                     index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
                 except (TypeError, KeyError):
-                    index[data[1]] = squads.Team(data[0][6], data[1]) #, rand.randint(0, 100))
+                    index[data[1]] = squads.Team(data[0][6], data[1])
                     index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
 
             """ UNCOMMENT TO DEBUG
@@ -37,6 +37,16 @@ def build_team_pool():
                 print(team.get_roster()[rand.randint(0, len(team.get_roster())-1)])
                 print()
             """
+
+    with open('team_stats_v1.csv') as team_data:
+        for line in team_data:
+            data = line.split(',')
+
+            try:
+                TEAM_POOL[data[0]][data[1]].add_tie_chance(data[8])
+                TEAM_POOL[data[0]][data[1]].add_defense(data[7])
+            except KeyError:
+                print('No data for this line')
 
 
 # play through tourney from group stage to championship
@@ -77,9 +87,8 @@ def play_tourney():
     m64 = match(m61, m62, 'Final')
     m64.eliminated('Champion', 'Nobody')
 
-    print()
-    print(f'The champion is {m64}')
-    print()
+    #print()
+    #print(f'The champion is {m64}')
 
 
 # nested loops for group stage - each team meets one time
@@ -91,28 +100,34 @@ def group_matches(group_list):
 
 # function to play one match, returns a winner and eliminates loser in non-group matches, otherwise returns None
 def match(t1, t2, stage):
+    tie1 = t1.get_tie_chance()
+    tie2 = t2.get_tie_chance()
+    tie = (tie1 + tie2) / 2
+
     team1 = t1.matchday()
     team2 = t2.matchday()
-    prob = team1 + team2
+
+    draw = int((team1 + team2) * tie)
+    prob = team1 + team2 + draw
 
     def play():
         chance = rand.randint(0, prob)
         winner = None
-        if chance > team1:  # team 2 wins
+        if chance <= team2:  # team 2 wins
             t2.add_win()
             if stage == 'group':  # for group match, only add points
                 t2.add_points(3)
             else:  # for knockout match - eliminate loser & return winner
                 t1.eliminated(stage, f'to {t2.get_country()}')
                 winner = t2
-        elif chance < team1:  # team 1 wins
+        elif (team1 + team2) >= chance > team2:  # team 1 wins
             t1.add_win()
             if stage == 'group':
                 t1.add_points(3)  # three points for winner
             else:
                 t2.eliminated(stage, f'to {t1.get_country()}')  # record exit stats including stage and opponent
                 winner = t1
-        elif chance == team1:  # tie
+        else:  # tie
             if stage == 'group':
                 t1.add_points(1)  # one point for tie
                 t2.add_points(1)
@@ -149,10 +164,9 @@ def static_team_analysis():
     with open(str(input('Enter filename for team analysis: ') + '.csv'), 'w') as file:
         file.write(str(input('Any notes for this sim? ') + '\n'))
         for j in TEAM_POOL:
-            print()
-            print(j)
             for k in TEAM_POOL[j]:
                 team = TEAM_POOL[j][k]
+                file.write(str(f'{team.get_group()},{team.get_country()}\n'))
                 file.write(str(team))
                 team.show_full_roster(file)
 
@@ -163,7 +177,6 @@ def results():
         for j in TEAM_POOL:
             for k in TEAM_POOL[j]:
                 team = TEAM_POOL[j][k]
-                #print()
                 rslt.write(str(team.calc_results()))
 
 
@@ -172,9 +185,12 @@ def main():
     start_cpu = time.process_time()
 
     build_team_pool()
+
     for i in range(1000):
         play_tourney()
         clear_teams()
+
+    static_team_analysis()
     results()
 
     end_wall = time.time()

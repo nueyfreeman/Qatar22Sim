@@ -7,6 +7,9 @@ class Team:
         self.__roster = []
         self.__fifa_rank = fifa_rank
 
+        self.__tie_chance = 0
+        self.__defense = 0
+
         self.__points_in_group = []
         self.__lost_to = []
         self.__exit_stage = []
@@ -19,6 +22,7 @@ class Team:
         self.__exit = ''
 
     def __str__(self):
+        #return f'{self.__country}: {self.__wins}-W, {self.__ties}-T; {self.__exit}'
         return f'{self.__country},{self.matchday()},,,,\n'
 
     def calc_results(self):
@@ -38,22 +42,28 @@ class Team:
 
         # Exit Stage Distribution
         gs = 'Group Stage'
-        group = (self.__exit_stage.count(gs) // num_sims) * 100
+        group = (self.__exit_stage.count(gs) / num_sims) * 100
         six = '16'
-        ro16 = (self.__exit_stage.count(six) // num_sims) * 100
+        ro16 = (self.__exit_stage.count(six) / num_sims) * 100
         eight = 'Quarterfinals'
-        qtrs = (self.__exit_stage.count(eight) // num_sims) * 100
+        qtrs = (self.__exit_stage.count(eight) / num_sims) * 100
         four = 'Semifinals'
-        third = (self.__exit_stage.count(four) // num_sims) * 100
+        third = (self.__exit_stage.count(four) / num_sims) * 100
         two = 'Final'
-        rnup = (self.__exit_stage.count(two) // num_sims) * 100
+        rnup = (self.__exit_stage.count(two) / num_sims) * 100
         one = 'Champion'
-        chmp = (self.__exit_stage.count(one) // num_sims) * 100
+        chmp = (self.__exit_stage.count(one) / num_sims) * 100
 
         return f'{self.get_country()},{avg_wins},{avg_points},{group},{ro16},{qtrs},{third},{rnup},{chmp}\n'
 
     def add_to_roster(self, player):
         self.__roster.append(player)
+
+    def add_tie_chance(self, num):
+        self.__tie_chance = float(num)
+
+    def add_defense(self, defense):
+        self.__defense = float(defense)
 
     def add_win(self):
         self.__wins += 1
@@ -75,6 +85,7 @@ class Team:
         for p in in_side:
             if p.play_match():
                 pform += p.play_match()
+        pform += (self.__defense * 100) // 1
         return pform
 
     def eliminated(self, exit_stage, beat_by=''):
@@ -92,7 +103,6 @@ class Team:
         self.__lost = ''
         self.__exit = ''
 
-
     def get_country(self):
         return self.__country
 
@@ -105,15 +115,15 @@ class Team:
     def get_points(self):
         return self.__points
 
+    def get_tie_chance(self):
+        return self.__tie_chance
+
     def show_full_roster(self, file=None):
         for p in self.__roster:
             if file:
                 file.write(str(p))
             else:
                 print(p)
-
-    def set_fifa_score(self):
-        pass
 
 
 class Player:
