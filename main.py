@@ -1,6 +1,9 @@
 """
 Qatar 2022
-World Cup model
+
+A mathematically simple model of the 2022 Fifa World Cup in Qatar, with randomized results based on player
+and team data scraped for educational purposes only. Results are written to csv files. Works with squads.py,
+qatarsquadscraper.py, and player and team data in csv files (QatarSquadsv2mod.csv & team_stats_v1.csv).
 """
 
 import time
@@ -14,23 +17,27 @@ TEAM_POOL = {}
 # reads in scraped data from csv, creates team objects in nested dictionaries, and fills their rosters
 def build_team_pool():
     for i in GROUPS:
-        TEAM_POOL[i] = {}
+        TEAM_POOL[i] = {}  # key for each group is a single letter A through H
+
+    # reads in scraped and cleaned player data, while creating corresponding teams if necessary
     with open('QatarSquadsv2mod.csv') as file:
         i = 0
         for line in file:
-            i += 1
-            data = line.split(',')
+            i += 1  # gives each player a unique id number for debugging
+            data = line.split(',')  # converts line of csv file to a list where data in each index is known
 
-            if not data[0] == 'Group':
-                # expect exception if the team hasn't been made yet -- if error, then make team before adding player
-                index = TEAM_POOL[data[0][6]]
-                try:
-                    index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
-                except (TypeError, KeyError):
-                    index[data[1]] = squads.Team(data[0][6], data[1])
-                    index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
+            # see QatarSquads.csv to verify what player data corresponds to which index when initializing player objects
 
-            """ UNCOMMENT TO DEBUG
+            index = TEAM_POOL[data[0][6]]  # selects proper group using key derived from string data -- ex. 'Group A'
+
+            # expect exception if the team hasn't been made yet -- if error, then make team before adding player
+            try:
+                index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
+            except (TypeError, KeyError):
+                index[data[1]] = squads.Team(data[0][6], data[1])  # to make the team object first
+                index[data[1]].add_to_roster(squads.Player(i, data[3], data[2], data[11], data[12], data[6]))
+
+            """ UNCOMMENT TO DEBUG DATA LOADING
             if i % 100 == 0:
                 team = TEAM_POOL[data[0][6]][data[1]]
                 print(team)
@@ -38,6 +45,7 @@ def build_team_pool():
                 print()
             """
 
+    # add team data (manually collected) to team objects
     with open('team_stats_v1.csv') as team_data:
         for line in team_data:
             data = line.split(',')
@@ -56,16 +64,16 @@ def play_tourney():
         group = TEAM_POOL[g]  # each group
         gt = []
         for t in group.values():
-            gt.append(t)  # place teams in list
+            gt.append(t)  # place teams objects in list
         group_matches(gt)  # play matches
         gt.sort(key=lambda a: a.get_points(), reverse=True)  # sort list descending by points
         for t in range(len(gt)):  # place winners & eliminate losers
             if t == 0:
-                winners[g][0] = gt[t]
+                winners[g][0] = gt[t]  # first in list after sorting added to winner dict as top finisher
             elif t == 1:
-                winners[g][1] = gt[t]
+                winners[g][1] = gt[t]  # second in list
             else:
-                gt[t].eliminated('Group Stage')
+                gt[t].eliminated('Group Stage')  # eliminate others
 
     m49 = match(winners['A'][0], winners['B'][1], '16')  # place winners of group stage into knockout round
     m50 = match(winners['C'][0], winners['D'][1], '16')  # see official Fifa World Cup bracket for match-up structure
@@ -76,39 +84,48 @@ def play_tourney():
     m55 = match(winners['F'][0], winners['E'][1], '16')
     m56 = match(winners['H'][0], winners['G'][1], '16')
 
-    m57 = match(m49, m50, 'Quarterfinals')
+    m57 = match(m49, m50, 'Quarterfinals')  # winner of match 49 plays winner of match 50, etc
     m58 = match(m51, m52, 'Quarterfinals')
     m59 = match(m53, m54, 'Quarterfinals')
     m60 = match(m55, m56, 'Quarterfinals')
 
-    m61 = match(m57, m58, 'Semifinals')  # put the losers somewhere
+    m61 = match(m57, m58, 'Semifinals')  # not modeling third place game
     m62 = match(m59, m60, 'Semifinals')
 
     m64 = match(m61, m62, 'Final')
-    m64.eliminated('Champion', 'Nobody')
+    m64.eliminated('Champion', 'Nobody')  # must eliminate winner to return them to the TEAMPOOL and record result
 
-    #print()
-    #print(f'The champion is {m64}')
+    print(f'The champion is {m64}')
 
 
 # nested loops for group stage - each team meets one time
 def group_matches(group_list):
     for i in range(len(group_list)):
-        for j in range(len(group_list)-1-i):
-            match(group_list[i], group_list[j + 1 + i], 'group')
+        for j in range(len(group_list) - 1 - i):
+            match(group_list[i], group_list[j + 1 + i], 'group')  # this algorithm creates one meeting between each team
 
 
 # function to play one match, returns a winner and eliminates loser in non-group matches, otherwise returns None
 def match(t1, t2, stage):
     tie1 = t1.get_tie_chance()
     tie2 = t2.get_tie_chance()
-    tie = (tie1 + tie2) / 2
+    tie = (tie1 + tie2) / 2  # finds average of tie probability
 
-    team1 = t1.matchday()
+    team1 = t1.matchday()  # gets an int to represent strength of each team
     team2 = t2.matchday()
 
-    draw = int((team1 + team2) * tie)
-    prob = team1 + team2 + draw
+    draw = int((team1 + team2) * tie)  # gets an int to represent probability of draw in proportion to team strength
+    prob = team1 + team2 + draw  # an int to represent the match
+
+    """
+    A mathematically simple model for simulating matches:
+    
+    The result is randomly generated based on the strength score calculated for each team (based on data) and the
+    proportional probability of a tie. A random number is chosen in the range of zero to `prob`. If it is in the
+    subrange corresponding to Team 1 - Team 1 wins, if in subrange corresponding to Team2 - Team 2 wins, and if in the
+    subrange corresponding to a draw - a draw is the result. If a draw happens in the case of a knockout round game,
+    the randomization is simply run again until a winner is drawn. 
+    """
 
     def play():
         chance = rand.randint(0, prob)
@@ -147,7 +164,7 @@ def clear_teams():
             TEAM_POOL[j][k].clear()
 
 
-# prints all teams, mostly for debugging
+# prints all teams, mostly for debugging (WILL HAVE TO EDIT __str__ in Team and Player classes of squads.py
 def show_teams():
     for j in TEAM_POOL:
         print()
@@ -161,37 +178,45 @@ def show_teams():
 
 # create csv containing player and team influences for sim, allows user to add comment in file
 def static_team_analysis():
+    # allows user to name save file in console while creating it
     with open(str(input('Enter filename for team analysis: ') + '.csv'), 'w') as file:
         file.write(str(input('Any notes for this sim? ') + '\n'))
         for j in TEAM_POOL:
             for k in TEAM_POOL[j]:
                 team = TEAM_POOL[j][k]
                 file.write(str(f'{team.get_group()},{team.get_country()}\n'))
+
+                # EDIT __str__ function in Team class of squads.py to adjust what data is saved in the file
                 file.write(str(team))
+
+                # EDIT __str__ function in Player class to adjust what player data is saved (mostly to debug)
                 team.show_full_roster(file)
 
 
+# create csv containing the results of the given round of simulations
 def results():
+    # allows user to name the save file in the console as it is created
     with open(str(input('Enter filename for results: ') + '.csv'), 'w') as rslt:
         rslt.write(str(input('Any notes for this sim? ') + '\n'))
         for j in TEAM_POOL:
             for k in TEAM_POOL[j]:
                 team = TEAM_POOL[j][k]
-                rslt.write(str(team.calc_results()))
+                rslt.write(str(team.calc_results()))  # see Team class in squads.py
 
 
 def main():
+    # track run times
     start_wall = time.time()
     start_cpu = time.process_time()
 
-    build_team_pool()
+    build_team_pool()  # build objects from imported data
 
-    for i in range(1000):
+    for i in range(1000):  # run simulations
         play_tourney()
         clear_teams()
 
-    static_team_analysis()
-    results()
+    static_team_analysis()  # record team strength during this iteration
+    results()  # record results of simulations
 
     end_wall = time.time()
     end_cpu = time.process_time()
