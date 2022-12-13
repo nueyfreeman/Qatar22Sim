@@ -7,9 +7,9 @@ The goal was to build a model of the 2022 FIFA World Cup in Qatar using real-wor
 from player's recent club performances. It would follow the pre-arranged determination of teams and 
 groups and use the final squad rosters released the week before the competition starts. It would follow the 
 standard World Cup format of three group stage matches, with the two leaders in points advancing to the 
-knockout round, where the matches follow this arbitrary arrangement: <something.com>. Individual matches 
-would be simulated by calculating a weighted probability based on some performance data of individual 
-players.
+knockout round, where the matches follow this arbitrary arrangement: <https://www.foxsports.com/soccer/2022-fifa-world-cup/bracket>. 
+Individual matches would be simulated by calculating a weighted probability based on some performance data 
+of individual players.
 
 
 ### The Data  
@@ -44,7 +44,7 @@ and save much more data during the simulations than this iteration will.
 ### Step 1a: Find the data  
 The main obstacle of this project was to find appropriate data fitting the needs described above - if a 
 minimum acceptable amount of player data was not available, there was no point in running a simulation. 
-A Wikipedia page <https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads> contained the roster of each 
+A Wikipedia page (<https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads>) contained the roster of each 
 team fairly soon after each squad was released to the public and, as a static website, it was relatively 
 simple to scrape. From this page I retrieved player name, position, and the club and country they play 
 in professionally. After collecting this information I would be able to then collect match data for 
@@ -54,11 +54,11 @@ these specific players across the world, as soon as I found one source to get it
 The model adheres to the standard format of the World Cup as described above with the following more 
 specific design choices:
 
-* *If the result of a tie is reached in the knockout stages, the exact same process repeats until a winner \
+* *If the result of a tie is reached in the knockout stages, the exact same process repeats until a winner
   is given by the draw.*
 
-* *The group results are found by placing the team objects in a list and using the list sort function to \
-  sort by points. In the case of a tie on points between the second and third teams, the first team of the \
+* *The group results are found by placing the team objects in a list and using the list sort function to
+  sort by points. In the case of a tie on points between the second and third teams, the first team of the
   two, i.e. the second index in the list, is chosen (alphabetically) as the runner up regardless.*
 
 * *The traditional third place match is not simulated or recorded in this model.*
@@ -66,28 +66,30 @@ specific design choices:
 * *No specific data is recorded from group stage matches besides adding points and registering a win.*
 
 ##### Match Simulation
-The model derives a score for each team based on a calculation that makes use of a value from each player 
-on that particular teams roster. The weighting of these values can be edited in the squads.py file to 
-tweak the model. I later added a defense metric to the Team class which is also added to each team's 
+The model derives a score for each team based on a calculation which combines a calculated value from each 
+player on that particular teams roster. The weighting of these values can be edited in the `squads.py` file 
+to adjust the model. I later added a defense metric to the Team class which is also combined in each team's 
 score when simulating the match. After these scores have been calculated, as well as a value to represent 
 the proportional chance of a tie, a random number is drawn to choose the winner according to the 
-distribution of the aforementioned values. For more details see main.py.
+proportional distribution of the aforementioned values. For more details see `main.py`.
 
 ### Step 1b: Find match data for players
-Transfermarkt.us was the website I found that had a page for nearly all the players on my list. Using the 
-initial data I got by scraping Wikipedia, I identified a handful of players who did not play in European 
-leagues - these would be the more difficult players to find data on. I chose a handful of these players 
-from the squads of Iran, Australia, Qatar, Japan and Costa Rica to manually query, thereby confirming
-that this source was appropriate in that it would include some data for all players. I built a new method
-into my scraper and ran it, saving results to one file and logging errors in another. My error file 
-revealed 44 players for whom no data was found out of a total of 832 players.
+<Transfermarkt.us> was the website I found that had a page for nearly all the players on my list. Most 
+players had a page dedicated to their match statistics which contained a table with their match data from 
+all competitions in the 2022/2023 football season. Using the initial data I got by scraping Wikipedia, I 
+identified a handful of players who did not play in European leagues - these would be the more difficult 
+players to find data on. I chose a handful of these players from the squads of Iran, Australia, Qatar, 
+Japan and Costa Rica to manually query, thereby confirming that this source was appropriate in that it 
+would include data for all players regardless of their professional league. I built a new method into my 
+webscraper and ran it, saving results to one file and logging errors in another. My error file revealed 
+44 players for whom no data was found out of a total of 832 players.
 
 ### Step 3: Clean the data and make calculations for player influence
 The first thing I noticed from the error file was that it included the entire South Korean team. I 
-identified the problem with the scraper by manually querying some names and then wrote a new method to 
-collect the data for Korean players specifically (see qatarsquadscraper.py). That left 18 remaining 
-players without data. These I manually queried on Transfermarkt.us. Most of them had given errors due to 
-a slight spelling difference or an unexpected order of query results which made my program scrape the 
+identified the problem by manually querying some names and then wrote a new method to collect the data 
+for Korean players specifically (see `qatarsquadscraper.py`). That left 18 remaining players without 
+data. These I manually queried on <Transfermarkt.us>. Most of them had resulted in errors due to 
+a slight spelling difference or an unexpected ordering of the results, which made my program find the 
 wrong data for those entries. I found the correct page and manually added the data for those players, 
 after which there were only 3 players for whom no data could be found, an amount which would have no 
 affect on the outcome of the simulation.  
@@ -96,9 +98,9 @@ After all data was collected, I cleaned it in a spreadsheet, verifying that the 
 uniformly in each column. I also noticed that for some players my scraper had retrieved career 
 statistics instead of those only for the current year. I manually queried those to find that for some
 players the career statistics were the only statistics available. Because the influence of players in the
-model was going to be dictated by a rate derived from match data (i.e. Goals involvements per 90 
-minutes), using the career statistics would not have any confounding affect on the results of the model.
-I calculated the relevant rates in the spreadsheet and then saved it as a csv for use in the model.
+model was going to be dictated by match data given as a rate (i.e. Goals involvements per 90 minutes), 
+using the career statistics would not have any confounding affect on the results of the simulation. I 
+calculated the relevant rates in the spreadsheet and then saved it as a csv for use in `main.py`.
 
 ### Step 4: Run simulations and tweak the match algorithm
 
