@@ -26,7 +26,11 @@ def build_team_pool():
             i += 1  # gives each player a unique id number for debugging
             data = line.split(',')  # converts line of csv file to a list where data in each index is known
 
-            # see QatarSquads.csv to verify what player data corresponds to which index when initializing player objects
+            """
+            See QatarSquadsv2mod.csv to verify what player data corresponds to which index when initializing player 
+            objects in this method. Some of the data used here has been calculated in the spreadsheet itself, after
+            the initial data was scraped but before this program is run.
+            """
 
             index = TEAM_POOL[data[0][6]]  # selects proper group using key derived from string data -- ex. 'Group A'
 
@@ -59,7 +63,7 @@ def build_team_pool():
 
 # play through tourney from group stage to championship
 def play_tourney():
-    winners = {g: [1, 2] for g in GROUPS}  # reinitialize group winners dict
+    winners = {g: [1, 2] for g in GROUPS}  # reinitialize a dict for group winners
     for g in TEAM_POOL:
         group = TEAM_POOL[g]  # each group
         gt = []

@@ -18,7 +18,7 @@ class Team:
         self.__roster = []
         self.__fifa_rank = fifa_rank  # used for debugging
 
-        # Country Model-Relevant Values
+        # Country Values
         self.__tie_chance = 0
         self.__defense = 0
 
@@ -101,9 +101,9 @@ class Team:
             for each in self.__roster:
                 eleven.append(each)
             return eleven
-        in_side = get_11()
+        starting = get_11()
         pform = self.__fifa_rank  # this value has a default of 1 which doesn't affect the model (order of magnitude)
-        for p in in_side:
+        for p in starting:
             if p.play_match():
                 pform += p.play_match()  # adds a value derived from the data of each player object
 

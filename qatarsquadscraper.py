@@ -61,8 +61,7 @@ def scrape_stats(oops, link, session, player, keeper=False):
         return '0,0,0,0,0'
 
 
-# scrapes Wikipedia page for all squad rosters and then gets match statistics for each player
-# saves player data in csv file and records errors in a second file
+# scrapes Wikipedia page for all squad rosters, saves player data in csv file and records errors in a second file
 def main():
     # opens a file to write player data and a file to record errors for later cleaning and verification of data
     with open('QatarSquadsv2.csv', 'w') as output, open('errors.csv', 'w') as errors:
