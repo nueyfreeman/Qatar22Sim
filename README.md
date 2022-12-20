@@ -126,7 +126,7 @@ round.
 
 Using the player data I scraped in this exercise, I had made a [simple graphic in Tableau](https://public.tableau.com/views/Qatar2022PlayerstoWatch/Top30PlayerstoWatch?:language=en-US&:display_count=n&:origin=viz_share_link) 
 showing the most in-form players coming into the tournament. Unsurprisingly, this showed the expected 
-excellence of top players like Lionel Messi and Kylian Mbappe, as well as forshadowing the impact of 
+excellence of top players like Lionel Messi and Kylian Mbappe, as well as foreshadowing the impact of 
 some lesser known players who did well, like Enner Valencia and Cody Gakpo. In retrospect, it can deliver 
 some ironic insights as well, such as highlighting Walid Cheddira, who failed to score in several 
 one-on-ones with the goalkeeper in the latter stages of competition.
