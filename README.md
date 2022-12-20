@@ -18,37 +18,39 @@ ideally in the past 12 months. Given the nature of the competition, where player
 might play against those in obscure clubs, a source would be required that included data on all players, 
 not only the ones who play in famous leagues. Although data may not have been available for every single 
 player, in order for the model to not be skewed against the more obscure players, it could only omit a 
-statistically insignificant number of players. Additionally, all player data should come from the same 
+statistically insignificant number of players. Additionally, all player data needed to come from the same 
 source - in that case there would be some implicit standardization - no discrepancy between the way 
 different websites or other sources codifed the data.
 
 ### The Results
-The model would simulate this year's World Cup 10,000 times while recording the results of each individual
-run - how many matches each team won, how many points they got in the group stage, and what stage of the 
-competition they exited at. To evaluate the results, an average was calculated for the numerical metrics -
-average wins and average points in the group stage. And to track the success of each team, a percentage 
-distribution was calculated to show how often each team was eliminated at each stage of the competition.
+The model would simulate this year's World Cup 10,000 times while recording the results each time - how 
+many matches each team won, how many points they got in the group stage, and what stage of the competition 
+they exited at. To evaluate the results, an average was calculated for the numerical metrics - average 
+wins and average points in the group stage. And to track the overall success of each team, a percentage 
+distribution was calculated to show how often each team made it to each stage of the competition.
 
 ### Other Notes
-Mathematically, the model was quite basic. Rather than seeking to be truly predictive of the winner of 
-this year's World Cup, it was meant to practice building the model and incorporating some real-world data 
-to influence results. If I had been seeking to build a more authentic model, I would have collected and 
-incorporated much more player data. I would also have found similar historical data from World Cup years, 
-run the model with it and then honed the model by comparing the results of each run with the known 
-historical results of that World Cup. I also could improve this model's utility by adding code to collect 
-and save much more data during the simulations than this iteration will.
+Mathematically, the model is basic. Rather than seeking to be truly predictive of the winner of this 
+year's World Cup, or a rigorous academic exercise, it was meant to practice building a model and 
+incorporating some real-world data to influence results. If I had been seeking to build a more advanced 
+model, I would have collected and incorporated much more player data and used a more advanced method to 
+simulate games. I would also have found similar historical data from World Cup years, run the model with 
+it and then honed the model by comparing the results of each run with the known historical results of that 
+World Cup. Another improvement would be to add code to collect and save much more data during the 
+simulation than this iteration will and to do more complex analysis with the results.
 
 
 ## Process
 
 ### Step 1a: Find the data  
 The main obstacle of this project was to find appropriate data fitting the needs described above - if a 
-minimum acceptable amount of player data was not available, there was no point in running a simulation. 
-A Wikipedia page (<https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads>) contained the roster of each 
-team fairly soon after each squad was released to the public and, as a static website, it was relatively 
-simple to scrape. From this page I retrieved player name, position, and the club and country they play 
-in professionally. After collecting this information I would be able to then collect match data for 
-these specific players across the world, as soon as I found one source to get it from.
+minimum acceptable amount of player data were not available, the results would not accurately reflect the 
+question of how the current form of players could affect their teams success. A Wikipedia page (<https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_squads>) 
+contained the roster of each team fairly soon after each squad was released to the public and, as a static 
+website, it was relatively simple to scrape. From this page I retrieved player name, position, and the 
+club and country they play in professionally. After collecting this information I would be able to then 
+collect match data for these specific players across the world, as soon as I found one source to get it 
+from.
 
 ### Step 2: Build the model  
 The model adheres to the standard format of the World Cup as described above with the following more 
@@ -74,7 +76,7 @@ the proportional chance of a tie, a random number is drawn to choose the winner 
 proportional distribution of the aforementioned values. For more details see `main.py`.
 
 ### Step 1b: Find match data for players
-<Transfermarkt.us> was the website I found that had a page for nearly all the players on my list. Most 
+The website <https://www.transfermarkt.us/> had a page for nearly all the players on my list. Most 
 players had a page dedicated to their match statistics which contained a table with their match data from 
 all competitions in the 2022/2023 football season. Using the initial data I got by scraping Wikipedia, I 
 identified a handful of players who did not play in European leagues - these would be the more difficult 
@@ -88,7 +90,7 @@ webscraper and ran it, saving results to one file and logging errors in another.
 The first thing I noticed from the error file was that it included the entire South Korean team. I 
 identified the problem by manually querying some names and then wrote a new method to collect the data 
 for Korean players specifically (see `qatarsquadscraper.py`). That left 18 remaining players without 
-data. These I manually queried on <Transfermarkt.us>. Most of them had resulted in errors due to 
+data. These I manually queried on Transfermarkt.us. Most of them had resulted in errors due to 
 a slight spelling difference or an unexpected ordering of the results, which made my program find the 
 wrong data for those entries. I found the correct page and manually added the data for those players, 
 after which there were only 3 players for whom no data could be found, an amount which would have no 
