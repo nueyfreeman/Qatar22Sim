@@ -1,0 +1,830 @@
+Group A,Senegal,GK,Alfred Gomis,Rennes,France,1,0,0,0,1,0,1
+Group B,Wales,GK,Wayne Hennessey,Nottingham Forest,England,2,0,0,0,2,0,1
+Group B,United States,GK,Matt Turner,Arsenal,England,4,0,0,0,3,0,0.75
+Group D,Tunisia,GK,Aymen Dahmen,CS Sfaxien,Tunisia,4,0,0,0,3,0,0.75
+Group D,Tunisia,GK,Mouez Hassen,Club Africain,Tunisia,4,0,0,0,3,0,0.75
+Group H,South Korea,GK,Kim Seung-gyu,Al-Shabab,Saudi Arabia,8,0,0,0,6,0,0.75
+Group B,Iran,GK,Alireza Beiranvand,Persepolis,Iran,11,0,0,0,8,0,0.73
+Group B,Iran,GK,Hossein Hosseini,Esteghlal,Iran,12,0,0,0,7,0,0.58
+Group E,Germany,GK,Marc-André ter Stegen,Barcelona,Spain,19,0,0,0,11,0,0.58
+Group D,Tunisia,GK,Bechir Ben Saïd,US Monastir,Tunisia,9,0,0,0,5,0,0.56
+Group H,Uruguay,GK,Sergio Rochet,Nacional,Uruguay,44,0,0,0,24,0,0.55
+Group C,Poland,GK,Wojciech Szczęsny,Juventus,Italy,13,0,0,0,7,0,0.54
+Group F,Belgium,GK,Simon Mignolet,Club Brugge,Belgium,25,0,0,0,13,0,0.52
+Group B,England,GK,Nick Pope,Newcastle United,England,16,0,0,0,8,0,0.5
+Group B,England,GK,Aaron Ramsdale,Arsenal,England,16,0,0,0,8,0,0.5
+Group B,Iran,GK,Payam Niazmand,Sepahan,Iran,8,0,0,0,4,0,0.5
+Group C,Argentina,GK,Gerónimo Rulli,Villarreal,Spain,14,0,0,0,7,0,0.5
+Group D,Tunisia,GK,Aymen Mathlouthi,Étoile du Sahel,Tunisia,4,0,0,0,2,0,0.5
+Group F,Canada,GK,Milan Borjan,Red Star Belgrade,Serbia,28,0,0,0,14,0,0.5
+Group G,Brazil,GK,Weverton,Palmeiras,Brazil,62,0,0,0,31,0,0.5
+Group G,Cameroon,GK,Simon Ngapandouetnbu,Marseille,France,2,0,0,0,1,0,0.5
+Group G,Serbia,GK,Marko Dmitrović,Sevilla,Spain,6,0,0,0,3,0,0.5
+Group G,Switzerland,GK,Gregor Kobel,Borussia Dortmund,Germany,16,0,0,0,8,0,0.5
+Group G,Switzerland,GK,Philipp Köhn,Red Bull Salzburg,Austria,23,0,0,0,11,0,0.48
+Group G,Brazil,GK,Ederson,Manchester City,England,19,0,0,0,9,0,0.47
+Group H,Portugal,GK,Diogo Costa,Porto,Portugal,19,0,0,0,9,0,0.47
+Group H,Uruguay,GK,Fernando Muslera,Galatasaray,Turkey,13,0,0,0,6,0,0.46
+Group A,Ecuador,GK,Moisés Ramírez,Independiente del Valle,Ecuador,49,0,0,0,22,0,0.45
+Group A,Netherlands,GK,Justin Bijlow,Feyenoord,Netherlands,20,0,0,0,9,0,0.45
+Group D,Australia,GK,Mathew Ryan,Copenhagen,Denmark,11,0,0,0,5,0,0.45
+Group D,France,GK,Alphonse Areola,West Ham United,England,11,0,0,0,5,0,0.45
+Group F,Morocco,GK,Ahmed Reda Tagnaouti,Wydad AC,Morocco,11,0,0,0,5,0,0.45
+Group D,Denmark,GK,Frederik Rønnow,Union Berlin,Germany,18,0,0,0,8,0,0.44
+Group E,Germany,GK,Manuel Neuer,Bayern Munich,Germany,16,0,0,0,7,0,0.44
+Group A,Netherlands,GK,Andries Noppert,Heerenveen,Netherlands,14,0,0,0,6,0,0.43
+Group E,Spain,GK,Unai Simón,Athletic Bilbao,Spain,14,0,0,0,6,0,0.43
+Group C,Argentina,GK,Franco Armani,River Plate,Argentina,48,0,0,0,20,0,0.42
+Group B,United States,GK,Ethan Horvath,Luton Town,England,20,0,0,0,8,0,0.4
+Group B,United States,GK,Sean Johnson,New York City FC,United States,43,0,0,0,17,0,0.4
+Group B,Wales,GK,Danny Ward,Leicester City,England,15,0,0,0,6,0,0.4
+Group F,Canada,GK,James Pantemis,CF Montréal,Canada,15,0,0,0,6,0,0.4
+Group F,Croatia,GK,Ivo Grbić,Atlético Madrid,Spain,5,0,0,0,2,0,0.4
+Group C,Poland,GK,Kamil Grabara,Copenhagen,Denmark,13,0,0,0,5,0,0.38
+Group E,Costa Rica,GK,Esteban Alvarado,Herediano,Costa Rica,21,0,0,0,8,0,0.38
+Group G,Cameroon,GK,André Onana,Internazionale,Italy,13,0,0,0,5,0,0.38
+Group G,Serbia,GK,Predrag Rajković,Mallorca,Spain,14,0,0,0,5,0,0.36
+Group G,Switzerland,GK,Yann Sommer,Borussia Mönchengladbach,Germany,11,0,0,0,4,0,0.36
+Group A,Qatar,GK,Meshaal Barsham,Al-Sadd,Qatar,71,0,0,0,25,0,0.35
+Group C,Mexico,GK,Guillermo Ochoa,América,Mexico,20,0,0,0,7,0,0.35
+Group F,Belgium,GK,Koen Casteels,VfL Wolfsburg,Germany,17,0,0,0,6,0,0.35
+Group G,Brazil,GK,Alisson,Liverpool,England,20,0,0,0,7,0,0.35
+Group A,Ecuador,GK,Hernán Galíndez,Aucas,Ecuador,29,0,0,0,10,0,0.34
+Group B,Wales,GK,Adam Davies,Sheffield United,England,3,0,0,0,1,0,0.33
+Group F,Croatia,GK,Ivica Ivušić,Osijek,Croatia,18,0,0,0,6,0,0.33
+Group H,Uruguay,GK,Sebastián Sosa,Independiente,Argentina,27,0,0,0,9,0,0.33
+Group A,Ecuador,GK,Alexander Domínguez,LDU Quito,Ecuador,31,0,0,0,10,0,0.32
+Group H,South Korea,GK,Song Bum-keun,Jeonbuk Hyundai Motors,South Korea,41,0,0,0,13,0,0.32
+Group F,Morocco,GK,Munir Mohamedi,Al-Wehda,Saudi Arabia,10,0,0,0,3,0,0.3
+Group D,France,GK,Hugo Lloris,Tottenham Hotspur,England,21,0,0,0,6,0,0.29
+Group E,Japan,GK,Daniel Schmidt,Sint-Truiden,Belgium,14,0,0,0,4,0,0.29
+Group E,Spain,GK,Robert Sánchez,Brighton & Hove Albion,England,14,0,0,0,4,0,0.29
+Group G,Serbia,GK,Vanja Milinković-Savić,Torino,Italy,17,0,0,0,5,0,0.29
+Group H,Ghana,GK,Ibrahim Danlad,Asante Kotoko,Ghana,7,0,0,0,2,0,0.29
+Group A,Qatar,GK,Saad Al-Sheeb,Al-Sadd,Qatar,221,0,0,0,61,0,0.28
+Group C,Saudi Arabia,GK,Mohammed Al-Rubaie,Al-Ahli,Saudi Arabia,36,0,0,0,10,0,0.28
+Group D,France,GK,Steve Mandanda,Rennes,France,18,0,0,0,5,0,0.28
+Group H,South Korea,GK,Jo Hyeon-woo,Ulsan Hyundai,South Korea,43,0,0,0,12,0,0.28
+Group H,Portugal,GK,José Sá,Wolverhampton Wanderers,England,15,0,0,0,4,0,0.27
+Group A,Qatar,GK,Yousef Hassan,Al-Gharafa,Qatar,105,0,0,0,27,0,0.26
+Group A,Netherlands,GK,Remko Pasveer,Ajax,Netherlands,20,0,0,0,5,0,0.25
+Group C,Argentina,GK,Emiliano Martínez,Aston Villa,England,16,0,0,0,4,0,0.25
+Group E,Germany,GK,Kevin Trapp,Eintracht Frankfurt,Germany,24,0,0,0,6,0,0.25
+Group E,Spain,GK,David Raya,Brentford,England,16,0,0,0,4,0,0.25
+Group H,Portugal,GK,Rui Patrício,Roma,Italy,20,0,0,0,5,0,0.25
+Group A,Senegal,GK,Seny Dieng,Queens Park Rangers,England,22,0,0,0,5,0,0.23
+Group B,England,GK,Jordan Pickford,Everton,England,14,0,0,0,3,0,0.21
+Group D,Australia,GK,Danny Vukovic,Central Coast Mariners,Australia,5,0,0,0,1,0,0.2
+Group E,Japan,GK,Shūichi Gonda,Shimizu S-Pulse,Japan,35,0,0,0,7,0,0.2
+Group F,Belgium,GK,Thibaut Courtois,Real Madrid,Spain,15,0,0,0,3,0,0.2
+Group G,Switzerland,GK,Jonas Omlin,Montpellier,France,10,0,0,0,2,0,0.2
+Group C,Poland,GK,Łukasz Skorupski,Bologna,Italy,16,0,0,0,3,0,0.19
+Group C,Mexico,GK,Alfredo Talavera,Juárez,Mexico,18,0,0,0,3,0,0.17
+Group C,Mexico,GK,Rodolfo Cota,León,Mexico,18,0,0,0,3,0,0.17
+Group D,Denmark,GK,Kasper Schmeichel,Nice,France,18,0,0,0,3,0,0.17
+Group F,Canada,GK,Dayne St. Clair,Minnesota United FC,United States,33,0,0,0,5,0,0.15
+Group F,Croatia,GK,Dominik Livaković,Dinamo Zagreb,Croatia,28,0,0,0,4,0,0.14
+Group H,Ghana,GK,Lawrence Ati-Zigi,St. Gallen,Switzerland,14,0,0,0,2,0,0.14
+Group D,Denmark,GK,Oliver Christensen,Hertha BSC,Germany,16,0,0,0,2,0,0.13
+Group F,Morocco,GK,Yassine Bounou,Sevilla,Spain,16,0,0,0,2,0,0.13
+Group A,Senegal,GK,Édouard Mendy,Chelsea,England,11,0,0,0,1,0,0.09
+Group B,Iran,GK,Amir Abedzadeh,Ponferradina,Spain,11,0,0,0,1,0,0.09
+Group D,Australia,FW,Garang Kuol,Central Coast Mariners,Australia,4,2,2,138,0,2.609,0
+Group C,Saudi Arabia,FW,Hattan Bahebri,Al-Shabab,Saudi Arabia,8,1,4,295,0,1.525,0
+Group G,Brazil,FW,Neymar,Paris Saint-Germain,France,20,15,12,1624,0,1.496,0
+Group G,Cameroon,FW,Eric Maxim Choupo-Moting,Bayern Munich,Germany,16,11,3,850,0,1.482,0
+Group F,Morocco,FW,Walid Cheddira,Bari,Italy,15,14,5,1196,0,1.43,0
+Group E,Germany,MF,Jamal Musiala,Bayern Munich,Germany,22,12,10,1388,0,1.427,0
+Group C,Argentina,FW,Lionel Messi,Paris Saint-Germain,France,19,12,14,1657,0,1.412,0
+Group A,Netherlands,FW,Cody Gakpo,PSV Eindhoven,Netherlands,24,13,17,1960,0,1.378,0
+Group D,Australia,FW,Craig Goodwin,Adelaide United,Australia,6,3,4,458,0,1.376,0
+Group F,Belgium,FW,Michy Batshuayi,Fenerbahçe,Turkey,13,8,1,593,0,1.366,0
+Group E,Germany,FW,Serge Gnabry,Bayern Munich,Germany,23,10,10,1330,0,1.353,0
+Group D,Australia,FW,Jamie Maclaren,Melbourne City,Australia,6,8,0,540,0,1.333,0
+Group G,Cameroon,FW,Jean-Pierre Nsame,Young Boys,Switzerland,24,16,4,1370,0,1.314,0
+Group C,Poland,FW,Robert Lewandowski,Barcelona,Spain,19,18,4,1510,0,1.311,0
+Group D,France,FW,Kylian Mbappé,Paris Saint-Germain,France,20,19,5,1675,0,1.29,0
+Group A,Ecuador,FW,Enner Valencia,Fenerbahçe,Turkey,22,15,4,1328,0,1.288,0
+Group E,Spain,FW,Marco Asensio,Real Madrid,Spain,15,3,3,426,0,1.268,0
+Group H,Portugal,FW,Gonçalo Ramos,Benfica,Portugal,21,14,6,1445,0,1.246,0
+Group E,Germany,MF,Leroy Sané,Bayern Munich,Germany,19,10,6,1169,0,1.232,0
+Group C,Mexico,FW,Henry Martín,América,Mexico,21,13,6,1429,0,1.197,0
+Group E,Costa Rica,DF,Rónald Matarrita,FC Cincinnati,United States,10,1,3,302,0,1.192,0
+Group C,Poland,MF,Szymon Żurkowski,Fiorentina,Italy,4,0,1,77,0,1.169,0
+Group B,Iran,FW,Mehdi Taremi,Porto,Portugal,19,13,8,1626,0,1.162,0
+Group C,Argentina,FW,Ángel Di María,Juventus,Italy,10,1,4,391,0,1.151,0
+Group H,Ghana,MF,Mohammed Kudus,Ajax,Netherlands,21,10,2,979,0,1.103,0
+Group C,Saudi Arabia,FW,Firas Al-Buraikan,Al-Fateh,Saudi Arabia,8,4,1,413,0,1.09,0
+Group F,Belgium,FW,Romelu Lukaku,Internazionale,Italy,5,2,1,256,0,1.055,0
+Group H,Uruguay,FW,Darwin Núñez,Liverpool,England,18,9,2,941,0,1.052,0
+Group D,France,FW,Olivier Giroud,Milan,Italy,19,9,5,1199,0,1.051,0
+Group D,Tunisia,FW,Youssef Msakni,Al-Arabi,Qatar,6,4,2,518,0,1.042,0
+Group D,Australia,FW,Jason Cummings,Central Coast Mariners,Australia,5,2,3,435,0,1.034,0
+Group H,Uruguay,FW,Edinson Cavani,Valencia,Spain,7,4,1,435,0,1.034,0
+Group F,Croatia,FW,Mislav Oršić,Dinamo Zagreb,Croatia,27,13,8,1863,0,1.014,0
+Group D,France,FW,Randal Kolo Muani,Eintracht Frankfurt,Germany,23,8,11,1699,0,1.006,0
+Group D,France,FW,Marcus Thuram,Borussia Mönchengladbach,Germany,17,13,4,1530,0,1,0
+Group C,Argentina,FW,Paulo Dybala,Roma,Italy,12,7,2,816,0,0.993,0
+Group E,Germany,MF,Jonas Hofmann,Borussia Mönchengladbach,Germany,15,7,7,1276,0,0.987,0
+Group A,Qatar,FW,Akram Afif,Al-Sadd,Qatar,177,85,67,13916,0,0.983,0
+Group F,Belgium,MF,Kevin De Bruyne,Manchester City,England,19,3,13,1475,0,0.976,0
+Group H,Portugal,FW,Rafael Leão,Milan,Italy,20,7,9,1481,0,0.972,0
+Group E,Spain,FW,Dani Olmo,RB Leipzig,Germany,14,3,4,649,0,0.971,0
+Group F,Croatia,FW,Bruno Petković,Dinamo Zagreb,Croatia,27,12,7,1762,0,0.97,0
+Group F,Croatia,FW,Marko Livaja,Hajduk Split,Croatia,21,11,9,1865,0,0.965,0
+Group A,Netherlands,FW,Luuk de Jong,PSV Eindhoven,Netherlands,14,5,5,937,0,0.961,0
+Group C,Poland,MF,Piotr Zieliński,Napoli,Italy,21,6,7,1219,0,0.96,0
+Group A,Ecuador,MF,Jeremy Sarmiento,Brighton & Hove Albion,England,4,0,1,98,0,0.918,0
+Group D,Tunisia,MF,Mohamed Ali Ben Romdhane,Espérance de Tunis,Tunisia,4,3,0,296,0,0.912,0
+Group C,Argentina,FW,Julián Álvarez,Manchester City,England,20,7,2,890,0,0.91,0
+Group E,Germany,FW,Youssoufa Moukoko,Borussia Dortmund,Germany,22,6,6,1187,0,0.91,0
+Group B,England,FW,Callum Wilson,Newcastle United,England,11,6,2,793,0,0.908,0
+Group C,Saudi Arabia,MF,Sami Al-Najei,Al-Nassr,Saudi Arabia,8,3,3,615,0,0.878,0
+Group B,England,MF,James Maddison,Leicester City,England,14,7,4,1130,0,0.876,0
+Group H,Portugal,FW,André Silva,RB Leipzig,Germany,24,7,7,1438,0,0.876,0
+Group E,Spain,MF,Carlos Soler,Paris Saint-Germain,France,15,4,2,625,0,0.864,0
+Group E,Japan,MF,Daichi Kamada,Eintracht Frankfurt,Germany,22,12,4,1675,0,0.86,0
+Group B,United States,FW,Haji Wright,Antalyaspor,Turkey,12,9,1,1050,0,0.857,0
+Group G,Switzerland,FW,Noah Okafor,Red Bull Salzburg,Austria,22,10,2,1260,0,0.857,0
+Group A,Netherlands,FW,Vincent Janssen,Antwerp,Belgium,23,9,5,1475,0,0.854,0
+Group E,Germany,MF,Leon Goretzka,Bayern Munich,Germany,18,6,4,1064,0,0.846,0
+Group D,France,FW,Ousmane Dembélé,Barcelona,Spain,20,5,7,1289,0,0.838,0
+Group E,Germany,MF,Thomas Müller,Bayern Munich,Germany,15,3,6,969,0,0.836,0
+Group F,Morocco,MF,Anass Zaroury,Burnley,England,19,8,2,1091,0,0.825,0
+Group E,Germany,FW,Niclas Füllkrug,Werder Bremen,Germany,16,10,3,1429,0,0.819,0
+Group H,Portugal,MF,João Mário,Benfica,Portugal,24,10,8,1995,0,0.812,0
+Group H,South Korea,FW,Cho Gue-sung,Jeonbuk Hyundai Motors,South Korea,35,21,5,2881,0,0.812,0
+Group F,Canada,FW,Jonathan David,Lille,France,15,9,3,1331,0,0.811,0
+Group B,England,MF,Phil Foden,Manchester City,England,20,8,3,1227,0,0.807,0
+Group A,Netherlands,MF,Xavi Simons,PSV Eindhoven,Netherlands,22,10,4,1567,0,0.804,0
+Group A,Senegal,FW,Famara Diédhiou,Alanyaspor,Turkey,3,0,1,112,0,0.804,0
+Group C,Poland,MF,Sebastian Szymański,Feyenoord,Netherlands,18,7,4,1239,0,0.799,0
+Group A,Netherlands,MF,Steven Berghuis,Ajax,Netherlands,21,7,6,1473,0,0.794,0
+Group G,Brazil,FW,Rodrygo,Real Madrid,Spain,19,7,5,1360,0,0.794,0
+Group A,Ecuador,FW,Michael Estrada,Cruz Azul,Mexico,11,3,1,454,0,0.793,0
+Group G,Serbia,FW,Aleksandar Mitrović,Fulham,England,12,9,0,1022,0,0.793,0
+Group D,Denmark,MF,Andreas Skov Olsen,Club Brugge,Belgium,21,8,4,1364,0,0.792,0
+Group G,Switzerland,FW,Breel Embolo,Monaco,France,23,8,4,1368,0,0.789,0
+Group F,Belgium,FW,Eden Hazard,Real Madrid,Spain,6,1,1,229,0,0.786,0
+Group D,France,FW,Antoine Griezmann,Atlético Madrid,Spain,21,6,5,1264,0,0.783,0
+Group A,Netherlands,FW,Wout Weghorst,Beşiktaş,Turkey,14,6,4,1161,0,0.775,0
+Group E,Spain,FW,Ansu Fati,Barcelona,Spain,20,3,3,700,0,0.771,0
+Group H,Portugal,FW,João Félix,Atlético Madrid,Spain,18,4,3,818,0,0.77,0
+Group G,Brazil,FW,Vinícius Júnior,Real Madrid,Spain,21,10,5,1758,0,0.768,0
+Group C,Argentina,FW,Lautaro Martínez,Internazionale,Italy,21,8,6,1649,0,0.764,0
+Group F,Belgium,FW,Leandro Trossard,Brighton & Hove Albion,England,14,7,3,1183,0,0.761,0
+Group F,Croatia,DF,Borna Sosa,VfB Stuttgart,Germany,13,0,8,948,0,0.759,0
+Group C,Saudi Arabia,DF,Yasser Al-Shahrani,Al-Hilal,Saudi Arabia,2,0,1,119,0,0.756,0
+Group A,Senegal,FW,Boulaye Dia,Salernitana,Italy,14,6,2,959,0,0.751,0
+Group F,Morocco,MF,Sofiane Boufal,Angers,France,11,3,3,719,0,0.751,0
+Group D,Tunisia,DF,Ali Maâloul,Al Ahly,Egypt,4,1,2,360,0,0.75,0
+Group A,Netherlands,FW,Steven Bergwijn,Ajax,Netherlands,21,11,3,1687,0,0.747,0
+Group A,Netherlands,FW,Noa Lang,Club Brugge,Belgium,16,4,3,846,0,0.745,0
+Group B,Iran,MF,Alireza Jahanbakhsh,Feyenoord,Netherlands,15,2,3,605,0,0.744,0
+Group B,England,FW,Harry Kane,Tottenham Hotspur,England,22,13,3,1937,0,0.743,0
+Group G,Brazil,FW,Gabriel Jesus,Arsenal,England,20,5,7,1453,0,0.743,0
+Group A,Ecuador,MF,Romario Ibarra,Pachuca,Mexico,14,4,2,728,0,0.742,0
+Group H,Uruguay,MF,Giorgian de Arrascaeta,Flamengo,Brazil,56,13,20,4027,0,0.738,0
+Group E,Costa Rica,FW,Johan Venegas,Alajuelense,Costa Rica,20,9,3,1468,0,0.736,0
+Group B,United States,FW,Jesús Ferreira,FC Dallas,United States,38,18,6,2952,0,0.732,0
+Group D,Denmark,FW,Yussuf Poulsen,RB Leipzig,Germany,11,2,0,247,0,0.729,0
+Group G,Serbia,MF,Sergej Milinković-Savić,Lazio,Italy,20,5,7,1489,0,0.725,0
+Group A,Qatar,FW,Almoez Ali,Al-Duhail,Qatar,182,52,50,12772,0,0.719,0
+Group E,Spain,FW,Ferran Torres,Barcelona,Spain,18,5,1,751,0,0.719,0
+Group C,Mexico,FW,Rogelio Funes Mori,Monterrey,Mexico,13,5,2,882,0,0.714,0
+Group G,Cameroon,MF,Olivier Ntcham,Swansea City,Wales,20,5,2,888,0,0.709,0
+Group G,Switzerland,MF,Christian Fassnacht,Young Boys,Switzerland,13,4,3,893,0,0.705,0
+Group E,Japan,FW,Shuto Machino,Shonan Bellmare,Japan,39,15,2,2191,0,0.698,0
+Group F,Canada,MF,Stephen Eustáquio,Porto,Portugal,19,5,5,1289,0,0.698,0
+Group B,England,FW,Marcus Rashford,Manchester United,England,19,8,3,1423,0,0.696,0
+Group H,Ghana,MF,Osman Bukari,Red Star Belgrade,Serbia,24,7,5,1555,0,0.695,0
+Group B,England,FW,Bukayo Saka,Arsenal,England,20,5,6,1435,0,0.69,0
+Group D,France,FW,Kingsley Coman,Bayern Munich,Germany,14,1,5,785,0,0.688,0
+Group E,Japan,FW,Daizen Maeda,Celtic,Scotland,22,4,4,1047,0,0.688,0
+Group H,Uruguay,FW,Luis Suárez,Nacional,Uruguay,61,21,6,3530,0,0.688,0
+Group A,Netherlands,FW,Memphis Depay,Barcelona,Spain,3,1,0,131,0,0.687,0
+Group E,Costa Rica,MF,Jewison Bennette,Sunderland,England,16,3,2,659,0,0.683,0
+Group G,Serbia,FW,Dušan Tadić,Ajax,Netherlands,20,3,10,1713,0,0.683,0
+Group H,Uruguay,MF,Federico Valverde,Real Madrid,Spain,20,8,4,1612,0,0.67,0
+Group B,United States,FW,Josh Sargent,Norwich City,England,20,9,2,1481,0,0.668,0
+Group F,Morocco,FW,Abderrazak Hamdallah,Al-Ittihad,Saudi Arabia,6,4,0,540,0,0.667,0
+Group F,Belgium,FW,Loïs Openda,Lens,France,15,7,0,950,0,0.663,0
+Group C,Mexico,FW,Hirving Lozano,Napoli,Italy,19,4,3,955,0,0.66,0
+Group D,France,FW,Karim Benzema,Real Madrid,Spain,12,6,1,954,0,0.66,0
+Group G,Brazil,FW,Pedro,Flamengo,Brazil,18,4,3,956,0,0.659,0
+Group G,Serbia,DF,Filip Mladenović,Legia Warsaw,Poland,15,5,5,1368,0,0.658,0
+Group G,Switzerland,FW,Ruben Vargas,FC Augsburg,Germany,12,1,3,554,0,0.65,0
+Group H,Uruguay,FW,Facundo Torres,Orlando City SC,United States,40,13,10,3188,0,0.649,0
+Group A,Senegal,FW,Bamba Dieng,Marseille,France,6,1,0,139,0,0.647,0
+Group E,Japan,MF,Kaoru Mitoma,Brighton & Hove Albion,England,11,2,1,419,0,0.644,0
+Group H,Uruguay,FW,Maxi Gómez,Trabzonspor,Turkey,14,2,4,844,0,0.64,0
+Group G,Serbia,FW,Dušan Vlahović,Juventus,Italy,15,7,2,1267,0,0.639,0
+Group H,Portugal,FW,Ricardo Horta,Braga,Portugal,21,7,6,1836,0,0.637,0
+Group G,Serbia,FW,Nemanja Radonjić,Torino,Italy,16,4,2,851,0,0.635,0
+Group F,Canada,MF,Jonathan Osorio,Toronto FC,Canada,26,9,4,1852,0,0.632,0
+Group E,Spain,FW,Nico Williams,Athletic Bilbao,Spain,15,4,4,1141,0,0.631,0
+Group E,Japan,MF,Takumi Minamino,Monaco,France,14,1,3,571,0,0.63,0
+Group G,Brazil,FW,Raphinha,Barcelona,Spain,18,2,4,865,0,0.624,0
+Group A,Qatar,FW,Mohammed Muntari,Al-Duhail,Qatar,169,52,9,8840,0,0.621,0
+Group H,Ghana,MF,Kamaldeen Sulemana,Rennes,France,14,1,2,442,0,0.611,0
+Group D,Denmark,MF,Jesper Lindstrøm,Eintracht Frankfurt,Germany,22,8,2,1489,0,0.604,0
+Group D,Tunisia,FW,Taha Yassine Khenissi,Kuwait SC,Kuwait,269,92,25,17441,0,0.604,0
+Group A,Netherlands,MF,Kenneth Taylor,Ajax,Netherlands,19,5,4,1345,0,0.602,0
+Group A,Senegal,FW,Ismaïla Sarr,Watford,England,17,6,3,1365,0,0.593,0
+Group A,Senegal,FW,Iliman Ndiaye,Sheffield United,England,21,9,2,1680,0,0.589,0
+Group G,Brazil,FW,Antony,Manchester United,England,14,5,2,1087,0,0.58,0
+Group D,Australia,FW,Martin Boyle,Hibernian,Scotland,12,5,1,936,0,0.577,0
+Group F,Morocco,FW,Abde Ezzalzouli,Osasuna,Spain,8,0,2,312,0,0.577,0
+Group C,Argentina,DF,Juan Foyth,Villarreal,Spain,6,0,2,314,0,0.573,0
+Group B,Iran,DF,Hossein Kanaanizadegan,Al-Ahli Doha,Qatar,7,4,0,630,0,0.571,0
+Group B,United States,FW,Timothy Weah,Lille,France,6,0,2,315,0,0.571,0
+Group G,Serbia,FW,Luka Jović,Fiorentina,Italy,22,7,0,1104,0,0.571,0
+Group F,Morocco,MF,Selim Amallah,Standard Liège,Belgium,9,4,1,793,0,0.567,0
+Group G,Brazil,FW,Richarlison,Tottenham Hotspur,England,15,2,3,794,0,0.567,0
+Group A,Qatar,MF,Hassan Al-Haydos,Al-Sadd,Qatar,304,89,53,22627,0,0.565,0
+Group B,England,MF,Jude Bellingham,Borussia Dortmund,Germany,22,9,3,1918,0,0.563,0
+Group H,South Korea,MF,Jung Woo-young,Al-Sadd,Qatar,20,2,3,803,0,0.56,0
+Group H,South Korea,MF,Jeong Woo-yeong,SC Freiburg,Germany,20,2,3,803,0,0.56,0
+Group E,Japan,FW,Ayase Ueda,Cercle Brugge,Belgium,18,8,0,1290,0,0.558,0
+Group D,Tunisia,FW,Issam Jebali,OB,Denmark,14,4,3,1137,0,0.554,0
+Group B,Iran,FW,Sardar Azmoun,Bayer Leverkusen,Germany,11,0,2,328,0,0.549,0
+Group A,Ecuador,FW,Djorkaeff Reasco,Newell's Old Boys,Argentina,21,2,3,821,0,0.548,0
+Group B,United States,MF,Cristian Roldan,Seattle Sounders FC,United States,34,5,12,2796,0,0.547,0
+Group D,Australia,DF,Nathaniel Atkinson,Heart of Midlothian,Scotland,13,2,2,665,0,0.541,0
+Group A,Qatar,FW,Ahmed Alaaeldin,Al-Gharafa,Qatar,181,41,23,10722,0,0.537,0
+Group E,Japan,MF,Junya Ito,Reims,France,13,4,2,1006,0,0.537,0
+Group G,Cameroon,MF,André-Frank Zambo Anguissa,Napoli,Italy,18,3,6,1507,0,0.537,0
+Group C,Poland,FW,Krzysztof Piątek,Salernitana,Italy,11,3,1,677,0,0.532,0
+Group A,Qatar,DF,Ismaeel Mohammad,Al-Duhail,Qatar,269,42,53,16102,0,0.531,0
+Group B,United States,FW,Giovanni Reyna,Borussia Dortmund,Germany,16,2,2,682,0,0.528,0
+Group C,Argentina,FW,Ángel Correa,Atlético Madrid,Spain,21,4,1,857,0,0.525,0
+Group B,Wales,FW,Gareth Bale,Los Angeles FC,United States,21,4,0,687,0,0.524,0
+Group C,Poland,MF,Michał Skóraś,Lech Poznań,Poland,30,10,3,2253,0,0.519,0
+Group G,Switzerland,DF,Renato Steffen,Lugano,Switzerland,12,2,3,877,0,0.513,0
+Group D,Denmark,FW,Martin Braithwaite,Espanyol,Spain,9,3,1,705,0,0.511,0
+Group C,Argentina,MF,Thiago Almada,Atlanta United FC,United States,31,7,7,2499,0,0.504,0
+Group C,Saudi Arabia,MF,Salman Al-Faraj,Al-Hilal,Saudi Arabia,3,0,1,179,0,0.503,0
+Group D,Australia,FW,Mathew Leckie,Melbourne City,Australia,6,1,2,540,0,0.5,0
+Group F,Croatia,MF,Luka Modrić,Real Madrid,Spain,18,5,2,1259,0,0.5,0
+Group G,Switzerland,MF,Xherdan Shaqiri,Chicago Fire FC,United States,45,9,9,3255,0,0.498,0
+Group B,England,MF,Mason Mount,Chelsea,England,21,2,6,1450,0,0.497,0
+Group C,Poland,MF,Kamil Grosicki,Pogoń Szczecin,Poland,23,7,4,1996,0,0.496,0
+Group H,Portugal,DF,Nuno Mendes,Paris Saint-Germain,France,17,2,4,1089,0,0.496,0
+Group E,Spain,DF,Hugo Guillamón,Valencia,Spain,13,1,4,919,0,0.49,0
+Group C,Poland,FW,Karol Świderski,Charlotte FC,United States,59,14,7,3885,0,0.486,0
+Group D,Denmark,MF,Robert Skov,1899 Hoffenheim,Germany,16,3,3,1112,0,0.486,0
+Group F,Canada,FW,Lucas Cavallini,Vancouver Whitecaps FC,Canada,29,9,1,1850,0,0.486,0
+Group A,Netherlands,MF,Davy Klaassen,Ajax,Netherlands,20,4,1,932,0,0.483,0
+Group B,Wales,FW,Kieffer Moore,Bournemouth,England,15,4,0,745,0,0.483,0
+Group E,Japan,MF,Takefusa Kubo,Real Sociedad,Spain,17,2,4,1119,0,0.483,0
+Group H,Ghana,FW,Antoine Semenyo,Bristol City,England,18,4,1,934,0,0.482,0
+Group G,Cameroon,MF,Georges-Kévin Nkoudou,Beşiktaş,Turkey,12,4,0,749,0,0.481,0
+Group E,Germany,MF,Julian Brandt,Borussia Dortmund,Germany,21,5,3,1503,0,0.479,0
+Group F,Croatia,FW,Ivan Perišić,Tottenham Hotspur,England,21,0,7,1322,0,0.477,0
+Group B,Wales,MF,Jonny Williams,Swindon Town,England,18,6,1,1327,0,0.475,0
+Group D,Denmark,FW,Andreas Cornelius,Copenhagen,Denmark,15,5,1,1146,0,0.471,0
+Group F,Canada,FW,Iké Ugbo,Troyes,France,13,1,1,382,0,0.471,0
+Group E,Spain,FW,Álvaro Morata,Atlético Madrid,Spain,19,5,1,1151,0,0.469,0
+Group B,Iran,FW,Karim Ansarifard,Omonia,Cyprus,14,2,2,771,0,0.467,0
+Group A,Ecuador,MF,José Cifuentes,Los Angeles FC,United States,40,7,8,2910,0,0.464,0
+Group F,Croatia,MF,Nikola Vlašić,Torino,Italy,16,4,3,1361,0,0.463,0
+Group F,Morocco,MF,Zakaria Aboukhlal,Toulouse,France,15,3,3,1174,0,0.46,0
+Group H,Ghana,FW,Iñaki Williams,Athletic Bilbao,Spain,15,5,1,1174,0,0.46,0
+Group C,Poland,FW,Arkadiusz Milik,Juventus,Italy,19,6,0,1177,0,0.459,0
+Group G,Switzerland,MF,Fabian Rieder,Young Boys,Switzerland,21,3,6,1765,0,0.459,0
+Group H,Portugal,MF,Otávio,Porto,Portugal,18,1,6,1377,0,0.458,0
+Group H,Portugal,DF,Pepe,Porto,Portugal,18,6,1,1378,0,0.457,0
+Group B,United States,FW,Jordan Morris,Seattle Sounders FC,United States,37,10,5,2959,0,0.456,0
+Group D,France,MF,Adrien Rabiot,Juventus,Italy,16,5,2,1382,0,0.456,0
+Group B,Iran,DF,Ramin Rezaeian,Sepahan,Iran,11,3,2,990,0,0.455,0
+Group B,Iran,MF,Ali Karimi,Kayserispor,Turkey,157,33,22,10953,0,0.452,0
+Group D,Tunisia,FW,Seifeddine Jaziri,Zamalek,Egypt,6,1,1,398,0,0.452,0
+Group G,Cameroon,FW,Christian Bassogog,Shanghai Shenhua,China,21,5,3,1597,0,0.451,0
+Group E,Costa Rica,MF,Gerson Torres,Herediano,Costa Rica,22,4,4,1615,0,0.446,0
+Group B,United States,FW,Christian Pulisic,Chelsea,England,18,1,2,607,0,0.445,0
+Group F,Croatia,MF,Lovro Majer,Rennes,France,19,2,3,1011,0,0.445,0
+Group H,Uruguay,MF,Nicolás de la Cruz,River Plate,Argentina,42,6,8,2834,0,0.445,0
+Group A,Netherlands,DF,Jeremie Frimpong,Bayer Leverkusen,Germany,21,5,3,1632,0,0.441,0
+Group F,Morocco,MF,Ilias Chair,Queens Park Rangers,England,22,3,6,1841,0,0.44,0
+Group D,Denmark,DF,Daniel Wass,Brøndby,Denmark,12,0,5,1025,0,0.439,0
+Group G,Brazil,MF,Bruno Guimarães,Newcastle United,England,14,3,2,1028,0,0.438,0
+Group G,Cameroon,FW,Karl Toko Ekambi,Lyon,France,15,4,1,1028,0,0.438,0
+Group B,England,FW,Raheem Sterling,Chelsea,England,19,5,2,1444,0,0.436,0
+Group E,Costa Rica,DF,Kendall Waston,Saprissa,Costa Rica,17,5,2,1457,0,0.432,0
+Group G,Serbia,MF,Filip Kostić,Juventus,Italy,23,1,7,1665,0,0.432,0
+Group E,Spain,MF,Rodri,Manchester City,England,9,2,1,629,0,0.429,0
+Group H,Ghana,MF,Daniel-Kofi Kyereh,SC Freiburg,Germany,16,3,1,839,0,0.429,0
+Group H,Ghana,FW,André Ayew,Al-Sadd,Qatar,7,2,1,630,0,0.429,0
+Group H,Portugal,FW,Cristiano Ronaldo,Manchester United,England,16,3,2,1051,0,0.428,0
+Group H,Portugal,FW,Bernardo Silva,Manchester City,England,22,2,5,1477,0,0.427,0
+Group E,Japan,MF,Ritsu Dōan,SC Freiburg,Germany,22,4,4,1696,0,0.425,0
+Group H,South Korea,MF,Son Heung-min,Tottenham Hotspur,England,19,5,2,1489,0,0.423,0
+Group D,Denmark,MF,Christian Eriksen,Manchester United,England,20,1,6,1494,0,0.422,0
+Group G,Brazil,FW,Gabriel Martinelli,Arsenal,England,20,5,2,1497,0,0.421,0
+Group G,Cameroon,MF,Souaibou Marou,Coton Sport,Cameroon,26,8,2,2139,0,0.421,0
+Group H,South Korea,MF,Na Sang-ho,FC Seoul,South Korea,36,9,4,2779,0,0.421,0
+Group C,Mexico,FW,Alexis Vega,Guadalajara,Mexico,18,3,4,1503,0,0.419,0
+Group D,Denmark,DF,Alexander Bah,Benfica,Portugal,21,0,6,1305,0,0.414,0
+Group A,Ecuador,MF,Ángel Mena,León,Mexico,14,1,2,654,0,0.413,0
+Group F,Croatia,FW,Andrej Kramarić,1899 Hoffenheim,Germany,15,3,2,1095,0,0.411,0
+Group E,Germany,MF,Joshua Kimmich,Bayern Munich,Germany,23,3,6,1974,0,0.41,0
+Group H,South Korea,MF,Lee Kang-in,Mallorca,Spain,14,2,3,1098,0,0.41,0
+Group E,Costa Rica,FW,Anthony Contreras,Herediano,Costa Rica,24,8,1,1981,0,0.409,0
+Group G,Switzerland,MF,Granit Xhaka,Arsenal,England,20,4,3,1539,0,0.409,0
+Group A,Senegal,FW,Nicolas Jackson,Villarreal,Spain,21,3,2,1117,0,0.403,0
+Group H,Portugal,DF,João Cancelo,Manchester City,England,21,2,5,1588,0,0.397,0
+Group D,Denmark,MF,Pierre-Emile Højbjerg,Tottenham Hotspur,England,21,4,4,1825,0,0.395,0
+Group C,Poland,MF,Jakub Kamiński,VfL Wolfsburg,Germany,15,1,3,918,0,0.392,0
+Group D,Australia,DF,Harry Souttar,Stoke City,England,3,0,1,230,0,0.391,0
+Group F,Canada,MF,Ismaël Koné,CF Montréal,Canada,32,4,5,2069,0,0.391,0
+Group H,Ghana,MF,Kamal Sowah,Club Brugge,Belgium,23,2,4,1397,0,0.387,0
+Group D,Denmark,FW,Jonas Wind,VfL Wolfsburg,Germany,7,1,0,233,0,0.386,0
+Group D,Tunisia,FW,Wahbi Khazri,Montpellier,France,11,2,1,710,0,0.38,0
+Group G,Brazil,MF,Éverton Ribeiro,Flamengo,Brazil,63,7,10,4045,0,0.378,0
+Group A,Qatar,MF,Ali Assadalla,Al-Sadd,Qatar,224,29,26,13125,0,0.377,0
+Group C,Poland,MF,Grzegorz Krychowiak,Al-Shabab,Saudi Arabia,8,2,1,716,0,0.377,0
+Group C,Mexico,DF,Jesús Gallardo,Monterrey,Mexico,20,5,0,1198,0,0.376,0
+Group C,Argentina,MF,Rodrigo De Paul,Atlético Madrid,Spain,18,2,2,970,0,0.371,0
+Group B,Wales,MF,Joe Morrell,Portsmouth,England,10,0,2,486,0,0.37,0
+Group E,Japan,MF,Hidemasa Morita,Sporting CP,Portugal,18,3,2,1220,0,0.369,0
+Group H,Uruguay,DF,Mathías Olivera,Napoli,Italy,16,1,2,731,0,0.369,0
+Group F,Canada,DF,Richie Laryea,Toronto FC,Canada,15,0,4,982,0,0.367,0
+Group C,Mexico,FW,Orbelín Pineda,AEK Athens,Greece,13,3,1,986,0,0.365,0
+Group F,Morocco,MF,Yahya Jabrane,Wydad AC,Morocco,11,3,1,990,0,0.364,0
+Group H,Uruguay,MF,Rodrigo Bentancur,Tottenham Hotspur,England,21,5,2,1736,0,0.363,0
+Group D,Australia,FW,Mitchell Duke,Fagiano Okayama,Japan,37,8,3,2737,0,0.362,0
+Group A,Qatar,FW,Khalid Muneer,Al-Wakrah,Qatar,52,9,4,3257,0,0.359,0
+Group C,Argentina,MF,Alexis Mac Allister,Brighton & Hove Albion,England,14,5,0,1257,0,0.358,0
+Group E,Costa Rica,MF,Bryan Ruiz,Alajuelense,Costa Rica,18,2,2,1006,0,0.358,0
+Group H,Portugal,DF,Raphaël Guerreiro,Borussia Dortmund,Germany,18,3,3,1515,0,0.356,0
+Group C,Argentina,MF,Enzo Fernández,Benfica,Portugal,24,3,5,2029,0,0.355,0
+Group C,Saudi Arabia,FW,Haitham Asiri,Al-Ahli,Saudi Arabia,38,4,2,1552,0,0.348,0
+Group A,Netherlands,MF,Teun Koopmeiners,Atalanta,Italy,15,4,1,1295,0,0.347,0
+Group D,France,DF,Theo Hernandez,Milan,Italy,18,2,4,1563,0,0.345,0
+Group F,Belgium,FW,Yannick Carrasco,Atlético Madrid,Spain,19,2,2,1044,0,0.345,0
+Group G,Switzerland,MF,Denis Zakaria,Chelsea,England,4,1,0,261,0,0.345,0
+Group H,Uruguay,MF,Matías Vecino,Lazio,Italy,20,3,1,1054,0,0.342,0
+Group H,Uruguay,DF,José Luis Rodríguez,Nacional,Uruguay,61,15,0,3944,0,0.342,0
+Group B,Wales,MF,Sorba Thomas,Huddersfield Town,England,20,0,6,1599,0,0.338,0
+Group F,Morocco,DF,Achraf Hakimi,Paris Saint-Germain,France,21,3,3,1599,0,0.338,0
+Group B,Wales,MF,Harry Wilson,Fulham,England,7,0,1,267,0,0.337,0
+Group B,United States,MF,Weston McKennie,Juventus,Italy,16,3,1,1078,0,0.334,0
+Group G,Brazil,DF,Dani Alves,UNAM,Mexico,12,0,4,1080,0,0.333,0
+Group E,Costa Rica,DF,Keysher Fuller,Herediano,Costa Rica,21,1,5,1626,0,0.332,0
+Group C,Saudi Arabia,MF,Ali Al-Hassan,Al-Nassr,Saudi Arabia,5,0,1,272,0,0.331,0
+Group G,Cameroon,DF,Christopher Wooh,Rennes,France,7,1,1,543,0,0.331,0
+Group A,Senegal,DF,Moustapha Name,Pafos,Cyprus,14,3,0,819,0,0.33,0
+Group G,Serbia,MF,Saša Lukić,Torino,Italy,14,3,1,1095,0,0.329,0
+Group D,France,DF,Jules Koundé,Barcelona,Spain,10,0,3,823,0,0.328,0
+Group G,Switzerland,FW,Haris Seferovic,Galatasaray,Turkey,10,2,0,549,0,0.328,0
+Group F,Belgium,MF,Hans Vanaken,Club Brugge,Belgium,25,5,3,2207,0,0.326,0
+Group D,Australia,MF,Aaron Mooy,Celtic,Scotland,20,0,3,831,0,0.325,0
+Group D,Tunisia,DF,Ali Abdi,Caen,France,11,1,2,830,0,0.325,0
+Group H,South Korea,MF,Song Min-kyu,Jeonbuk Hyundai Motors,South Korea,32,4,4,2212,0,0.325,0
+Group B,England,DF,Kieran Trippier,Newcastle United,England,17,1,4,1402,0,0.321,0
+Group G,Cameroon,FW,Bryan Mbeumo,Brentford,England,16,3,1,1141,0,0.316,0
+Group D,Australia,DF,Joel King,OB,Denmark,9,1,1,576,0,0.313,0
+Group H,Portugal,MF,Bruno Fernandes,Manchester United,England,20,3,3,1725,0,0.313,0
+Group A,Netherlands,DF,Denzel Dumfries,Internazionale,Italy,20,2,3,1442,0,0.312,0
+Group E,Spain,DF,José Gayà,Valencia,Spain,10,0,3,865,0,0.312,0
+Group G,Cameroon,FW,Moumi Ngamaleu,Dynamo Moscow,Russia,22,3,2,1444,0,0.312,0
+Group H,South Korea,MF,Son Jun-ho,Shandong Taishan,China,18,0,5,1452,0,0.31,0
+Group D,Denmark,MF,Mathias Jensen,Brentford,England,16,1,3,1167,0,0.308,0
+Group C,Saudi Arabia,DF,Sultan Al-Ghannam,Al-Nassr,Saudi Arabia,5,1,0,293,0,0.307,0
+Group D,Tunisia,MF,Aïssa Laïdouni,Ferencváros,Hungary,23,2,4,1759,0,0.307,0
+Group F,Croatia,MF,Mario Pašalić,Atalanta,Italy,14,1,2,879,0,0.307,0
+Group E,Germany,DF,Matthias Ginter,SC Freiburg,Germany,23,3,4,2058,0,0.306,0
+Group H,South Korea,MF,Lee Jae-sung,Mainz 05,Germany,16,2,1,883,0,0.306,0
+Group D,France,MF,Matteo Guendouzi,Marseille,France,20,3,2,1474,0,0.305,0
+Group A,Ecuador,MF,Gonzalo Plata,Valladolid,Spain,10,0,2,593,0,0.304,0
+Group B,Wales,MF,Matthew Smith,Milton Keynes Dons,England,21,2,2,1188,0,0.303,0
+Group C,Mexico,FW,Raúl Jiménez,Wolverhampton Wanderers,England,4,1,0,297,0,0.303,0
+Group E,Costa Rica,FW,Joel Campbell,León,Mexico,18,1,3,1196,0,0.301,0
+Group D,France,DF,Axel Disasi,Monaco,France,23,3,4,2100,0,0.3,0
+Group E,Germany,MF,Mario Götze,Eintracht Frankfurt,Germany,23,2,4,1808,0,0.299,0
+Group F,Morocco,DF,Yahia Attiyat Allah,Wydad AC,Morocco,11,1,2,906,0,0.298,0
+Group D,Denmark,FW,Kasper Dolberg,Sevilla,Spain,8,0,1,303,0,0.297,0
+Group B,England,DF,John Stones,Manchester City,England,11,1,2,911,0,0.296,0
+Group B,Wales,FW,Daniel James,Fulham,England,14,1,1,608,0,0.296,0
+Group F,Canada,FW,Tajon Buchanan,Club Brugge,Belgium,13,1,2,916,0,0.295,0
+Group F,Canada,FW,Alphonso Davies,Bayern Munich,Germany,19,1,4,1543,0,0.292,0
+Group C,Mexico,MF,Érick Gutiérrez,PSV Eindhoven,Netherlands,21,3,1,1236,0,0.291,0
+Group E,Germany,FW,Kai Havertz,Chelsea,England,20,4,0,1238,0,0.291,0
+Group G,Brazil,MF,Lucas Paquetá,West Ham United,England,14,0,3,927,0,0.291,0
+Group E,Japan,MF,Ao Tanaka,Fortuna Düsseldorf,Germany,15,1,3,1252,0,0.288,0
+Group B,Iran,MF,Saeid Ezatolahi,Vejle,Denmark,11,0,2,628,0,0.287,0
+Group E,Costa Rica,MF,Celso Borges,Alajuelense,Costa Rica,23,1,5,1881,0,0.287,0
+Group G,Serbia,MF,Andrija Živković,PAOK,Greece,12,1,2,945,0,0.286,0
+Group C,Mexico,FW,Uriel Antuna,Cruz Azul,Mexico,19,2,3,1585,0,0.284,0
+Group A,Ecuador,DF,Jackson Porozo,Troyes,France,11,2,1,959,0,0.282,0
+Group G,Switzerland,MF,Michel Aebischer,Bologna,Italy,14,1,1,642,0,0.28,0
+Group F,Belgium,MF,Youri Tielemans,Leicester City,England,17,3,1,1290,0,0.279,0
+Group D,Australia,MF,Cameron Devlin,Heart of Midlothian,Scotland,19,0,4,1293,0,0.278,0
+Group F,Croatia,FW,Ante Budimir,Osasuna,Spain,12,1,1,648,0,0.278,0
+Group G,Cameroon,DF,Jerome Ngom Mbekeli,Colombe Sportive,Cameroon,20,2,2,1297,0,0.278,0
+Group A,Senegal,DF,Fodé Ballo-Touré,Milan,Italy,7,1,0,327,0,0.275,0
+Group C,Saudi Arabia,DF,Saud Abdulhamid,Al-Hilal,Saudi Arabia,8,0,2,655,0,0.275,0
+Group F,Morocco,FW,Youssef En-Nesyri,Sevilla,Spain,15,2,0,657,0,0.274,0
+Group F,Morocco,FW,Abdelhamid Sabiri,Sampdoria,Italy,13,2,1,998,0,0.271,0
+Group G,Cameroon,FW,Vincent Aboubakar,Al-Nassr,Saudi Arabia,8,2,0,671,0,0.268,0
+Group A,Qatar,DF,Boualem Khoukhi,Al-Sadd,Qatar,242,48,11,19867,0,0.267,0
+Group D,Australia,DF,Aziz Behich,Dundee United,Scotland,16,2,2,1349,0,0.267,0
+Group C,Argentina,MF,Exequiel Palacios,Bayer Leverkusen,Germany,13,1,1,676,0,0.266,0
+Group E,Costa Rica,DF,Bryan Oviedo,Real Salt Lake,United States,11,0,2,677,0,0.266,0
+Group D,Tunisia,DF,Mohamed Dräger,Luzern,Switzerland,16,3,1,1356,0,0.265,0
+Group H,Portugal,MF,Rúben Neves,Wolverhampton Wanderers,England,16,4,0,1360,0,0.265,0
+Group C,Saudi Arabia,FW,Salem Al-Dawsari,Al-Hilal,Saudi Arabia,4,0,1,342,0,0.263,0
+Group E,Germany,MF,İlkay Gündoğan,Manchester City,England,20,2,2,1374,0,0.262,0
+Group F,Croatia,DF,Borna Barišić,Rangers,Scotland,25,0,6,2059,0,0.262,0
+Group F,Canada,FW,Cyle Larin,Club Brugge,Belgium,12,1,0,346,0,0.26,0
+Group H,Ghana,DF,Tariq Lamptey,Brighton & Hove Albion,England,13,1,0,347,0,0.259,0
+Group F,Morocco,DF,Noussair Mazraoui,Bayern Munich,Germany,18,0,3,1050,0,0.257,0
+Group G,Cameroon,DF,Collins Fai,Al-Tai,Saudi Arabia,8,0,2,702,0,0.256,0
+Group E,Costa Rica,MF,Roan Wilson,Municipal Grecia,Costa Rica,13,0,3,1064,0,0.254,0
+Group B,England,MF,Conor Gallagher,Chelsea,England,18,1,1,712,0,0.253,0
+Group C,Saudi Arabia,MF,Mohamed Kanno,Al-Hilal,Saudi Arabia,194,21,16,13272,0,0.251,0
+Group D,Tunisia,MF,Nader Ghandri,Club Africain,Tunisia,4,1,0,360,0,0.25,0
+Group F,Morocco,DF,Achraf Dari,Brest,France,10,1,1,719,0,0.25,0
+Group H,Portugal,MF,William Carvalho,Real Betis,Spain,18,2,1,1081,0,0.25,0
+Group B,Iran,MF,Ahmad Nourollahi,Shabab Al-Ahli,United Arab Emirates,9,0,2,725,0,0.248,0
+Group B,Wales,MF,Dylan Levitt,Dundee United,Scotland,18,3,1,1450,0,0.248,0
+Group F,Croatia,MF,Luka Sučić,Red Bull Salzburg,Austria,19,0,4,1464,0,0.246,0
+Group D,France,MF,Jordan Veretout,Marseille,France,21,1,3,1472,0,0.245,0
+Group D,Australia,DF,Fran Karačić,Brescia,Italy,9,0,2,738,0,0.244,0
+Group A,Senegal,MF,Pape Gueye,Marseille,France,12,1,0,370,0,0.243,0
+Group D,Australia,DF,Kye Rowles,Heart of Midlothian,Scotland,10,1,1,740,0,0.243,0
+Group E,Japan,DF,Miki Yamane,Kawasaki Frontale,Japan,38,3,6,3354,0,0.242,0
+Group C,Mexico,DF,Kevin Álvarez,Pachuca,Mexico,21,0,5,1881,0,0.239,0
+Group G,Switzerland,MF,Ardon Jashari,Luzern,Switzerland,17,0,4,1505,0,0.239,0
+Group H,South Korea,MF,Paik Seung-ho,Jeonbuk Hyundai Motors,South Korea,40,3,6,3390,0,0.239,0
+Group A,Netherlands,MF,Frenkie de Jong,Barcelona,Spain,17,2,1,1133,0,0.238,0
+Group C,Argentina,MF,Leandro Paredes,Juventus,Italy,17,0,2,756,0,0.238,0
+Group H,Portugal,MF,Matheus Nunes,Wolverhampton Wanderers,England,15,1,2,1133,0,0.238,0
+Group B,Iran,DF,Majid Hosseini,Kayserispor,Turkey,13,2,1,1139,0,0.237,0
+Group D,France,DF,Benjamin Pavard,Bayern Munich,Germany,21,4,0,1520,0,0.237,0
+Group F,Belgium,FW,Dries Mertens,Galatasaray,Turkey,12,2,0,758,0,0.237,0
+Group G,Brazil,DF,Alex Telles,Sevilla,Spain,19,0,3,1140,0,0.237,0
+Group G,Switzerland,MF,Fabian Frei,Basel,Switzerland,25,2,2,1528,0,0.236,0
+Group D,Denmark,MF,Christian Nørgaard,Brentford,England,6,1,0,384,0,0.234,0
+Group D,Tunisia,MF,Hannibal Mejbri,Birmingham City,England,15,0,2,772,0,0.233,0
+Group B,Wales,FW,Mark Harris,Cardiff City,Wales,22,3,0,1171,0,0.231,0
+Group F,Canada,DF,Alistair Johnston,CF Montréal,Canada,39,4,4,3113,0,0.231,0
+Group G,Serbia,DF,Strahinja Pavlović,Red Bull Salzburg,Austria,19,2,2,1578,0,0.228,0
+Group D,Australia,MF,Keanu Baccus,St Mirren,Scotland,15,2,1,1189,0,0.227,0
+Group B,United States,FW,Brenden Aaronson,Leeds United,England,14,1,2,1196,0,0.226,0
+Group F,Canada,MF,Liam Millar,Basel,Switzerland,27,1,3,1592,0,0.226,0
+Group F,Croatia,MF,Marcelo Brozović,Internazionale,Italy,12,2,0,795,0,0.226,0
+Group F,Canada,DF,Steven Vitória,Chaves,Portugal,13,3,0,1200,0,0.225,0
+Group B,United States,DF,Aaron Long,New York Red Bulls,United States,35,5,2,2831,0,0.223,0
+Group B,Wales,MF,Aaron Ramsey,Nice,France,16,1,1,808,0,0.223,0
+Group F,Belgium,MF,Timothy Castagne,Leicester City,England,15,1,2,1220,0,0.221,0
+Group H,South Korea,MF,Hwang In-beom,Olympiacos,Greece,16,1,2,1235,0,0.219,0
+Group G,Serbia,DF,Nikola Milenković,Fiorentina,Italy,16,2,1,1241,0,0.218,0
+Group D,Denmark,MF,Mikkel Damsgaard,Brentford,England,11,0,1,415,0,0.217,0
+Group E,Spain,DF,Jordi Alba,Barcelona,Spain,12,0,2,828,0,0.217,0
+Group A,Qatar,MF,Abdulaziz Hatem,Al-Rayyan,Qatar,229,27,19,19168,0,0.216,0
+Group D,France,DF,Lucas Hernandez,Bayern Munich,Germany,11,1,1,832,0,0.216,0
+Group D,Tunisia,FW,Naïm Sliti,Al-Ettifaq,Saudi Arabia,5,1,0,416,0,0.216,0
+Group E,Spain,DF,Eric García,Barcelona,Spain,13,1,1,833,0,0.216,0
+Group D,Tunisia,FW,Anis Ben Slimane,Brøndby,Denmark,21,3,0,1258,0,0.215,0
+Group A,Ecuador,DF,Diego Palacios,Los Angeles FC,United States,35,1,6,2939,0,0.214,0
+Group G,Brazil,MF,Casemiro,Manchester United,England,20,1,2,1264,0,0.214,0
+Group B,United States,MF,Kellyn Acosta,Los Angeles FC,United States,39,3,4,2952,0,0.213,0
+Group B,United States,MF,Yunus Musah,Valencia,Spain,11,0,2,849,0,0.212,0
+Group F,Canada,MF,Mark-Anthony Kaye,Toronto FC,Canada,28,3,2,2129,0,0.211,0
+Group A,Qatar,MF,Karim Boudiaf,Al-Duhail,Qatar,289,24,31,23584,0,0.21,0
+Group B,Wales,DF,Ben Davies,Tottenham Hotspur,England,17,2,1,1285,0,0.21,0
+Group E,Costa Rica,MF,Álvaro Zamora,Saprissa,Costa Rica,18,1,2,1290,0,0.209,0
+Group E,Costa Rica,MF,Youstin Salas,Saprissa,Costa Rica,21,0,4,1729,0,0.208,0
+Group G,Brazil,DF,Éder Militão,Real Madrid,Spain,17,3,0,1301,0,0.208,0
+Group C,Argentina,DF,Gonzalo Montiel,Sevilla,Spain,13,1,1,872,0,0.206,0
+Group H,South Korea,DF,Cho Yu-min,Daejeon Hana Citizen,South Korea,35,7,0,3060,0,0.206,0
+Group A,Senegal,MF,Krépin Diatta,Monaco,France,21,1,2,1319,0,0.205,0
+Group C,Poland,DF,Robert Gumny,FC Augsburg,Germany,12,1,1,880,0,0.205,0
+Group E,Spain,DF,Dani Carvajal,Real Madrid,Spain,18,0,3,1317,0,0.205,0
+Group E,Germany,FW,Karim Adeyemi,Borussia Dortmund,Germany,18,2,0,883,0,0.204,0
+Group C,Argentina,DF,Nicolás Tagliafico,Lyon,France,15,1,2,1329,0,0.203,0
+Group C,Argentina,MF,Papu Gómez,Sevilla,Spain,17,0,2,892,0,0.202,0
+Group E,Japan,FW,Takuma Asano,VfL Bochum,Germany,7,1,0,448,0,0.201,0
+Group A,Ecuador,DF,Ángelo Preciado,Genk,Belgium,10,0,1,450,0,0.2,0
+Group A,Qatar,DF,Mohammed Waad,Al-Sadd,Qatar,68,4,4,3660,0,0.197,0
+Group B,Iran,MF,Ali Gholizadeh,Charleroi,Belgium,17,1,1,914,0,0.197,0
+Group D,Australia,MF,Riley McGree,Middlesbrough,England,21,3,0,1372,0,0.197,0
+Group E,Japan,MF,Wataru Endo,VfB Stuttgart,Germany,16,3,0,1375,0,0.196,0
+Group C,Mexico,DF,Jorge Sánchez,Ajax,Netherlands,15,1,1,921,0,0.195,0
+Group E,Costa Rica,MF,Daniel Chacón,Cartaginés,Costa Rica,34,3,2,2337,0,0.193,0
+Group E,Germany,DF,Niklas Süle,Borussia Dortmund,Germany,20,1,2,1417,0,0.191,0
+Group H,South Korea,MF,Hwang Hee-chan,Wolverhampton Wanderers,England,13,0,1,472,0,0.191,0
+Group B,Iran,DF,Sadegh Moharrami,Dinamo Zagreb,Croatia,23,0,3,1437,0,0.188,0
+Group E,Spain,MF,Pedri,Barcelona,Spain,19,3,0,1433,0,0.188,0
+Group F,Belgium,DF,Jan Vertonghen,Anderlecht,Belgium,13,2,0,959,0,0.188,0
+Group B,Wales,DF,Connor Roberts,Burnley,England,20,1,2,1463,0,0.185,0
+Group C,Mexico,MF,Luis Chávez,Pachuca,Mexico,22,2,2,1950,0,0.185,0
+Group C,Mexico,DF,Gerardo Arteaga,Genk,Belgium,17,2,1,1469,0,0.184,0
+Group C,Mexico,MF,Carlos Rodríguez,Cruz Azul,Mexico,20,0,3,1485,0,0.182,0
+Group D,Tunisia,DF,Wajdi Kechrida,Atromitos,Greece,11,1,1,990,0,0.182,0
+Group B,England,DF,Luke Shaw,Manchester United,England,15,0,2,995,0,0.181,0
+Group D,France,DF,William Saliba,Arsenal,England,17,2,1,1489,0,0.181,0
+Group E,Costa Rica,DF,Francisco Calvo,Konyaspor,Turkey,17,3,0,1492,0,0.181,0
+Group E,Germany,DF,Antonio Rüdiger,Real Madrid,Spain,17,2,0,1001,0,0.18,0
+Group E,Spain,FW,Yeremy Pino,Villarreal,Spain,19,1,1,1001,0,0.18,0
+Group H,Ghana,FW,Jordan Ayew,Crystal Palace,England,16,0,2,999,0,0.18,0
+Group H,South Korea,DF,Kim Moon-hwan,Jeonbuk Hyundai Motors,South Korea,40,1,6,3503,0,0.18,0
+Group B,England,DF,Trent Alexander-Arnold,Liverpool,England,20,3,0,1513,0,0.178,0
+Group C,Mexico,DF,Edson Álvarez,Ajax,Netherlands,19,1,2,1520,0,0.178,0
+Group C,Poland,MF,Przemysław Frankowski,Lens,France,15,0,2,1010,0,0.178,0
+Group E,Japan,DF,Shogo Taniguchi,Kawasaki Frontale,Japan,41,3,4,3536,0,0.178,0
+Group E,Japan,DF,Ko Itakura,Borussia Mönchengladbach,Germany,7,0,1,505,0,0.178,0
+Group A,Senegal,DF,Ismail Jakobs,Monaco,France,18,0,1,511,0,0.176,0
+Group H,South Korea,DF,Kim Jin-su,Jeonbuk Hyundai Motors,South Korea,43,2,5,3580,0,0.176,0
+Group A,Ecuador,DF,Robert Arboleda,São Paulo,Brazil,24,4,0,2062,0,0.175,0
+Group B,England,MF,Declan Rice,West Ham United,England,20,1,2,1556,0,0.174,0
+Group D,Australia,MF,Jackson Irvine,FC St. Pauli,Germany,18,3,0,1568,0,0.172,0
+Group F,Belgium,DF,Toby Alderweireld,Antwerp,Belgium,23,2,2,2100,0,0.171,0
+Group H,Ghana,MF,Thomas Partey,Arsenal,England,15,2,0,1050,0,0.171,0
+Group G,Cameroon,DF,Nicolas Nkoulou,Aris,Greece,8,1,0,537,0,0.168,0
+Group D,Tunisia,MF,Ghailene Chaalali,Espérance de Tunis,Tunisia,6,0,1,540,0,0.167,0
+Group F,Morocco,DF,Badr Benoun,Qatar SC,Qatar,6,1,0,540,0,0.167,0
+Group H,Ghana,MF,Daniel Afriyie,Hearts of Oak,Ghana,6,1,0,540,0,0.167,0
+Group F,Croatia,MF,Mateo Kovačić,Chelsea,England,17,1,1,1085,0,0.166,0
+Group H,Uruguay,DF,Diego Godín,Vélez Sarsfield,Argentina,29,2,2,2166,0,0.166,0
+Group A,Qatar,DF,Homam Ahmed,Al-Gharafa,Qatar,68,6,5,6017,0,0.165,0
+Group G,Serbia,FW,Filip Đuričić,Sampdoria,Italy,16,2,0,1092,0,0.165,0
+Group E,Japan,MF,Yuki Soma,Nagoya Grampus,Japan,45,3,3,3300,0,0.164,0
+Group F,Canada,DF,Kamal Miller,CF Montréal,Canada,33,2,3,2780,0,0.162,0
+Group C,Saudi Arabia,FW,Abdulrahman Al-Aboud,Al-Ittihad,Saudi Arabia,7,0,1,563,0,0.16,0
+Group H,South Korea,FW,Hwang Ui-jo,Olympiacos,Greece,13,0,1,561,0,0.16,0
+Group G,Cameroon,DF,Olivier Mbaizo,Philadelphia Union,United States,23,0,3,1697,0,0.159,0
+Group H,Portugal,DF,Diogo Dalot,Manchester United,England,20,1,2,1704,0,0.158,0
+Group B,United States,DF,Walker Zimmerman,Nashville SC,United States,34,4,1,2871,0,0.157,0
+Group A,Ecuador,DF,Félix Torres,Santos Laguna,Mexico,15,2,0,1162,0,0.155,0
+Group E,Spain,MF,Koke,Atlético Madrid,Spain,15,0,2,1163,0,0.155,0
+Group H,Ghana,DF,Alexander Djiku,Strasbourg,France,14,1,1,1181,0,0.152,0
+Group B,Iran,DF,Milad Mohammadi,AEK Athens,Greece,10,0,1,595,0,0.151,0
+Group F,Canada,MF,Samuel Piette,CF Montréal,Canada,30,0,3,1789,0,0.151,0
+Group H,Portugal,DF,António Silva,Benfica,Portugal,20,3,0,1797,0,0.15,0
+Group B,Wales,FW,Brennan Johnson,Nottingham Forest,England,16,2,0,1217,0,0.148,0
+Group E,Germany,DF,Nico Schlotterbeck,Borussia Dortmund,Germany,23,1,2,1845,0,0.146,0
+Group B,England,DF,Conor Coady,Everton,England,14,1,1,1251,0,0.144,0
+Group H,Portugal,MF,João Palhinha,Fulham,England,14,2,0,1253,0,0.144,0
+Group E,Costa Rica,MF,Yeltsin Tejeda,Herediano,Costa Rica,16,1,1,1255,0,0.143,0
+Group A,Qatar,MF,Naif Al-Hadhrami,Al-Rayyan,Qatar,50,4,2,3806,0,0.142,0
+Group E,Spain,DF,Aymeric Laporte,Manchester City,England,8,0,1,634,0,0.142,0
+Group F,Canada,DF,Joel Waterman,CF Montréal,Canada,36,3,2,3169,0,0.142,0
+Group A,Senegal,MF,Pathé Ciss,Rayo Vallecano,Spain,13,1,0,637,0,0.141,0
+Group A,Ecuador,DF,Pervis Estupiñán,Brighton & Hove Albion,England,12,0,1,649,0,0.139,0
+Group D,France,MF,Aurélien Tchouaméni,Real Madrid,Spain,18,0,2,1291,0,0.139,0
+Group G,Switzerland,DF,Nico Elvedi,Borussia Mönchengladbach,Germany,15,2,0,1305,0,0.138,0
+Group C,Mexico,FW,Roberto Alvarado,Guadalajara,Mexico,18,2,0,1337,0,0.135,0
+Group F,Croatia,DF,Josip Juranović,Celtic,Scotland,15,1,1,1342,0,0.134,0
+Group A,Senegal,DF,Youssouf Sabaly,Real Betis,Spain,10,0,1,676,0,0.133,0
+Group B,England,DF,Ben White,Arsenal,England,19,0,2,1350,0,0.133,0
+Group H,South Korea,MF,Kwon Chang-hoon,Gimcheon Sangmu,South Korea,36,0,3,2029,0,0.133,0
+Group E,Germany,DF,Christian Günter,SC Freiburg,Germany,23,0,3,2051,0,0.132,0
+Group H,South Korea,DF,Kwon Kyung-won,Gamba Osaka,Japan,19,2,0,1365,0,0.132,0
+Group F,Croatia,DF,Dejan Lovren,Zenit Saint Petersburg,Russia,16,1,1,1395,0,0.129,0
+Group H,Uruguay,DF,Martín Cáceres,LA Galaxy,United States,33,1,2,2120,0,0.127,0
+Group A,Netherlands,DF,Daley Blind,Ajax,Netherlands,19,0,2,1442,0,0.125,0
+Group C,Saudi Arabia,DF,Abdulelah Al-Amri,Al-Nassr,Saudi Arabia,8,0,1,720,0,0.125,0
+Group C,Saudi Arabia,DF,Ali Al-Bulaihi,Al-Hilal,Saudi Arabia,8,1,0,720,0,0.125,0
+Group G,Brazil,DF,Thiago Silva,Chelsea,England,17,0,2,1458,0,0.123,0
+Group E,Japan,DF,Hiroki Sakai,Urawa Red Diamonds,Japan,28,0,3,2217,0,0.122,0
+Group F,Belgium,MF,Thorgan Hazard,Borussia Dortmund,Germany,21,1,0,738,0,0.122,0
+Group G,Cameroon,DF,Nouhou Tolo,Seattle Sounders FC,United States,38,1,3,2981,0,0.121,0
+Group A,Senegal,DF,Abdou Diallo,RB Leipzig,Germany,11,1,0,751,0,0.12,0
+Group A,Qatar,MF,Abdelkarim Hassan,Al-Sadd,Qatar,275,35,22,43710,0,0.117,0
+Group C,Argentina,MF,Marcos Acuña,Sevilla,Spain,14,0,1,769,0,0.117,0
+Group H,Uruguay,DF,Guillermo Varela,Flamengo,Brazil,35,0,3,2303,0,0.117,0
+Group A,Senegal,DF,Cheikhou Kouyaté,Nottingham Forest,England,13,1,0,776,0,0.116,0
+Group C,Mexico,MF,Luis Romo,Monterrey,Mexico,20,2,0,1563,0,0.115,0
+Group C,Poland,DF,Kamil Glik,Benevento,Italy,9,1,0,781,0,0.115,0
+Group F,Belgium,FW,Charles De Ketelaere,Milan,Italy,18,0,1,797,0,0.113,0
+Group D,Denmark,DF,Joakim Mæhle,Atalanta,Italy,14,0,1,804,0,0.112,0
+Group F,Croatia,MF,Kristijan Jakić,Eintracht Frankfurt,Germany,22,1,1,1623,0,0.111,0
+Group G,Serbia,MF,Nemanja Gudelj,Sevilla,Spain,19,2,0,1620,0,0.111,0
+Group E,Japan,DF,Takehiro Tomiyasu,Arsenal,England,18,0,1,816,0,0.11,0
+Group A,Qatar,DF,Ró-Ró,Al-Sadd,Qatar,215,9,13,18413,0,0.108,0
+Group H,South Korea,DF,Hong Chul,Daegu FC,South Korea,35,1,2,2531,0,0.107,0
+Group G,Brazil,DF,Danilo,Juventus,Italy,20,0,2,1700,0,0.106,0
+Group B,United States,DF,Shaq Moore,Nashville SC,United States,41,0,3,2560,0,0.105,0
+Group G,Switzerland,DF,Eray Cömert,Valencia,Spain,11,1,0,873,0,0.103,0
+Group B,Iran,MF,Mehdi Torabi,Persepolis,Iran,11,0,1,899,0,0.1,0
+Group C,Poland,MF,Damian Szymański,AEK Athens,Greece,11,1,0,901,0,0.1,0
+Group F,Belgium,DF,Arthur Theate,Rennes,France,20,2,0,1800,0,0.1,0
+Group H,South Korea,DF,Kim Min-jae,Napoli,Italy,20,2,0,1800,0,0.1,0
+Group A,Qatar,DF,Bassam Al-Rawi,Al-Duhail,Qatar,102,4,4,7273,0,0.099,0
+Group E,Germany,DF,Armel Bella-Kotchap,Southampton,England,11,0,1,906,0,0.099,0
+Group F,Morocco,DF,Romain Saïss,Beşiktaş,Turkey,11,0,1,913,0,0.099,0
+Group G,Switzerland,DF,Edimilson Fernandes,Mainz 05,Germany,14,0,1,909,0,0.099,0
+Group H,Uruguay,MF,Agustín Canobbio,Athletico Paranaense,Brazil,44,3,0,2716,0,0.099,0
+Group A,Netherlands,DF,Jurriën Timber,Ajax,Netherlands,21,0,2,1841,0,0.098,0
+Group E,Spain,MF,Marcos Llorente,Atlético Madrid,Spain,12,1,0,922,0,0.098,0
+Group B,England,MF,Jordan Henderson,Liverpool,England,16,0,1,926,0,0.097,0
+Group G,Serbia,MF,Darko Lazović,Hellas Verona,Italy,12,0,1,928,0,0.097,0
+Group E,Japan,MF,Gaku Shibasaki,Leganés,Spain,13,0,1,938,0,0.096,0
+Group A,Ecuador,MF,Alan Franco,Talleres,Argentina,32,1,2,2835,0,0.095,0
+Group B,England,DF,Eric Dier,Tottenham Hotspur,England,22,2,0,1902,0,0.095,0
+Group H,South Korea,DF,Kim Tae-hwan,Ulsan Hyundai,South Korea,33,0,3,2899,0,0.093,0
+Group F,Croatia,DF,Domagoj Vida,AEK Athens,Greece,11,0,1,982,0,0.092,0
+Group H,Uruguay,MF,Lucas Torreira,Galatasaray,Turkey,12,0,1,975,0,0.092,0
+Group G,Switzerland,MF,Djibril Sow,Eintracht Frankfurt,Germany,24,2,0,1980,0,0.091,0
+Group H,Portugal,DF,Danilo Pereira,Paris Saint-Germain,France,17,1,0,994,0,0.091,0
+Group G,Switzerland,DF,Silvan Widmer,Mainz 05,Germany,14,1,0,1016,0,0.089,0
+Group G,Switzerland,DF,Manuel Akanji,Manchester City,England,12,0,1,1016,0,0.089,0
+Group B,Wales,DF,Ethan Ampadu,Spezia,Italy,12,0,1,1017,0,0.088,0
+Group G,Brazil,DF,Alex Sandro,Juventus,Italy,17,0,1,1017,0,0.088,0
+Group A,Netherlands,MF,Marten de Roon,Atalanta,Italy,13,0,1,1029,0,0.087,0
+Group B,England,FW,Jack Grealish,Manchester City,England,16,1,0,1039,0,0.087,0
+Group C,Argentina,DF,Nicolás Otamendi,Benfica,Portugal,23,1,1,2070,0,0.087,0
+Group B,United States,DF,DeAndre Yedlin,Inter Miami CF,United States,63,0,5,5261,0,0.086,0
+Group C,Poland,MF,Krystian Bielik,Birmingham City,England,13,0,1,1047,0,0.086,0
+Group D,Denmark,DF,Rasmus Kristensen,Leeds United,England,12,0,1,1051,0,0.086,0
+Group D,Tunisia,DF,Bilel Ifa,Kuwait SC,Kuwait,270,17,5,22962,0,0.086,0
+Group F,Belgium,MF,Thomas Meunier,Borussia Dortmund,Germany,14,0,1,1054,0,0.085,0
+Group E,Costa Rica,DF,Carlos Martínez,San Carlos,Costa Rica,304,5,18,24823,0,0.083,0
+Group F,Morocco,MF,Bilal El Khannous,Genk,Belgium,17,0,1,1108,0,0.081,0
+Group F,Belgium,MF,Amadou Onana,Everton,England,15,0,1,1128,0,0.08,0
+Group G,Serbia,DF,Srđan Babić,Almería,Spain,13,1,0,1124,0,0.08,0
+Group E,Spain,MF,Gavi,Barcelona,Spain,19,0,1,1134,0,0.079,0
+Group G,Serbia,DF,Strahinja Eraković,Red Star Belgrade,Serbia,26,0,2,2269,0,0.079,0
+Group A,Senegal,DF,Kalidou Koulibaly,Chelsea,England,14,1,0,1168,0,0.077,0
+Group C,Mexico,DF,Héctor Moreno,Monterrey,Mexico,18,1,0,1176,0,0.077,0
+Group D,Denmark,DF,Joachim Andersen,Crystal Palace,England,13,1,0,1170,0,0.077,0
+Group E,Costa Rica,DF,Juan Pablo Vargas,Millonarios,Colombia,40,2,1,3508,0,0.077,0
+Group F,Canada,DF,Derek Cornelius,Panetolikos,Greece,14,0,1,1184,0,0.076,0
+Group E,Spain,MF,Sergio Busquets,Barcelona,Spain,16,0,1,1202,0,0.075,0
+Group A,Netherlands,DF,Matthijs de Ligt,Bayern Munich,Germany,18,1,0,1213,0,0.074,0
+Group A,Senegal,DF,Formose Mendy,Amiens,France,14,1,0,1214,0,0.074,0
+Group F,Croatia,DF,Joško Gvardiol,RB Leipzig,Germany,19,1,0,1223,0,0.074,0
+Group A,Netherlands,DF,Stefan de Vrij,Internazionale,Italy,16,1,0,1255,0,0.072,0
+Group A,Senegal,MF,Mamadou Loum,Reading,England,18,1,0,1244,0,0.072,0
+Group B,Wales,DF,Joe Rodon,Rennes,France,14,1,0,1258,0,0.072,0
+Group E,Japan,DF,Hiroki Ito,VfB Stuttgart,Germany,15,0,1,1256,0,0.072,0
+Group F,Croatia,DF,Josip Šutalo,Dinamo Zagreb,Croatia,16,1,0,1257,0,0.072,0
+Group G,Serbia,DF,Miloš Veljković,Werder Bremen,Germany,14,1,0,1245,0,0.072,0
+Group G,Switzerland,DF,Fabian Schär,Newcastle United,England,14,1,0,1246,0,0.072,0
+Group C,Argentina,MF,Guido Rodríguez,Real Betis,Spain,17,1,0,1267,0,0.071,0
+Group H,Ghana,DF,Joseph Aidoo,Celta Vigo,Spain,14,1,0,1260,0,0.071,0
+Group A,Ecuador,MF,Moisés Caicedo,Brighton & Hove Albion,England,15,1,0,1293,0,0.07,0
+Group E,Costa Rica,MF,Douglas López,Herediano,Costa Rica,22,0,1,1277,0,0.07,0
+Group H,Ghana,DF,Mohammed Salisu,Southampton,England,15,0,1,1305,0,0.069,0
+Group D,Tunisia,DF,Montassar Talbi,Lorient,France,15,0,1,1350,0,0.067,0
+Group H,Ghana,MF,Salis Abdul Samed,Lens,France,15,1,0,1350,0,0.067,0
+Group C,Poland,DF,Artur Jędrzejczyk,Legia Warsaw,Poland,16,0,1,1369,0,0.066,0
+Group G,Cameroon,DF,Jean-Charles Castelletto,Nantes,France,19,0,1,1380,0,0.065,0
+Group A,Qatar,MF,Jassem Gaber,Al-Arabi,Qatar,50,0,2,2814,0,0.064,0
+Group C,Mexico,DF,Néstor Araujo,América,Mexico,17,0,1,1398,0,0.064,0
+Group G,Brazil,DF,Bremer,Juventus,Italy,16,1,0,1396,0,0.064,0
+Group A,Ecuador,DF,Piero Hincapié,Bayer Leverkusen,Germany,18,1,0,1461,0,0.062,0
+Group A,Ecuador,DF,Xavier Arreaga,Seattle Sounders FC,United States,35,1,1,2894,0,0.062,0
+Group B,United States,DF,Joe Scally,Borussia Mönchengladbach,Germany,17,1,0,1465,0,0.061,0
+Group H,Portugal,DF,Rúben Dias,Manchester City,England,19,1,0,1468,0,0.061,0
+Group B,Wales,DF,Tom Lockyer,Luton Town,England,17,1,0,1499,0,0.06,0
+Group C,Poland,DF,Mateusz Wieteska,Clermont,France,17,0,1,1501,0,0.06,0
+Group B,Wales,DF,Ben Cabango,Swansea City,Wales,19,1,0,1585,0,0.057,0
+Group D,Australia,DF,Miloš Degenek,Columbus Crew,United States,43,0,2,3154,0,0.057,0
+Group F,Belgium,MF,Axel Witsel,Atlético Madrid,Spain,21,0,1,1618,0,0.056,0
+Group F,Canada,MF,Junior Hoilett,Reading,England,20,1,0,1607,0,0.056,0
+Group E,Germany,DF,David Raum,RB Leipzig,Germany,22,0,1,1623,0,0.055,0
+Group H,South Korea,DF,Yoon Jong-gyu,FC Seoul,South Korea,37,1,1,3329,0,0.054,0
+Group D,Denmark,DF,Jens Stryger Larsen,Trabzonspor,Turkey,21,1,0,1738,0,0.052,0
+Group G,Brazil,DF,Marquinhos,Paris Saint-Germain,France,21,1,0,1723,0,0.052,0
+Group A,Qatar,MF,Assim Madibo,Al-Duhail,Qatar,96,0,3,5423,0,0.05,0
+Group C,Mexico,MF,Héctor Herrera,Houston Dynamo FC,United States,37,0,1,1853,0,0.049,0
+Group A,Netherlands,DF,Virgil van Dijk,Liverpool,England,21,1,0,1890,0,0.048,0
+Group D,France,DF,Youssouf Fofana,Monaco,France,22,1,0,1876,0,0.048,0
+Group A,Ecuador,DF,William Pacho,Antwerp,Belgium,22,0,1,1939,0,0.046,0
+Group D,Tunisia,MF,Ellyes Skhiri,1. FC Köln,Germany,22,1,0,1951,0,0.046,0
+Group E,Costa Rica,MF,Anthony Hernández,Puntarenas,Costa Rica,58,1,0,3282,0,0.027,0
+Group A,Qatar,MF,Salem Al-Hajri,Al-Sadd,Qatar,121,1,1,7264,0,0.025,0
+Group A,Qatar,DF,Tarek Salman,Al-Sadd,Qatar,103,1,1,7466,0,0.024,0
+Group A,Ecuador,MF,Carlos Gruezo,FC Augsburg,Germany,15,0,0,1121,0,0,0
+Group A,Ecuador,MF,Ayrton Preciado,Santos Laguna,Mexico,1,0,0,31,0,0,0
+Group A,Ecuador,MF,Sebas Méndez,Los Angeles FC,United States,29,0,0,828,0,0,0
+Group A,Ecuador,FW,Kevin Rodríguez,Imbabura,Ecuador,1,0,0,67,0,0,0
+Group A,Netherlands,DF,Nathan Aké,Manchester City,England,13,0,0,852,0,0,0
+Group A,Netherlands,DF,Tyrell Malacia,Manchester United,England,15,0,0,1023,0,0,0
+Group A,Qatar,DF,Musab Kheder,Al-Sadd,Qatar,0,0,0,0,0,0,0
+Group A,Qatar,MF,Mostafa Meshaal,Al-Sadd,Qatar,0,0,0,0,0,0,0
+Group A,Senegal,DF,Pape Abou Cissé,Olympiacos,Greece,13,0,0,1162,0,0,0
+Group A,Senegal,MF,Idrissa Gueye,Everton,England,10,0,0,741,0,0,0
+Group A,Senegal,MF,Nampalys Mendy,Leicester City,England,7,0,0,206,0,0,0
+Group A,Senegal,MF,Pape Matar Sarr,Tottenham Hotspur,England,2,0,0,111,0,0,0
+Group B,England,DF,Kyle Walker,Manchester City,England,8,0,0,653,0,0,0
+Group B,England,DF,Harry Maguire,Manchester United,England,9,0,0,511,0,0,0
+Group B,England,MF,Kalvin Phillips,Manchester City,England,4,0,0,53,0,0,0
+Group B,Iran,DF,Ehsan Hajsafi,AEK Athens,Greece,8,0,0,572,0,0,0
+Group B,Iran,DF,Shojae Khalilzadeh,Al-Ahli Doha,Qatar,5,0,0,447,0,0,0
+Group B,Iran,DF,Morteza Pouraliganji,Persepolis,Iran,8,0,0,720,0,0,0
+Group B,Iran,MF,Vahid Amiri,Persepolis,Iran,5,0,0,282,0,0,0
+Group B,Iran,MF,Saman Ghoddos,Brentford,England,8,0,0,156,0,0,0
+Group B,Iran,DF,Rouzbeh Cheshmi,Esteghlal,Iran,12,0,0,965,0,0,0
+Group B,Iran,DF,Abolfazl Jalali,Esteghlal,Iran,9,0,0,474,0,0,0
+Group B,United States,DF,Sergiño Dest,Milan,Italy,9,0,0,373,0,0,0
+Group B,United States,MF,Tyler Adams,Leeds United,England,13,0,0,1167,0,0,0
+Group B,United States,DF,Antonee Robinson,Fulham,England,13,0,0,1109,0,0,0
+Group B,United States,DF,Tim Ream,Fulham,England,15,0,0,1348,0,0,0
+Group B,United States,MF,Luca de la Torre,Celta Vigo,Spain,5,0,0,50,0,0,0
+Group B,United States,DF,Cameron Carter-Vickers,Celtic,Scotland,18,0,0,1620,0,0,0
+Group B,Wales,DF,Chris Gunter,AFC Wimbledon,England,20,0,0,1755,0,0,0
+Group B,Wales,DF,Neco Williams,Nottingham Forest,England,16,0,0,1106,0,0,0
+Group B,Wales,DF,Chris Mepham,Bournemouth,England,15,0,0,1342,0,0,0
+Group B,Wales,MF,Joe Allen,Swansea City,Wales,9,0,0,522,0,0,0
+Group B,Wales,MF,Rubin Colwill,Cardiff City,Wales,10,0,0,296,0,0,0
+Group C,Argentina,DF,Germán Pezzella,Real Betis,Spain,16,0,0,1199,0,0,0
+Group C,Argentina,DF,Cristian Romero,Tottenham Hotspur,England,13,0,0,1091,0,0,0
+Group C,Argentina,DF,Lisandro Martínez,Manchester United,England,21,0,0,1657,0,0,0
+Group C,Argentina,DF,Nahuel Molina,Atlético Madrid,Spain,18,0,0,1485,0,0,0
+Group C,Mexico,DF,César Montes,Monterrey,Mexico,16,0,0,964,0,0,0
+Group C,Mexico,DF,Johan Vásquez,Cremonese,Italy,9,0,0,522,0,0,0
+Group C,Mexico,MF,Andrés Guardado,Real Betis,Spain,13,0,0,574,0,0,0
+Group C,Poland,DF,Matty Cash,Aston Villa,England,14,0,0,1047,0,0,0
+Group C,Poland,DF,Jan Bednarek,Aston Villa,England,5,0,0,340,0,0,0
+Group C,Poland,DF,Jakub Kiwior,Spezia,Italy,17,0,0,1471,0,0,0
+Group C,Poland,DF,Bartosz Bereszyński,Sampdoria,Italy,15,0,0,1202,0,0,0
+Group C,Poland,MF,Nicola Zalewski,Roma,Italy,16,0,0,981,0,0,0
+Group C,Saudi Arabia,DF,Abdullah Madu,Al-Nassr,Saudi Arabia,6,0,0,433,0,0,0
+Group C,Saudi Arabia,DF,Mohammed Al-Breik,Al-Hilal,Saudi Arabia,3,0,0,111,0,0,0
+Group C,Saudi Arabia,MF,Abdulellah Al-Malki,Al-Hilal,Saudi Arabia,0,0,0,0,0,0,0
+Group C,Saudi Arabia,FW,Saleh Al-Shehri,Al-Hilal,Saudi Arabia,3,0,0,35,0,0,0
+Group C,Saudi Arabia,MF,Abdullah Otayf,Al-Hilal,Saudi Arabia,3,0,0,77,0,0,0
+Group C,Saudi Arabia,DF,Hassan Al-Tambakti,Al-Shabab,Saudi Arabia,8,0,0,720,0,0,0
+Group C,Saudi Arabia,MF,Nawaf Al-Abed,Al-Shabab,Saudi Arabia,6,0,0,168,0,0,0
+Group C,Saudi Arabia,GK,Mohammed Al-Owais,Al-Hilal,Saudi Arabia,0,0,0,0,0,0,0
+Group C,Saudi Arabia,GK,Nawaf Al-Aqidi,Al-Nassr,Saudi Arabia,0,0,0,0,0,0,0
+Group C,Saudi Arabia,MF,Nasser Al-Dawsari,Al-Hilal,Saudi Arabia,7,0,0,497,0,0,0
+Group C,Saudi Arabia,MF,Riyadh Sharahili,Abha,Saudi Arabia,8,0,0,717,0,0,0
+Group D,Australia,DF,Bailey Wright,Sunderland,England,13,0,0,734,0,0,0
+Group D,Australia,MF,Ajdin Hrustic,Hellas Verona,Italy,5,0,0,222,0,0,0
+Group D,Australia,FW,Awer Mabil,Cádiz,Spain,6,0,0,239,0,0,0
+Group D,Australia,GK,Andrew Redmayne,Sydney FC,Australia,7,0,0,0,0,0,0
+Group D,Australia,DF,Thomas Deng,Albirex Niigata,Japan,34,0,0,4,0,0,0
+Group D,Denmark,DF,Victor Nelsson,Galatasaray,Turkey,13,0,0,1170,0,0,0
+Group D,Denmark,DF,Simon Kjær,Milan,Italy,9,0,0,623,0,0,0
+Group D,Denmark,DF,Andreas Christensen,Barcelona,Spain,8,0,0,537,0,0,0
+Group D,Denmark,MF,Thomas Delaney,Sevilla,Spain,12,0,0,533,0,0,0
+Group D,France,DF,Raphaël Varane,Manchester United,England,11,0,0,774,0,0,0
+Group D,France,DF,Dayot Upamecano,Bayern Munich,Germany,23,0,0,1865,0,0,0
+Group D,France,DF,Ibrahima Konaté,Liverpool,England,4,0,0,280,0,0,0
+Group D,France,MF,Eduardo Camavinga,Real Madrid,Spain,20,0,0,730,0,0,0
+Group D,Tunisia,DF,Yassine Meriah,Espérance de Tunis,Tunisia,5,0,0,386,0,0,0
+Group D,Tunisia,DF,Dylan Bronn,Salernitana,Italy,15,0,0,975,0,0,0
+Group D,Tunisia,MF,Ferjani Sassi,Al-Duhail,Qatar,4,0,0,287,0,0,0
+Group E,Costa Rica,GK,Keylor Navas,Paris Saint-Germain,France,0,0,0,0,0,0,0
+Group E,Costa Rica,DF,Óscar Duarte,Al-Wehda,Saudi Arabia,7,0,0,630,0,0,0
+Group E,Costa Rica,MF,Brandon Aguilera,Guanacasteca,Costa Rica,10,0,0,850,0,0,0
+Group E,Costa Rica,GK,Patrick Sequeira,Lugo,Spain,0,0,0,0,0,0,0
+Group E,Germany,DF,Thilo Kehrer,West Ham United,England,18,0,0,1478,0,0,0
+Group E,Germany,DF,Lukas Klostermann,RB Leipzig,Germany,2,0,0,180,0,0,0
+Group E,Japan,GK,Eiji Kawashima,Strasbourg,France,0,0,0,0,0,0,0
+Group E,Japan,DF,Yuto Nagatomo,FC Tokyo,Japan,31,0,0,2312,0,0,0
+Group E,Japan,DF,Maya Yoshida,Schalke 04,Germany,17,0,0,1519,0,0,0
+Group E,Spain,DF,César Azpilicueta,Chelsea,England,17,0,0,950,0,0,0
+Group E,Spain,DF,Pau Torres,Villarreal,Spain,16,0,0,1253,0,0,0
+Group E,Spain,FW,Pablo Sarabia,Paris Saint-Germain,France,16,0,0,487,0,0,0
+Group F,Belgium,DF,Wout Faes,Leicester City,England,13,0,0,1157,0,0,0
+Group F,Belgium,DF,Leander Dendoncker,Aston Villa,England,13,0,0,572,0,0,0
+Group F,Belgium,FW,Jérémy Doku,Rennes,France,10,0,0,210,0,0,0
+Group F,Belgium,DF,Zeno Debast,Anderlecht,Belgium,26,0,0,2352,0,0,0
+Group F,Canada,DF,Sam Adekugbe,Hatayspor,Turkey,13,0,0,993,0,0,0
+Group F,Canada,MF,Liam Fraser,Deinze,Belgium,12,0,0,909,0,0,0
+Group F,Canada,MF,Atiba Hutchinson,Beşiktaş,Turkey,1,0,0,70,0,0,0
+Group F,Canada,MF,David Wotherspoon,St Johnstone,Scotland,6,0,0,210,0,0,0
+Group F,Croatia,DF,Josip Stanišić,Bayern Munich,Germany,12,0,0,474,0,0,0
+Group F,Croatia,DF,Martin Erlić,Sassuolo,Italy,10,0,0,869,0,0,0
+Group F,Morocco,MF,Sofyan Amrabat,Fiorentina,Italy,20,0,0,1431,0,0,0
+Group F,Morocco,DF,Nayef Aguerd,West Ham United,England,4,0,0,331,0,0,0
+Group F,Morocco,MF,Hakim Ziyech,Chelsea,England,9,0,0,270,0,0,0
+Group F,Morocco,MF,Azzedine Ounahi,Angers,France,14,0,0,1104,0,0,0
+Group F,Morocco,DF,Jawad El Yamiq,Valladolid,Spain,8,0,0,436,0,0,0
+Group G,Brazil,MF,Fred,Manchester United,England,11,0,0,710,0,0,0
+Group G,Brazil,MF,Fabinho,Liverpool,England,21,0,0,1538,0,0,0
+Group G,Cameroon,MF,Gaël Ondoua,Hannover 96,Germany,2,0,0,50,0,0,0
+Group G,Cameroon,MF,Samuel Gouet,Mechelen,Belgium,10,0,0,308,0,0,0
+Group G,Cameroon,MF,Pierre Kunde,Olympiacos,Greece,13,0,0,899,0,0,0
+Group G,Cameroon,GK,Devis Epassy,Abha,Saudi Arabia,7,0,0,0,0,0,0
+Group G,Cameroon,MF,Martin Hongla,Hellas Verona,Italy,10,0,0,613,0,0,0
+Group G,Cameroon,DF,Enzo Ebosse,Udinese,Italy,15,0,0,941,0,0,0
+Group G,Serbia,MF,Nemanja Maksimović,Getafe,Spain,12,0,0,715,0,0,0
+Group G,Serbia,DF,Stefan Mitrović,Getafe,Spain,13,0,0,1034,0,0,0
+Group G,Serbia,MF,Uroš Račić,Braga,Portugal,14,0,0,547,0,0,0
+Group G,Serbia,MF,Ivan Ilić,Hellas Verona,Italy,8,0,0,703,0,0,0
+Group G,Serbia,MF,Marko Grujić,Porto,Portugal,13,0,0,563,0,0,0
+Group G,Switzerland,MF,Remo Freuler,Nottingham Forest,England,12,0,0,922,0,0,0
+Group G,Switzerland,DF,Ricardo Rodriguez,Torino,Italy,14,0,0,1037,0,0,0
+Group H,Ghana,DF,Denis Odoi,Club Brugge,Belgium,22,0,0,1692,0,0,0
+Group H,Ghana,MF,Elisha Owusu,Gent,Belgium,13,0,0,636,0,0,0
+Group H,Ghana,MF,Abdul Fatawu Issahaku,Sporting CP,Portugal,6,0,0,140,0,0,0
+Group H,Ghana,DF,Gideon Mensah,Auxerre,France,7,0,0,630,0,0,0
+Group H,Ghana,GK,Abdul Manaf Nurudeen,Eupen,Belgium,4,0,0,0,0,0,0
+Group H,Ghana,DF,Baba Rahman,Reading,England,10,0,0,720,0,0,0
+Group H,Ghana,DF,Daniel Amartey,Leicester City,England,12,0,0,914,0,0,0
+Group H,Ghana,DF,Alidu Seidu,Clermont,France,14,0,0,1215,0,0,0
+Group H,Portugal,MF,Vitinha,Paris Saint-Germain,France,20,0,0,1403,0,0,0
+Group H,South Korea,DF,Kim Young-gwon,Ulsan Hyundai,South Korea,41,0,0,3534,0,0,0
+Group H,Uruguay,DF,José Giménez,Atlético Madrid,Spain,15,0,0,1180,0,0,0
+Group H,Uruguay,DF,Ronald Araújo,Barcelona,Spain,7,0,0,601,0,0,0
+Group H,Uruguay,FW,Facundo Pellistri,Manchester United,England,1,0,0,66,0,0,0
+Group H,Uruguay,DF,Matías Viña,Roma,Italy,7,0,0,297,0,0,0
+Group H,Uruguay,DF,Sebastián Coates,Sporting CP,Portugal,16,0,0,1340,0,0,0
+Group H,Uruguay,MF,Manuel Ugarte,Sporting CP,Portugal,20,0,0,1389,0,0,0
